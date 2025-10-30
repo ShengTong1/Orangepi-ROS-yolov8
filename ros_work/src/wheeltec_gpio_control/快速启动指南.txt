@@ -1,0 +1,52 @@
+# wheeltec_gpio_control 快速启动指南
+
+## 1. 启动GPIO控制节点
+
+### 方法1：使用launch文件
+cd /home/HwHiAiUser/wheeltec_ros2
+source install/setup.bash
+ros2 launch wheeltec_gpio_control gpio_control.launch.py
+
+### 方法2：直接运行节点
+cd /home/HwHiAiUser/wheeltec_ros2
+source install/setup.bash
+ros2 run wheeltec_gpio_control gpio_control_node
+
+## 2. 键盘控制
+
+启动节点后，在终端中按以下按键：
+- 按 '1' - 拉高GPIO (设置为高电平)
+- 按 '0' - 拉低GPIO (设置为低电平)  
+- 按 's' - 查看当前GPIO状态
+- 按 'q' - 退出程序
+
+## 3. ROS2 Topic控制
+
+### 在另一个终端中查看GPIO状态：
+cd /home/HwHiAiUser/wheeltec_ros2
+source install/setup.bash
+ros2 topic echo /gpio_state
+
+### 控制GPIO（设置为高电平）：
+ros2 topic pub --once /gpio_control std_msgs/Int32 "{data: 1}"
+
+### 控制GPIO（设置为低电平）：
+ros2 topic pub --once /gpio_control std_msgs/Int32 "{data: 0}"
+
+## 4. 查看可用的话题
+
+ros2 topic list | grep gpio
+
+## 5. 查看节点信息
+
+ros2 node list
+
+## 6. 注意事项
+
+- 控制的是GPIO 7_05引脚
+- 需要sudo权限，确保当前用户有执行gpio_operate命令的权限
+- 键盘控制和topic控制可以同时使用（后到先得）
+- 程序退出时GPIO保持最后的状态
+- **重要**：使用launch文件启动时，键盘控制会自动禁用，只支持topic控制
+- 如需使用键盘控制，请直接运行：ros2 run wheeltec_gpio_control gpio_control_node
+

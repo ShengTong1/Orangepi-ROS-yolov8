@@ -1,0 +1,12 @@
+[01m[K/home/HwHiAiUser/wheeltec_ros2/src/qt_robot_control/src/MainWindow.cpp:[m[K In member function ‘[01m[Kvoid MainWindow::startProcess(const QString&, const QString&)[m[K’:
+[01m[K/home/HwHiAiUser/wheeltec_ros2/src/qt_robot_control/src/MainWindow.cpp:372:3:[m[K [01;31m[Kerror: [m[K‘[01m[KQProcessInfo[m[K’ was not declared in this scope; did you mean ‘[01m[KProcessInfo[m[K’?
+  372 |   [01;31m[KQProcessInfo[m[K proc_info;
+      |   [01;31m[K^~~~~~~~~~~~[m[K
+      |   [32m[KProcessInfo[m[K
+[01m[K/home/HwHiAiUser/wheeltec_ros2/src/qt_robot_control/src/MainWindow.cpp:373:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kproc_info[m[K’ was not declared in this scope; did you mean ‘[01m[KProcessInfo[m[K’?
+  373 |   [01;31m[Kproc_info[m[K.name = process_name;
+      |   [01;31m[K^~~~~~~~~[m[K
+      |   [32m[KProcessInfo[m[K
+gmake[2]: *** [CMakeFiles/qt_robot_control.dir/build.make:104: CMakeFiles/qt_robot_control.dir/src/MainWindow.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/qt_robot_control.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

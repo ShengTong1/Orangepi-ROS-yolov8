@@ -1,0 +1,37 @@
+[0.098s] Invoking command in '/home/HwHiAiUser/wheeltec_ros2/build/ldlidar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_keyboard:/home/HwHiAiUser/wheeltec_ros2/install/wheeltec_gpio_control:/home/HwHiAiUser/wheeltec_ros2/install/tf2_tools:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/HwHiAiUser/wheeltec_ros2/build/ldlidar -- -j4 -l4
+[0.611s] [100%] Built target ldlidar
+[0.699s] Invoked command in '/home/HwHiAiUser/wheeltec_ros2/build/ldlidar' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_keyboard:/home/HwHiAiUser/wheeltec_ros2/install/wheeltec_gpio_control:/home/HwHiAiUser/wheeltec_ros2/install/tf2_tools:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/HwHiAiUser/wheeltec_ros2/build/ldlidar -- -j4 -l4
+[0.701s] Invoking command in '/home/HwHiAiUser/wheeltec_ros2/build/ldlidar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_keyboard:/home/HwHiAiUser/wheeltec_ros2/install/wheeltec_gpio_control:/home/HwHiAiUser/wheeltec_ros2/install/tf2_tools:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/HwHiAiUser/wheeltec_ros2/build/ldlidar
+[0.763s] -- Install configuration: ""
+[0.763s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/ldlidar/lib/ldlidar/ldlidar
+[0.763s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/ldlidar/share/ldlidar//launch
+[0.763s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/ldlidar/share/ldlidar//launch/viewer_ld06.launch.py
+[0.763s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/ldlidar/share/ldlidar//launch/viewer_ld19.launch.py
+[0.764s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/ldlidar/share/ldlidar//launch/viewer_stl06p.launch.py
+[0.764s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/ldlidar/share/ldlidar//launch/ld19.launch.py
+[0.764s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/ldlidar/share/ldlidar//launch/ld06.launch.py
+[0.764s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/ldlidar/share/ldlidar//launch/viewer_stl27l.launch.py
+[0.764s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/ldlidar/share/ldlidar//launch/stl27l.launch.py
+[0.765s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/ldlidar/share/ldlidar//launch/stl26.launch.py
+[0.765s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/ldlidar/share/ldlidar//launch/stl06p.launch.py
+[0.765s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/ldlidar/share/ldlidar//launch/stl06n.launch.py
+[0.765s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/ldlidar/share/ldlidar//launch/viewer_stl06n.launch.py
+[0.765s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/ldlidar/share/ldlidar//launch/viewer_stl26.launch.py
+[0.766s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/ldlidar/share/ldlidar//rviz2
+[0.766s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/ldlidar/share/ldlidar//rviz2/ldlidar.rviz
+[0.767s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/ldlidar/share/ament_index/resource_index/package_run_dependencies/ldlidar
+[0.767s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/ldlidar/share/ament_index/resource_index/parent_prefix_path/ldlidar
+[0.767s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/ldlidar/share/ldlidar/environment/ament_prefix_path.sh
+[0.768s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/ldlidar/share/ldlidar/environment/ament_prefix_path.dsv
+[0.768s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/ldlidar/share/ldlidar/environment/path.sh
+[0.768s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/ldlidar/share/ldlidar/environment/path.dsv
+[0.768s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/ldlidar/share/ldlidar/local_setup.bash
+[0.768s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/ldlidar/share/ldlidar/local_setup.sh
+[0.769s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/ldlidar/share/ldlidar/local_setup.zsh
+[0.769s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/ldlidar/share/ldlidar/local_setup.dsv
+[0.769s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/ldlidar/share/ldlidar/package.dsv
+[0.769s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/ldlidar/share/ament_index/resource_index/packages/ldlidar
+[0.769s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/ldlidar/share/ldlidar/cmake/ldlidarConfig.cmake
+[0.769s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/ldlidar/share/ldlidar/cmake/ldlidarConfig-version.cmake
+[0.781s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/ldlidar/share/ldlidar/package.xml
+[0.793s] Invoked command in '/home/HwHiAiUser/wheeltec_ros2/build/ldlidar' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_keyboard:/home/HwHiAiUser/wheeltec_ros2/install/wheeltec_gpio_control:/home/HwHiAiUser/wheeltec_ros2/install/tf2_tools:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/HwHiAiUser/wheeltec_ros2/build/ldlidar

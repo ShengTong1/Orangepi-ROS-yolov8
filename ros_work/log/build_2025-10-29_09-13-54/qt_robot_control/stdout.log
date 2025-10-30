@@ -1,0 +1,7 @@
+[ 11%] [34m[1mAutomatic MOC and UIC for target qt_robot_control[0m
+[ 11%] Built target qt_robot_control_autogen
+[35m[1mConsolidate compiler generated dependencies of target qt_robot_control[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/qt_robot_control.dir/src/main.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/qt_robot_control.dir/src/SystemMonitorWidget.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/qt_robot_control.dir/src/RVizWidget.cpp.o[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/qt_robot_control.dir/src/MainWindow.cpp.o[0m

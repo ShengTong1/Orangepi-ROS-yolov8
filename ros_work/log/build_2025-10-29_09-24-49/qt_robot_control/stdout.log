@@ -1,0 +1,25 @@
+[ 11%] Automatic MOC and UIC for target qt_robot_control
+[ 11%] Built target qt_robot_control_autogen
+Consolidate compiler generated dependencies of target qt_robot_control
+[ 22%] Building CXX object CMakeFiles/qt_robot_control.dir/src/MainWindow.cpp.o
+[ 33%] Building CXX object CMakeFiles/qt_robot_control.dir/src/RosImageSubscriber.cpp.o
+[ 44%] Linking CXX executable qt_robot_control
+[100%] Built target qt_robot_control
+-- Install configuration: ""
+-- Installing: /home/HwHiAiUser/wheeltec_ros2/install/qt_robot_control/lib/qt_robot_control/qt_robot_control
+-- Set runtime path of "/home/HwHiAiUser/wheeltec_ros2/install/qt_robot_control/lib/qt_robot_control/qt_robot_control" to ""
+-- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/qt_robot_control/share/ament_index/resource_index/package_run_dependencies/qt_robot_control
+-- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/qt_robot_control/share/ament_index/resource_index/parent_prefix_path/qt_robot_control
+-- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/qt_robot_control/share/qt_robot_control/environment/ament_prefix_path.sh
+-- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/qt_robot_control/share/qt_robot_control/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/qt_robot_control/share/qt_robot_control/environment/path.sh
+-- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/qt_robot_control/share/qt_robot_control/environment/path.dsv
+-- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/qt_robot_control/share/qt_robot_control/local_setup.bash
+-- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/qt_robot_control/share/qt_robot_control/local_setup.sh
+-- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/qt_robot_control/share/qt_robot_control/local_setup.zsh
+-- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/qt_robot_control/share/qt_robot_control/local_setup.dsv
+-- Installing: /home/HwHiAiUser/wheeltec_ros2/install/qt_robot_control/share/qt_robot_control/package.dsv
+-- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/qt_robot_control/share/ament_index/resource_index/packages/qt_robot_control
+-- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/qt_robot_control/share/qt_robot_control/cmake/qt_robot_controlConfig.cmake
+-- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/qt_robot_control/share/qt_robot_control/cmake/qt_robot_controlConfig-version.cmake
+-- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/qt_robot_control/share/qt_robot_control/package.xml

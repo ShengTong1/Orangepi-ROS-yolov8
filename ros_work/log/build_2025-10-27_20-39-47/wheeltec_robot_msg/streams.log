@@ -1,0 +1,259 @@
+[0.066s] Invoking command in '/home/HwHiAiUser/wheeltec_ros2/build/wheeltec_robot_msg': CMAKE_PREFIX_PATH=/opt/ros/humble _=/usr/bin/env /usr/bin/cmake /home/HwHiAiUser/wheeltec_ros2/src/wheeltec_robot_msg -DCMAKE_INSTALL_PREFIX=/home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg
+[0.376s] -- The C compiler identification is GNU 11.4.0
+[0.693s] -- The CXX compiler identification is GNU 11.4.0
+[0.713s] -- Detecting C compiler ABI info
+[1.028s] -- Detecting C compiler ABI info - done
+[1.051s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.052s] -- Detecting C compile features
+[1.052s] -- Detecting C compile features - done
+[1.063s] -- Detecting CXX compiler ABI info
+[1.394s] -- Detecting CXX compiler ABI info - done
+[1.413s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.413s] -- Detecting CXX compile features
+[1.414s] -- Detecting CXX compile features - done
+[1.420s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.176s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.522s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[2.530s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.545s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.643s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.736s] -- Found std_msgs: 4.9.0 (/opt/ros/humble/share/std_msgs/cmake)
+[3.960s] -- Found ament_cmake_cppcheck: 0.12.14 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+[3.966s] -- Found ament_cmake_cpplint: 0.12.14 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)
+[3.973s] -- Found ament_cmake_uncrustify: 0.12.14 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)
+[3.980s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[4.851s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.118s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.226s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[6.230s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[6.338s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[6.338s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[6.339s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[6.339s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[6.437s] -- Found PythonExtra: .so  
+[6.623s] -- Found ament_cmake_flake8: 0.12.14 (/opt/ros/humble/share/ament_cmake_flake8/cmake)
+[6.631s] -- Found ament_cmake_pep257: 0.12.14 (/opt/ros/humble/share/ament_cmake_pep257/cmake)
+[6.660s] -- Configuring done
+[6.768s] -- Generating done
+[6.803s] -- Build files have been written to: /home/HwHiAiUser/wheeltec_ros2/build/wheeltec_robot_msg
+[6.830s] Invoked command in '/home/HwHiAiUser/wheeltec_ros2/build/wheeltec_robot_msg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble _=/usr/bin/env /usr/bin/cmake /home/HwHiAiUser/wheeltec_ros2/src/wheeltec_robot_msg -DCMAKE_INSTALL_PREFIX=/home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg
+[6.835s] Invoking command in '/home/HwHiAiUser/wheeltec_ros2/build/wheeltec_robot_msg': CMAKE_PREFIX_PATH=/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/HwHiAiUser/wheeltec_ros2/build/wheeltec_robot_msg -- -j4 -l4
+[7.005s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[8.243s] [  2%] Built target wheeltec_robot_msg__cpp
+[8.335s] [  2%] Built target ament_cmake_python_copy_wheeltec_robot_msg
+[8.394s] [  5%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[9.482s] [  7%] [32mBuilding CXX object CMakeFiles/wheeltec_robot_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/wheeltec_robot_msg/msg/detail/dds_fastrtps/data__type_support.cpp.o[0m
+[10.966s] [ 10%] [32mBuilding CXX object CMakeFiles/wheeltec_robot_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/wheeltec_robot_msg/msg/detail/dds_fastrtps/supersonic__type_support.cpp.o[0m
+[12.750s] [ 12%] [32m[1mLinking CXX shared library libwheeltec_robot_msg__rosidl_typesupport_fastrtps_cpp.so[0m
+[13.114s] [ 12%] Built target wheeltec_robot_msg__rosidl_typesupport_fastrtps_cpp
+[13.150s] [ 15%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[14.160s] [ 17%] [32mBuilding CXX object CMakeFiles/wheeltec_robot_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/wheeltec_robot_msg/msg/detail/data__type_support.cpp.o[0m
+[15.874s] [ 20%] [32mBuilding CXX object CMakeFiles/wheeltec_robot_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/wheeltec_robot_msg/msg/detail/supersonic__type_support.cpp.o[0m
+[17.193s] [ 23%] [32m[1mLinking CXX shared library libwheeltec_robot_msg__rosidl_typesupport_introspection_cpp.so[0m
+[17.432s] [ 23%] Built target wheeltec_robot_msg__rosidl_typesupport_introspection_cpp
+[18.178s] running egg_info
+[18.180s] creating wheeltec_robot_msg.egg-info
+[18.181s] writing wheeltec_robot_msg.egg-info/PKG-INFO
+[18.182s] writing dependency_links to wheeltec_robot_msg.egg-info/dependency_links.txt
+[18.182s] writing top-level names to wheeltec_robot_msg.egg-info/top_level.txt
+[18.184s] writing manifest file 'wheeltec_robot_msg.egg-info/SOURCES.txt'
+[18.189s] reading manifest file 'wheeltec_robot_msg.egg-info/SOURCES.txt'
+[18.190s] writing manifest file 'wheeltec_robot_msg.egg-info/SOURCES.txt'
+[18.367s] [ 23%] Built target ament_cmake_python_build_wheeltec_robot_msg_egg
+[18.408s] [ 25%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[19.348s] [ 28%] [32mBuilding CXX object CMakeFiles/wheeltec_robot_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/wheeltec_robot_msg/msg/data__type_support.cpp.o[0m
+[20.377s] [ 30%] [32mBuilding CXX object CMakeFiles/wheeltec_robot_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/wheeltec_robot_msg/msg/supersonic__type_support.cpp.o[0m
+[21.361s] [ 33%] [32m[1mLinking CXX shared library libwheeltec_robot_msg__rosidl_typesupport_cpp.so[0m
+[21.496s] [ 33%] Built target wheeltec_robot_msg__rosidl_typesupport_cpp
+[21.535s] [ 35%] [34m[1mGenerating C code for ROS interfaces[0m
+[22.714s] [ 38%] [32mBuilding C object CMakeFiles/wheeltec_robot_msg__rosidl_generator_c.dir/rosidl_generator_c/wheeltec_robot_msg/msg/detail/data__functions.c.o[0m
+[22.862s] [ 41%] [32mBuilding C object CMakeFiles/wheeltec_robot_msg__rosidl_generator_c.dir/rosidl_generator_c/wheeltec_robot_msg/msg/detail/supersonic__functions.c.o[0m
+[23.015s] [ 43%] [32m[1mLinking C shared library libwheeltec_robot_msg__rosidl_generator_c.so[0m
+[23.156s] [ 43%] Built target wheeltec_robot_msg__rosidl_generator_c
+[23.189s] [ 46%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[24.221s] [ 48%] [32mBuilding CXX object CMakeFiles/wheeltec_robot_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/wheeltec_robot_msg/msg/detail/data__type_support_c.cpp.o[0m
+[25.481s] [ 51%] [32mBuilding CXX object CMakeFiles/wheeltec_robot_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/wheeltec_robot_msg/msg/detail/supersonic__type_support_c.cpp.o[0m
+[26.622s] [ 53%] [32m[1mLinking CXX shared library libwheeltec_robot_msg__rosidl_typesupport_fastrtps_c.so[0m
+[26.965s] [ 53%] Built target wheeltec_robot_msg__rosidl_typesupport_fastrtps_c
+[26.999s] [ 56%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[27.894s] [ 58%] [32mBuilding CXX object CMakeFiles/wheeltec_robot_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/wheeltec_robot_msg/msg/data__type_support.cpp.o[0m
+[28.001s] [ 61%] [32mBuilding CXX object CMakeFiles/wheeltec_robot_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/wheeltec_robot_msg/msg/supersonic__type_support.cpp.o[0m
+[28.093s] [ 64%] [32m[1mLinking CXX shared library libwheeltec_robot_msg__rosidl_typesupport_c.so[0m
+[28.215s] [ 64%] Built target wheeltec_robot_msg__rosidl_typesupport_c
+[28.249s] [ 66%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[29.340s] [ 69%] [32mBuilding C object CMakeFiles/wheeltec_robot_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/wheeltec_robot_msg/msg/detail/data__type_support.c.o[0m
+[29.441s] [ 71%] [32mBuilding C object CMakeFiles/wheeltec_robot_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/wheeltec_robot_msg/msg/detail/supersonic__type_support.c.o[0m
+[29.544s] [ 74%] [32m[1mLinking C shared library libwheeltec_robot_msg__rosidl_typesupport_introspection_c.so[0m
+[29.634s] [ 74%] Built target wheeltec_robot_msg__rosidl_typesupport_introspection_c
+[29.697s] [ 74%] Built target wheeltec_robot_msg
+[29.767s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[31.258s] [ 76%] Built target wheeltec_robot_msg__py
+[31.326s] [ 79%] [32mBuilding C object CMakeFiles/wheeltec_robot_msg__rosidl_generator_py.dir/rosidl_generator_py/wheeltec_robot_msg/msg/_data_s.c.o[0m
+[31.689s] [ 82%] [32mBuilding C object CMakeFiles/wheeltec_robot_msg__rosidl_generator_py.dir/rosidl_generator_py/wheeltec_robot_msg/msg/_supersonic_s.c.o[0m
+[32.049s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/wheeltec_robot_msg/libwheeltec_robot_msg__rosidl_generator_py.so[0m
+[32.209s] [ 84%] Built target wheeltec_robot_msg__rosidl_generator_py
+[32.278s] [ 87%] [32mBuilding C object CMakeFiles/wheeltec_robot_msg__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/wheeltec_robot_msg/_wheeltec_robot_msg_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[32.652s] [ 89%] [32m[1mLinking C shared library rosidl_generator_py/wheeltec_robot_msg/wheeltec_robot_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[32.897s] [ 89%] Built target wheeltec_robot_msg__rosidl_typesupport_fastrtps_c__pyext
+[32.972s] [ 92%] [32mBuilding C object CMakeFiles/wheeltec_robot_msg__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/wheeltec_robot_msg/_wheeltec_robot_msg_s.ep.rosidl_typesupport_c.c.o[0m
+[33.295s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/wheeltec_robot_msg/wheeltec_robot_msg_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[33.522s] [ 94%] Built target wheeltec_robot_msg__rosidl_typesupport_c__pyext
+[33.597s] [ 97%] [32mBuilding C object CMakeFiles/wheeltec_robot_msg__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/wheeltec_robot_msg/_wheeltec_robot_msg_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[33.953s] [100%] [32m[1mLinking C shared library rosidl_generator_py/wheeltec_robot_msg/wheeltec_robot_msg_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[34.129s] [100%] Built target wheeltec_robot_msg__rosidl_typesupport_introspection_c__pyext
+[34.172s] Invoked command in '/home/HwHiAiUser/wheeltec_ros2/build/wheeltec_robot_msg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/HwHiAiUser/wheeltec_ros2/build/wheeltec_robot_msg -- -j4 -l4
+[34.177s] Invoking command in '/home/HwHiAiUser/wheeltec_ros2/build/wheeltec_robot_msg': CMAKE_PREFIX_PATH=/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/HwHiAiUser/wheeltec_ros2/build/wheeltec_robot_msg
+[34.206s] -- Install configuration: ""
+[34.208s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/share/ament_index/resource_index/rosidl_interfaces/wheeltec_robot_msg
+[34.209s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/include/wheeltec_robot_msg/wheeltec_robot_msg
+[34.211s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/include/wheeltec_robot_msg/wheeltec_robot_msg/msg
+[34.212s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/include/wheeltec_robot_msg/wheeltec_robot_msg/msg/detail
+[34.213s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/include/wheeltec_robot_msg/wheeltec_robot_msg/msg/detail/supersonic__functions.h
+[34.214s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/include/wheeltec_robot_msg/wheeltec_robot_msg/msg/detail/data__struct.h
+[34.216s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/include/wheeltec_robot_msg/wheeltec_robot_msg/msg/detail/supersonic__functions.c
+[34.217s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/include/wheeltec_robot_msg/wheeltec_robot_msg/msg/detail/data__type_support.h
+[34.218s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/include/wheeltec_robot_msg/wheeltec_robot_msg/msg/detail/data__functions.c
+[34.219s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/include/wheeltec_robot_msg/wheeltec_robot_msg/msg/detail/data__functions.h
+[34.220s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/include/wheeltec_robot_msg/wheeltec_robot_msg/msg/detail/supersonic__struct.h
+[34.221s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/include/wheeltec_robot_msg/wheeltec_robot_msg/msg/detail/supersonic__type_support.h
+[34.222s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/include/wheeltec_robot_msg/wheeltec_robot_msg/msg/rosidl_generator_c__visibility_control.h
+[34.223s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/include/wheeltec_robot_msg/wheeltec_robot_msg/msg/supersonic.h
+[34.224s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/include/wheeltec_robot_msg/wheeltec_robot_msg/msg/data.h
+[34.225s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/share/wheeltec_robot_msg/environment/library_path.sh
+[34.226s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/share/wheeltec_robot_msg/environment/library_path.dsv
+[34.230s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/lib/libwheeltec_robot_msg__rosidl_generator_c.so
+[34.232s] -- Set runtime path of "/home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/lib/libwheeltec_robot_msg__rosidl_generator_c.so" to ""
+[34.233s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/include/wheeltec_robot_msg/wheeltec_robot_msg
+[34.234s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/include/wheeltec_robot_msg/wheeltec_robot_msg/msg
+[34.235s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/include/wheeltec_robot_msg/wheeltec_robot_msg/msg/detail
+[34.236s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/include/wheeltec_robot_msg/wheeltec_robot_msg/msg/detail/supersonic__rosidl_typesupport_fastrtps_c.h
+[34.237s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/include/wheeltec_robot_msg/wheeltec_robot_msg/msg/detail/data__rosidl_typesupport_fastrtps_c.h
+[34.238s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/include/wheeltec_robot_msg/wheeltec_robot_msg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[34.241s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/lib/libwheeltec_robot_msg__rosidl_typesupport_fastrtps_c.so
+[34.242s] -- Set runtime path of "/home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/lib/libwheeltec_robot_msg__rosidl_typesupport_fastrtps_c.so" to ""
+[34.244s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/include/wheeltec_robot_msg/wheeltec_robot_msg
+[34.245s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/include/wheeltec_robot_msg/wheeltec_robot_msg/msg
+[34.246s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/include/wheeltec_robot_msg/wheeltec_robot_msg/msg/detail
+[34.247s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/include/wheeltec_robot_msg/wheeltec_robot_msg/msg/detail/supersonic__type_support.c
+[34.249s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/include/wheeltec_robot_msg/wheeltec_robot_msg/msg/detail/supersonic__rosidl_typesupport_introspection_c.h
+[34.249s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/include/wheeltec_robot_msg/wheeltec_robot_msg/msg/detail/data__type_support.c
+[34.251s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/include/wheeltec_robot_msg/wheeltec_robot_msg/msg/detail/data__rosidl_typesupport_introspection_c.h
+[34.252s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/include/wheeltec_robot_msg/wheeltec_robot_msg/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[34.253s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/lib/libwheeltec_robot_msg__rosidl_typesupport_introspection_c.so
+[34.254s] -- Set runtime path of "/home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/lib/libwheeltec_robot_msg__rosidl_typesupport_introspection_c.so" to ""
+[34.256s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/lib/libwheeltec_robot_msg__rosidl_typesupport_c.so
+[34.258s] -- Set runtime path of "/home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/lib/libwheeltec_robot_msg__rosidl_typesupport_c.so" to ""
+[34.259s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/include/wheeltec_robot_msg/wheeltec_robot_msg
+[34.260s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/include/wheeltec_robot_msg/wheeltec_robot_msg/msg
+[34.261s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/include/wheeltec_robot_msg/wheeltec_robot_msg/msg/detail
+[34.261s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/include/wheeltec_robot_msg/wheeltec_robot_msg/msg/detail/supersonic__builder.hpp
+[34.262s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/include/wheeltec_robot_msg/wheeltec_robot_msg/msg/detail/data__builder.hpp
+[34.264s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/include/wheeltec_robot_msg/wheeltec_robot_msg/msg/detail/supersonic__traits.hpp
+[34.265s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/include/wheeltec_robot_msg/wheeltec_robot_msg/msg/detail/data__type_support.hpp
+[34.267s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/include/wheeltec_robot_msg/wheeltec_robot_msg/msg/detail/supersonic__struct.hpp
+[34.269s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/include/wheeltec_robot_msg/wheeltec_robot_msg/msg/detail/supersonic__type_support.hpp
+[34.270s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/include/wheeltec_robot_msg/wheeltec_robot_msg/msg/detail/data__struct.hpp
+[34.271s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/include/wheeltec_robot_msg/wheeltec_robot_msg/msg/detail/data__traits.hpp
+[34.272s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/include/wheeltec_robot_msg/wheeltec_robot_msg/msg/rosidl_generator_cpp__visibility_control.hpp
+[34.273s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/include/wheeltec_robot_msg/wheeltec_robot_msg/msg/data.hpp
+[34.274s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/include/wheeltec_robot_msg/wheeltec_robot_msg/msg/supersonic.hpp
+[34.275s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/include/wheeltec_robot_msg/wheeltec_robot_msg
+[34.276s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/include/wheeltec_robot_msg/wheeltec_robot_msg/msg
+[34.277s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/include/wheeltec_robot_msg/wheeltec_robot_msg/msg/detail
+[34.278s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/include/wheeltec_robot_msg/wheeltec_robot_msg/msg/detail/dds_fastrtps
+[34.278s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/include/wheeltec_robot_msg/wheeltec_robot_msg/msg/detail/data__rosidl_typesupport_fastrtps_cpp.hpp
+[34.280s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/include/wheeltec_robot_msg/wheeltec_robot_msg/msg/detail/supersonic__rosidl_typesupport_fastrtps_cpp.hpp
+[34.281s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/include/wheeltec_robot_msg/wheeltec_robot_msg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[34.282s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/lib/libwheeltec_robot_msg__rosidl_typesupport_fastrtps_cpp.so
+[34.284s] -- Set runtime path of "/home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/lib/libwheeltec_robot_msg__rosidl_typesupport_fastrtps_cpp.so" to ""
+[34.284s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/include/wheeltec_robot_msg/wheeltec_robot_msg
+[34.285s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/include/wheeltec_robot_msg/wheeltec_robot_msg/msg
+[34.286s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/include/wheeltec_robot_msg/wheeltec_robot_msg/msg/detail
+[34.286s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/include/wheeltec_robot_msg/wheeltec_robot_msg/msg/detail/data__type_support.cpp
+[34.287s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/include/wheeltec_robot_msg/wheeltec_robot_msg/msg/detail/data__rosidl_typesupport_introspection_cpp.hpp
+[34.288s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/include/wheeltec_robot_msg/wheeltec_robot_msg/msg/detail/supersonic__rosidl_typesupport_introspection_cpp.hpp
+[34.289s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/include/wheeltec_robot_msg/wheeltec_robot_msg/msg/detail/supersonic__type_support.cpp
+[34.290s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/lib/libwheeltec_robot_msg__rosidl_typesupport_introspection_cpp.so
+[34.292s] -- Set runtime path of "/home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/lib/libwheeltec_robot_msg__rosidl_typesupport_introspection_cpp.so" to ""
+[34.293s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/lib/libwheeltec_robot_msg__rosidl_typesupport_cpp.so
+[34.294s] -- Set runtime path of "/home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/lib/libwheeltec_robot_msg__rosidl_typesupport_cpp.so" to ""
+[34.295s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/share/wheeltec_robot_msg/environment/pythonpath.sh
+[34.297s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/share/wheeltec_robot_msg/environment/pythonpath.dsv
+[34.298s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/local/lib/python3.10/dist-packages/wheeltec_robot_msg-0.0.0-py3.10.egg-info
+[34.299s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/local/lib/python3.10/dist-packages/wheeltec_robot_msg-0.0.0-py3.10.egg-info/dependency_links.txt
+[34.300s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/local/lib/python3.10/dist-packages/wheeltec_robot_msg-0.0.0-py3.10.egg-info/SOURCES.txt
+[34.303s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/local/lib/python3.10/dist-packages/wheeltec_robot_msg-0.0.0-py3.10.egg-info/PKG-INFO
+[34.304s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/local/lib/python3.10/dist-packages/wheeltec_robot_msg-0.0.0-py3.10.egg-info/top_level.txt
+[34.305s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/local/lib/python3.10/dist-packages/wheeltec_robot_msg
+[34.306s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/local/lib/python3.10/dist-packages/wheeltec_robot_msg/__init__.py
+[34.307s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/local/lib/python3.10/dist-packages/wheeltec_robot_msg/msg
+[34.308s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/local/lib/python3.10/dist-packages/wheeltec_robot_msg/msg/_data_s.c
+[34.309s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/local/lib/python3.10/dist-packages/wheeltec_robot_msg/msg/_data.py
+[34.311s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/local/lib/python3.10/dist-packages/wheeltec_robot_msg/msg/__init__.py
+[34.312s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/local/lib/python3.10/dist-packages/wheeltec_robot_msg/msg/_supersonic_s.c
+[34.314s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/local/lib/python3.10/dist-packages/wheeltec_robot_msg/msg/_supersonic.py
+[34.315s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/local/lib/python3.10/dist-packages/wheeltec_robot_msg/wheeltec_robot_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[34.317s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/local/lib/python3.10/dist-packages/wheeltec_robot_msg/libwheeltec_robot_msg__rosidl_generator_py.so
+[34.318s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/local/lib/python3.10/dist-packages/wheeltec_robot_msg/_wheeltec_robot_msg_s.ep.rosidl_typesupport_introspection_c.c
+[34.319s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/local/lib/python3.10/dist-packages/wheeltec_robot_msg/_wheeltec_robot_msg_s.ep.rosidl_typesupport_c.c
+[34.321s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/local/lib/python3.10/dist-packages/wheeltec_robot_msg/_wheeltec_robot_msg_s.ep.rosidl_typesupport_fastrtps_c.c
+[34.322s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/local/lib/python3.10/dist-packages/wheeltec_robot_msg/wheeltec_robot_msg_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[34.323s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/local/lib/python3.10/dist-packages/wheeltec_robot_msg/wheeltec_robot_msg_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[34.483s] Listing '/home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/local/lib/python3.10/dist-packages/wheeltec_robot_msg'...
+[34.484s] Compiling '/home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/local/lib/python3.10/dist-packages/wheeltec_robot_msg/__init__.py'...
+[34.484s] Listing '/home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/local/lib/python3.10/dist-packages/wheeltec_robot_msg/msg'...
+[34.484s] Compiling '/home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/local/lib/python3.10/dist-packages/wheeltec_robot_msg/msg/__init__.py'...
+[34.484s] Compiling '/home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/local/lib/python3.10/dist-packages/wheeltec_robot_msg/msg/_data.py'...
+[34.485s] Compiling '/home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/local/lib/python3.10/dist-packages/wheeltec_robot_msg/msg/_supersonic.py'...
+[34.532s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/local/lib/python3.10/dist-packages/wheeltec_robot_msg/wheeltec_robot_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[34.534s] -- Set runtime path of "/home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/local/lib/python3.10/dist-packages/wheeltec_robot_msg/wheeltec_robot_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so" to ""
+[34.535s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/local/lib/python3.10/dist-packages/wheeltec_robot_msg/wheeltec_robot_msg_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[34.537s] -- Set runtime path of "/home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/local/lib/python3.10/dist-packages/wheeltec_robot_msg/wheeltec_robot_msg_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so" to ""
+[34.538s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/local/lib/python3.10/dist-packages/wheeltec_robot_msg/wheeltec_robot_msg_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[34.541s] -- Set runtime path of "/home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/local/lib/python3.10/dist-packages/wheeltec_robot_msg/wheeltec_robot_msg_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" to ""
+[34.543s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/lib/libwheeltec_robot_msg__rosidl_generator_py.so
+[34.552s] -- Set runtime path of "/home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/lib/libwheeltec_robot_msg__rosidl_generator_py.so" to ""
+[34.553s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/share/wheeltec_robot_msg/msg/Data.idl
+[34.555s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/share/wheeltec_robot_msg/msg/Supersonic.idl
+[34.557s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/share/wheeltec_robot_msg/msg/Data.msg
+[34.559s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/share/wheeltec_robot_msg/msg/Supersonic.msg
+[34.561s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/share/ament_index/resource_index/package_run_dependencies/wheeltec_robot_msg
+[34.562s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/share/ament_index/resource_index/parent_prefix_path/wheeltec_robot_msg
+[34.564s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/share/wheeltec_robot_msg/environment/ament_prefix_path.sh
+[34.566s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/share/wheeltec_robot_msg/environment/ament_prefix_path.dsv
+[34.567s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/share/wheeltec_robot_msg/environment/path.sh
+[34.568s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/share/wheeltec_robot_msg/environment/path.dsv
+[34.570s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/share/wheeltec_robot_msg/local_setup.bash
+[34.571s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/share/wheeltec_robot_msg/local_setup.sh
+[34.573s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/share/wheeltec_robot_msg/local_setup.zsh
+[34.574s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/share/wheeltec_robot_msg/local_setup.dsv
+[34.576s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/share/wheeltec_robot_msg/package.dsv
+[34.577s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/share/ament_index/resource_index/packages/wheeltec_robot_msg
+[34.579s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/share/wheeltec_robot_msg/cmake/export_wheeltec_robot_msg__rosidl_generator_cExport.cmake
+[34.580s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/share/wheeltec_robot_msg/cmake/export_wheeltec_robot_msg__rosidl_generator_cExport-noconfig.cmake
+[34.581s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/share/wheeltec_robot_msg/cmake/export_wheeltec_robot_msg__rosidl_typesupport_fastrtps_cExport.cmake
+[34.583s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/share/wheeltec_robot_msg/cmake/export_wheeltec_robot_msg__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[34.584s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/share/wheeltec_robot_msg/cmake/wheeltec_robot_msg__rosidl_typesupport_introspection_cExport.cmake
+[34.586s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/share/wheeltec_robot_msg/cmake/wheeltec_robot_msg__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[34.587s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/share/wheeltec_robot_msg/cmake/wheeltec_robot_msg__rosidl_typesupport_cExport.cmake
+[34.588s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/share/wheeltec_robot_msg/cmake/wheeltec_robot_msg__rosidl_typesupport_cExport-noconfig.cmake
+[34.590s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/share/wheeltec_robot_msg/cmake/export_wheeltec_robot_msg__rosidl_generator_cppExport.cmake
+[34.592s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/share/wheeltec_robot_msg/cmake/export_wheeltec_robot_msg__rosidl_typesupport_fastrtps_cppExport.cmake
+[34.599s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/share/wheeltec_robot_msg/cmake/export_wheeltec_robot_msg__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[34.604s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/share/wheeltec_robot_msg/cmake/wheeltec_robot_msg__rosidl_typesupport_introspection_cppExport.cmake
+[34.606s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/share/wheeltec_robot_msg/cmake/wheeltec_robot_msg__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[34.607s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/share/wheeltec_robot_msg/cmake/wheeltec_robot_msg__rosidl_typesupport_cppExport.cmake
+[34.609s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/share/wheeltec_robot_msg/cmake/wheeltec_robot_msg__rosidl_typesupport_cppExport-noconfig.cmake
+[34.610s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/share/wheeltec_robot_msg/cmake/export_wheeltec_robot_msg__rosidl_generator_pyExport.cmake
+[34.612s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/share/wheeltec_robot_msg/cmake/export_wheeltec_robot_msg__rosidl_generator_pyExport-noconfig.cmake
+[34.613s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/share/wheeltec_robot_msg/cmake/rosidl_cmake-extras.cmake
+[34.615s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/share/wheeltec_robot_msg/cmake/ament_cmake_export_dependencies-extras.cmake
+[34.616s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/share/wheeltec_robot_msg/cmake/ament_cmake_export_include_directories-extras.cmake
+[34.618s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/share/wheeltec_robot_msg/cmake/ament_cmake_export_libraries-extras.cmake
+[34.620s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/share/wheeltec_robot_msg/cmake/ament_cmake_export_targets-extras.cmake
+[34.621s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/share/wheeltec_robot_msg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[34.623s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/share/wheeltec_robot_msg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[34.624s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/share/wheeltec_robot_msg/cmake/wheeltec_robot_msgConfig.cmake
+[34.625s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/share/wheeltec_robot_msg/cmake/wheeltec_robot_msgConfig-version.cmake
+[34.626s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/share/wheeltec_robot_msg/package.xml
+[34.641s] Invoked command in '/home/HwHiAiUser/wheeltec_ros2/build/wheeltec_robot_msg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/HwHiAiUser/wheeltec_ros2/build/wheeltec_robot_msg

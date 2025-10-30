@@ -1,0 +1,305 @@
+[0.000000] (-) TimerEvent: {}
+[0.001103] (-) JobUnselected: {'identifier': 'ackermann_msgs'}
+[0.001688] (-) JobUnselected: {'identifier': 'astra_camera'}
+[0.002082] (-) JobUnselected: {'identifier': 'astra_camera_msgs'}
+[0.002457] (-) JobUnselected: {'identifier': 'ldlidar'}
+[0.002781] (-) JobUnselected: {'identifier': 'ldlidar_sl_ros2'}
+[0.003633] (-) JobUnselected: {'identifier': 'ldlidar_stl_ros2'}
+[0.007641] (-) JobUnselected: {'identifier': 'lslidar_driver'}
+[0.008199] (-) JobUnselected: {'identifier': 'lslidar_msgs'}
+[0.008600] (-) JobUnselected: {'identifier': 'rplidar_ros'}
+[0.009037] (-) JobUnselected: {'identifier': 'serial'}
+[0.010637] (-) JobUnselected: {'identifier': 'tf2_tools'}
+[0.013007] (-) JobUnselected: {'identifier': 'turn_on_wheeltec_robot'}
+[0.013483] (-) JobUnselected: {'identifier': 'usb_cam'}
+[0.014028] (-) JobUnselected: {'identifier': 'web_video_server'}
+[0.026069] (-) JobUnselected: {'identifier': 'wheeltec_gpio_control'}
+[0.026322] (-) JobUnselected: {'identifier': 'wheeltec_robot_keyboard'}
+[0.026422] (-) JobUnselected: {'identifier': 'wheeltec_robot_msg'}
+[0.026477] (-) JobUnselected: {'identifier': 'wheeltec_robot_urdf'}
+[0.026532] (-) JobUnselected: {'identifier': 'wheeltec_rviz2'}
+[0.026582] (-) JobUnselected: {'identifier': 'yesense_interface'}
+[0.026625] (-) JobUnselected: {'identifier': 'yesense_std_ros2'}
+[0.026679] (qt_robot_control) JobQueued: {'identifier': 'qt_robot_control', 'dependencies': OrderedDict()}
+[0.026739] (qt_robot_control) JobStarted: {'identifier': 'qt_robot_control'}
+[0.097834] (-) TimerEvent: {}
+[0.180732] (qt_robot_control) JobProgress: {'identifier': 'qt_robot_control', 'progress': 'cmake'}
+[0.197906] (-) TimerEvent: {}
+[0.208879] (qt_robot_control) Command: {'cmd': ['/usr/bin/cmake', '/home/HwHiAiUser/wheeltec_ros2/src/qt_robot_control', '-DCMAKE_INSTALL_PREFIX=/home/HwHiAiUser/wheeltec_ros2/install/qt_robot_control'], 'cwd': '/home/HwHiAiUser/wheeltec_ros2/build/qt_robot_control', 'env': OrderedDict([('SHELL', '/bin/bash'), ('ROS_VERSION', '2'), ('COLORTERM', 'truecolor'), ('TERM_PROGRAM_VERSION', '1.6.46'), ('GTK_IM_MODULE', 'ibus'), ('CONDA_EXE', '/usr/local/miniconda3/bin/conda'), ('_CE_M', ''), ('ROS_PYTHON_VERSION', '3'), ('MS_ENABLE_GE', '1'), ('MX_SDK_HOME', '/home/HwHiAiUser/work/Mind_SDK/mxVision'), ('XMODIFIERS', '@im=ibus'), ('NPU_HOST_INC', '/usr/local/Ascend/ascend-toolkit/latest/runtime/include'), ('NPU_HOST_LIB', '/usr/local/Ascend/ascend-toolkit/latest/runtime/lib64/stub/aarch64'), ('PWD', '/home/HwHiAiUser/wheeltec_ros2/build/qt_robot_control'), ('LOGNAME', 'HwHiAiUser'), ('XDG_SESSION_TYPE', 'tty'), ('VSCODE_GIT_ASKPASS_NODE', '/home/HwHiAiUser/.cursor-server/bin/7236ee799a5bffd9f28fa4fd18bdc6eab5e08df0/node'), ('MOTD_SHOWN', 'pam'), ('GST_PLUGIN_SCANNER', '/home/HwHiAiUser/work/Mind_SDK/mxVision/opensource/libexec/gstreamer-1.0/gst-plugin-scanner'), ('HOME', '/home/HwHiAiUser'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('MS_DEV_FORCE_ACL', '1'), ('AMENT_PREFIX_PATH', '/home/HwHiAiUser/wheeltec_ros2/install/yesense_std_ros2:/home/HwHiAiUser/wheeltec_ros2/install/yesense_interface:/home/HwHiAiUser/wheeltec_ros2/install/wheeltec_rviz2:/home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_urdf:/home/HwHiAiUser/wheeltec_ros2/install/turn_on_wheeltec_robot:/home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg:/home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_keyboard:/home/HwHiAiUser/wheeltec_ros2/install/wheeltec_gpio_control:/home/HwHiAiUser/wheeltec_ros2/install/web_video_server:/home/HwHiAiUser/wheeltec_ros2/install/usb_cam:/home/HwHiAiUser/wheeltec_ros2/install/tf2_tools:/home/HwHiAiUser/wheeltec_ros2/install/serial:/home/HwHiAiUser/wheeltec_ros2/install/rplidar_ros:/home/HwHiAiUser/wheeltec_ros2/install/lslidar_driver:/home/HwHiAiUser/wheeltec_ros2/install/lslidar_msgs:/home/HwHiAiUser/wheeltec_ros2/install/ldlidar_stl_ros2:/home/HwHiAiUser/wheeltec_ros2/install/ldlidar_sl_ros2:/home/HwHiAiUser/wheeltec_ros2/install/ldlidar:/home/HwHiAiUser/wheeltec_ros2/install/astra_camera:/home/HwHiAiUser/wheeltec_ros2/install/astra_camera_msgs:/home/HwHiAiUser/wheeltec_ros2/install/ackermann_msgs:/opt/ros/humble'), ('GIT_ASKPASS', '/home/HwHiAiUser/.cursor-server/bin/7236ee799a5bffd9f28fa4fd18bdc6eab5e08df0/extensions/git/dist/askpass.sh'), ('CMAKE_PREFIX_PATH', '/home/HwHiAiUser/wheeltec_ros2/install/yesense_std_ros2:/home/HwHiAiUser/wheeltec_ros2/install/yesense_interface:/home/HwHiAiUser/wheeltec_ros2/install/wheeltec_rviz2:/home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_urdf:/home/HwHiAiUser/wheeltec_ros2/install/turn_on_wheeltec_robot:/home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg:/home/HwHiAiUser/wheeltec_ros2/install/web_video_server:/home/HwHiAiUser/wheeltec_ros2/install/usb_cam:/home/HwHiAiUser/wheeltec_ros2/install/serial:/home/HwHiAiUser/wheeltec_ros2/install/rplidar_ros:/home/HwHiAiUser/wheeltec_ros2/install/lslidar_driver:/home/HwHiAiUser/wheeltec_ros2/install/lslidar_msgs:/home/HwHiAiUser/wheeltec_ros2/install/ldlidar_stl_ros2:/home/HwHiAiUser/wheeltec_ros2/install/ldlidar_sl_ros2:/home/HwHiAiUser/wheeltec_ros2/install/ldlidar:/home/HwHiAiUser/wheeltec_ros2/install/astra_camera:/home/HwHiAiUser/wheeltec_ros2/install/astra_camera_msgs:/home/HwHiAiUser/wheeltec_ros2/install/ackermann_msgs:/home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_keyboard:/home/HwHiAiUser/wheeltec_ros2/install/wheeltec_gpio_control:/home/HwHiAiUser/wheeltec_ros2/install/tf2_tools:/opt/ros/humble'), ('COLCON_PREFIX_PATH', '/home/HwHiAiUser/wheeltec_ros2/install'), ('SSH_CONNECTION', '10.248.102.23 5500 10.248.102.204 22'), ('TOOLCHAIN_HOME', '/home/HwHiAiUser/Ascend/ascend-toolkit/latest/toolkit'), ('ASCEND_TOOLKIT_HOME', '/home/HwHiAiUser/Ascend/ascend-toolkit/latest'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('XDG_SESSION_CLASS', 'user'), ('PYTHONPATH', '/home/HwHiAiUser/work/Mind_SDK/mxVision/python:/home/HwHiAiUser/Ascend/ascend-toolkit/latest/python/site-packages:/home/HwHiAiUser/Ascend/ascend-toolkit/latest/opp/built-in/op_impl/ai_core/tbe:/home/HwHiAiUser/wheeltec_ros2/install/yesense_interface/local/lib/python3.10/dist-packages:/home/HwHiAiUser/wheeltec_ros2/install/turn_on_wheeltec_robot/local/lib/python3.10/dist-packages:/home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/local/lib/python3.10/dist-packages:/home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_keyboard/lib/python3.10/site-packages:/home/HwHiAiUser/wheeltec_ros2/install/wheeltec_gpio_control/lib/python3.10/site-packages:/home/HwHiAiUser/wheeltec_ros2/install/tf2_tools/lib/python3.10/site-packages:/home/HwHiAiUser/wheeltec_ros2/install/lslidar_msgs/local/lib/python3.10/dist-packages:/home/HwHiAiUser/wheeltec_ros2/install/astra_camera_msgs/local/lib/python3.10/dist-packages:/home/HwHiAiUser/wheeltec_ros2/install/ackermann_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/usr/local/Ascend/ascend-toolkit/latest/python/site-packages:/usr/local/Ascend/ascend-toolkit/latest/opp/built-in/op_impl/ai_core/tbe:/usr/local/Ascend/ascend-toolkit/laster/python/site-packages:/usr/local/Ascend/ascend-toolkit/laster/opp/built-in/op_impl/ai_core/tbe:'), ('COLCON', '1'), ('TERM', 'xterm-256color'), ('_CE_CONDA', ''), ('ASCEND_CUSTOM_OPP_PATH', '/home/HwHiAiUser/work/Mind_SDK/mxVision/operators/ascendc/vendors/customize:'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'HwHiAiUser'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-f7ccd590a7.sock'), ('CONDA_SHLVL', '0'), ('SHLVL', '2'), ('QT_IM_MODULE', 'ibus'), ('XDG_SESSION_ID', '86'), ('ASCEND_OPP_PATH', '/home/HwHiAiUser/Ascend/ascend-toolkit/latest/opp'), ('GST_PLUGIN_PATH', '/home/HwHiAiUser/work/Mind_SDK/mxVision/opensource/lib/gstreamer-1.0:/home/HwHiAiUser/work/Mind_SDK/mxVision/lib/plugins'), ('CONDA_PYTHON_EXE', '/usr/local/miniconda3/bin/python'), ('LD_LIBRARY_PATH', '/usr/lib/aarch64-linux-gnu:/usr/lib:/home/HwHiAiUser/work/Mind_SDK/mxVision/operators/ascendc/vendors/customize/op_api/lib:/home/HwHiAiUser/work/Mind_SDK/mxVision/lib/modelpostprocessors:/home/HwHiAiUser/work/Mind_SDK/mxVision/lib:/home/HwHiAiUser/work/Mind_SDK/mxVision/opensource/lib:/home/HwHiAiUser/work/Mind_SDK/mxVision/opensource/lib64:/home/HwHiAiUser/Ascend/ascend-toolkit/latest/tools/aml/lib64:/home/HwHiAiUser/Ascend/ascend-toolkit/latest/tools/aml/lib64/plugin:/home/HwHiAiUser/Ascend/ascend-toolkit/latest/lib64:/home/HwHiAiUser/Ascend/ascend-toolkit/latest/lib64/plugin/opskernel:/home/HwHiAiUser/Ascend/ascend-toolkit/latest/lib64/plugin/nnengine:/home/HwHiAiUser/Ascend/ascend-toolkit/latest/opp/built-in/op_impl/ai_core/tbe/op_tiling/lib/linux/aarch64:/var/davinci/driver/lib64:/var/davinci/driver/lib64/common:/var/davinci/driver/lib64/driver:/home/HwHiAiUser/wheeltec_ros2/install/yesense_interface/lib:/home/HwHiAiUser/wheeltec_ros2/install/turn_on_wheeltec_robot/lib:/home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/lib:/home/HwHiAiUser/wheeltec_ros2/install/usb_cam/lib:/home/HwHiAiUser/wheeltec_ros2/install/serial/lib:/home/HwHiAiUser/wheeltec_ros2/install/lslidar_msgs/lib:/home/HwHiAiUser/wheeltec_ros2/install/astra_camera/lib:/home/HwHiAiUser/wheeltec_ros2/install/astra_camera_msgs/lib:/home/HwHiAiUser/wheeltec_ros2/install/ackermann_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/Ascend/ascend-toolkit/latest/tools/aml/lib64:/usr/local/Ascend/ascend-toolkit/latest/tools/aml/lib64/plugin:/usr/local/Ascend/ascend-toolkit/latest/lib64:/usr/local/Ascend/ascend-toolkit/latest/lib64/plugin/opskernel:/usr/local/Ascend/ascend-toolkit/latest/lib64/plugin/nnengine:/usr/local/Ascend/ascend-toolkit/latest/opp/built-in/op_impl/ai_core/tbe/op_tiling/lib/linux/aarch64:/lib64:/var/davinci/driver/lib64:/var/davinci/driver/lib64/common:/var/davinci/driver/lib64/driver:/usr/local/Ascend/ascend-toolkit/laster/runtime/lib64/stub/aarch64:/usr/local/Ascend/ascend-toolkit/laster/lib64:/usr/local/Ascend/ascend-toolkit/laster/lib64/plugin/opskernel:/usr/local/Ascend/ascend-toolkit/laster/lib64/plugin/nnengine:/usr/local/Ascend/ascend-toolkit/laster/opp/built-in/op_impl/ai_core/tbe/op_tiling:/usr/local/Ascend/driver/lib64:/var/davinci/driver/lib64:/var/davinci/driver/lib64/common:/var/davinci/driver/lib64/driver:'), ('ASCEND_AICPU_PATH', '/home/HwHiAiUser/Ascend/ascend-toolkit/latest'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('ROS_LOCALHOST_ONLY', '0'), ('SSH_CLIENT', '10.248.102.23 5500 22'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/HwHiAiUser/.cursor-server/bin/7236ee799a5bffd9f28fa4fd18bdc6eab5e08df0/extensions/git/dist/askpass-main.js'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('BROWSER', '/home/HwHiAiUser/.cursor-server/bin/7236ee799a5bffd9f28fa4fd18bdc6eab5e08df0/bin/helpers/browser.sh'), ('PATH', '/home/HwHiAiUser/Ascend/ascend-toolkit/latest/bin:/home/HwHiAiUser/Ascend/ascend-toolkit/latest/compiler/ccec_compiler/bin:/home/HwHiAiUser/Ascend/ascend-toolkit/latest/tools/ccec_compiler/bin:/opt/ros/humble/bin:/usr/local/Ascend/ascend-toolkit/latest/bin:/usr/local/Ascend/ascend-toolkit/latest/compiler/ccec_compiler/bin:/usr/local/Ascend/ascend-toolkit/latest/tools/ccec_compiler/bin:/usr/local/miniconda3/condabin:/home/HwHiAiUser/.cursor-server/bin/7236ee799a5bffd9f28fa4fd18bdc6eab5e08df0/bin/remote-cli:/home/HwHiAiUser/.cursor-server/bin/7236ee799a5bffd9f28fa4fd18bdc6eab5e08df0/bin/remote-cli:/home/HwHiAiUser/.local/bin:/usr/local/Ascend/ascend-toolkit/laster/bin:/usr/local/Ascend/ascend-toolkit/laster/compiler/ccec_compiler/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/HwHiAiUser/.fishros/bin/'), ('ASCEND_HOME_PATH', '/home/HwHiAiUser/Ascend/ascend-toolkit/latest'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'humble'), ('OLDPWD', '/home/HwHiAiUser/ros2_astra_camera-master/astra_camera/scripts'), ('TERM_PROGRAM', 'vscode'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-2e40a96c-a62d-4676-90c2-08656fea75ac.sock'), ('_', '/usr/bin/env')]), 'shell': False}
+[0.298209] (-) TimerEvent: {}
+[0.400165] (-) TimerEvent: {}
+[0.501395] (-) TimerEvent: {}
+[0.603156] (-) TimerEvent: {}
+[0.665624] (qt_robot_control) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.703515] (-) TimerEvent: {}
+[0.804737] (-) TimerEvent: {}
+[0.916238] (-) TimerEvent: {}
+[1.017131] (-) TimerEvent: {}
+[1.032385] (qt_robot_control) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.056835] (qt_robot_control) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.117385] (-) TimerEvent: {}
+[1.218603] (-) TimerEvent: {}
+[1.320318] (-) TimerEvent: {}
+[1.422324] (-) TimerEvent: {}
+[1.524399] (-) TimerEvent: {}
+[1.548283] (qt_robot_control) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.617193] (qt_robot_control) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.620377] (qt_robot_control) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.622021] (qt_robot_control) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.624745] (-) TimerEvent: {}
+[1.638044] (qt_robot_control) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.724957] (-) TimerEvent: {}
+[1.826690] (-) TimerEvent: {}
+[1.928767] (-) TimerEvent: {}
+[2.029874] (-) TimerEvent: {}
+[2.130696] (-) TimerEvent: {}
+[2.202710] (qt_robot_control) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.232190] (-) TimerEvent: {}
+[2.249382] (qt_robot_control) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.250335] (qt_robot_control) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.252094] (qt_robot_control) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.261090] (qt_robot_control) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.332831] (-) TimerEvent: {}
+[2.433722] (-) TimerEvent: {}
+[2.535011] (-) TimerEvent: {}
+[2.636326] (-) TimerEvent: {}
+[2.737124] (-) TimerEvent: {}
+[2.838979] (-) TimerEvent: {}
+[2.944965] (-) TimerEvent: {}
+[3.046016] (-) TimerEvent: {}
+[3.146966] (-) TimerEvent: {}
+[3.247834] (-) TimerEvent: {}
+[3.351816] (-) TimerEvent: {}
+[3.452678] (-) TimerEvent: {}
+[3.553572] (-) TimerEvent: {}
+[3.655193] (-) TimerEvent: {}
+[3.728919] (qt_robot_control) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[3.755542] (-) TimerEvent: {}
+[3.860256] (-) TimerEvent: {}
+[3.968748] (-) TimerEvent: {}
+[4.078791] (-) TimerEvent: {}
+[4.181555] (-) TimerEvent: {}
+[4.284212] (-) TimerEvent: {}
+[4.394563] (-) TimerEvent: {}
+[4.496653] (-) TimerEvent: {}
+[4.600638] (-) TimerEvent: {}
+[4.690713] (qt_robot_control) StdoutLine: {'line': b'-- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[4.700789] (-) TimerEvent: {}
+[4.803152] (-) TimerEvent: {}
+[4.904030] (-) TimerEvent: {}
+[4.984412] (qt_robot_control) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[5.004286] (-) TimerEvent: {}
+[5.008953] (qt_robot_control) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[5.048281] (qt_robot_control) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[5.105611] (-) TimerEvent: {}
+[5.113022] (qt_robot_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.205797] (-) TimerEvent: {}
+[5.213082] (qt_robot_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.305977] (-) TimerEvent: {}
+[5.407452] (-) TimerEvent: {}
+[5.495357] (qt_robot_control) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[5.507653] (-) TimerEvent: {}
+[5.512661] (qt_robot_control) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[5.608240] (-) TimerEvent: {}
+[5.713895] (-) TimerEvent: {}
+[5.817575] (-) TimerEvent: {}
+[5.924321] (-) TimerEvent: {}
+[5.957108] (qt_robot_control) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[6.024530] (-) TimerEvent: {}
+[6.126478] (-) TimerEvent: {}
+[6.228945] (-) TimerEvent: {}
+[6.310895] (qt_robot_control) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[6.329229] (-) TimerEvent: {}
+[6.433785] (-) TimerEvent: {}
+[6.534569] (-) TimerEvent: {}
+[6.566904] (qt_robot_control) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[6.632722] (qt_robot_control) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[6.634758] (-) TimerEvent: {}
+[6.735562] (-) TimerEvent: {}
+[6.837428] (-) TimerEvent: {}
+[6.939995] (-) TimerEvent: {}
+[7.046259] (-) TimerEvent: {}
+[7.147316] (-) TimerEvent: {}
+[7.194945] (qt_robot_control) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[7.196297] (qt_robot_control) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[7.247612] (-) TimerEvent: {}
+[7.349510] (-) TimerEvent: {}
+[7.450505] (-) TimerEvent: {}
+[7.552503] (-) TimerEvent: {}
+[7.653341] (-) TimerEvent: {}
+[7.754289] (-) TimerEvent: {}
+[7.839301] (qt_robot_control) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[7.855056] (-) TimerEvent: {}
+[7.860987] (qt_robot_control) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[7.955291] (-) TimerEvent: {}
+[8.056525] (-) TimerEvent: {}
+[8.157531] (-) TimerEvent: {}
+[8.258284] (-) TimerEvent: {}
+[8.352932] (qt_robot_control) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[8.358625] (-) TimerEvent: {}
+[8.459666] (-) TimerEvent: {}
+[8.552201] (qt_robot_control) StdoutLine: {'line': b'-- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[8.560185] (-) TimerEvent: {}
+[8.661231] (-) TimerEvent: {}
+[8.720788] (qt_robot_control) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[8.761579] (-) TimerEvent: {}
+[8.775818] (qt_robot_control) StdoutLine: {'line': b'-- Found image_transport: 3.1.12 (/opt/ros/humble/share/image_transport/cmake)\n'}
+[8.872622] (-) TimerEvent: {}
+[8.973353] (qt_robot_control) StdoutLine: {'line': b'-- Found OpenCV: /usr (found version "4.5.4") \n'}
+[8.974395] (-) TimerEvent: {}
+[8.992375] (qt_robot_control) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.16 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[9.074729] (-) TimerEvent: {}
+[9.176075] (-) TimerEvent: {}
+[9.276851] (-) TimerEvent: {}
+[9.377924] (-) TimerEvent: {}
+[9.478851] (-) TimerEvent: {}
+[9.554343] (qt_robot_control) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.16 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[9.579020] (-) TimerEvent: {}
+[9.679945] (-) TimerEvent: {}
+[9.718039] (qt_robot_control) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[9.736487] (qt_robot_control) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[9.738864] (qt_robot_control) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[9.780103] (-) TimerEvent: {}
+[9.797137] (qt_robot_control) StdoutLine: {'line': b'-- Found rviz_common: 11.2.22 (/opt/ros/humble/share/rviz_common/cmake)\n'}
+[9.880346] (-) TimerEvent: {}
+[9.915169] (qt_robot_control) StdoutLine: {'line': b"-- Setting assimp_DIR to: '/opt/ros/humble/share/rviz_assimp_vendor/cmake/../../../opt/rviz_assimp_vendor/lib/cmake/assimp-4.1'\n"}
+[9.958124] (qt_robot_control) StdoutLine: {'line': b"-- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'\n"}
+[9.964814] (qt_robot_control) StdoutLine: {'line': b'-- Found OGRE\n'}
+[9.965450] (qt_robot_control) StdoutLine: {'line': b'--   static     : OFF\n'}
+[9.965944] (qt_robot_control) StdoutLine: {'line': b'--   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume\n'}
+[9.966295] (qt_robot_control) StdoutLine: {'line': b'--   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI\n'}
+[9.967781] (qt_robot_control) StdoutLine: {'line': b'--   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media\n'}
+[9.968509] (qt_robot_control) StdoutLine: {'line': b'-- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain\n'}
+[9.969095] (qt_robot_control) StdoutLine: {'line': b'-- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib\n'}
+[9.969775] (qt_robot_control) StdoutLine: {'line': b'-- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI\n'}
+[9.970178] (qt_robot_control) StdoutLine: {'line': b'-- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE\n'}
+[9.970485] (qt_robot_control) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so\n'}
+[9.970739] (qt_robot_control) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so\n'}
+[9.970988] (qt_robot_control) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so\n'}
+[9.971299] (qt_robot_control) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so\n'}
+[9.972989] (qt_robot_control) StdoutLine: {'line': b'-- Could not find freeimage library\n'}
+[9.980496] (-) TimerEvent: {}
+[10.081415] (-) TimerEvent: {}
+[10.153455] (qt_robot_control) StdoutLine: {'line': b'-- Found ZLIB: /usr/lib/aarch64-linux-gnu/libz.so (found version "1.2.11") \n'}
+[10.183119] (-) TimerEvent: {}
+[10.231333] (qt_robot_control) StdoutLine: {'line': b'-- Found OpenGL: /usr/lib/aarch64-linux-gnu/libOpenGL.so   \n'}
+[10.283383] (-) TimerEvent: {}
+[10.385883] (-) TimerEvent: {}
+[10.487983] (-) TimerEvent: {}
+[10.589649] (-) TimerEvent: {}
+[10.691475] (-) TimerEvent: {}
+[10.794548] (-) TimerEvent: {}
+[10.907915] (-) TimerEvent: {}
+[11.011133] (-) TimerEvent: {}
+[11.112732] (-) TimerEvent: {}
+[11.134825] (qt_robot_control) StdoutLine: {'line': b'-- Found X11: /usr/include   \n'}
+[11.138875] (qt_robot_control) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/aarch64-linux-gnu/libX11.so;/usr/lib/aarch64-linux-gnu/libXext.so\n'}
+[11.213411] (-) TimerEvent: {}
+[11.314365] (-) TimerEvent: {}
+[11.415382] (-) TimerEvent: {}
+[11.516289] (-) TimerEvent: {}
+[11.617393] (-) TimerEvent: {}
+[11.721620] (-) TimerEvent: {}
+[11.784189] (qt_robot_control) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/aarch64-linux-gnu/libX11.so;/usr/lib/aarch64-linux-gnu/libXext.so - found\n'}
+[11.788993] (qt_robot_control) StdoutLine: {'line': b'-- Looking for gethostbyname\n'}
+[11.821889] (-) TimerEvent: {}
+[11.933811] (-) TimerEvent: {}
+[12.034674] (-) TimerEvent: {}
+[12.136554] (-) TimerEvent: {}
+[12.144670] (qt_robot_control) StdoutLine: {'line': b'-- Looking for gethostbyname - found\n'}
+[12.147095] (qt_robot_control) StdoutLine: {'line': b'-- Looking for connect\n'}
+[12.236911] (-) TimerEvent: {}
+[12.338453] (-) TimerEvent: {}
+[12.439540] (-) TimerEvent: {}
+[12.541391] (-) TimerEvent: {}
+[12.643243] (-) TimerEvent: {}
+[12.746531] (-) TimerEvent: {}
+[12.833641] (qt_robot_control) StdoutLine: {'line': b'-- Looking for connect - found\n'}
+[12.834815] (qt_robot_control) StdoutLine: {'line': b'-- Looking for remove\n'}
+[12.849201] (-) TimerEvent: {}
+[12.951647] (-) TimerEvent: {}
+[13.052765] (-) TimerEvent: {}
+[13.153698] (-) TimerEvent: {}
+[13.257017] (-) TimerEvent: {}
+[13.357935] (-) TimerEvent: {}
+[13.459019] (-) TimerEvent: {}
+[13.497200] (qt_robot_control) StdoutLine: {'line': b'-- Looking for remove - found\n'}
+[13.498754] (qt_robot_control) StdoutLine: {'line': b'-- Looking for shmat\n'}
+[13.559267] (-) TimerEvent: {}
+[13.660398] (-) TimerEvent: {}
+[13.761465] (-) TimerEvent: {}
+[13.863279] (-) TimerEvent: {}
+[13.969259] (-) TimerEvent: {}
+[14.050758] (qt_robot_control) StdoutLine: {'line': b'-- Looking for shmat - found\n'}
+[14.051554] (qt_robot_control) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE\n'}
+[14.069447] (-) TimerEvent: {}
+[14.170310] (-) TimerEvent: {}
+[14.271128] (-) TimerEvent: {}
+[14.376145] (-) TimerEvent: {}
+[14.477131] (-) TimerEvent: {}
+[14.581667] (-) TimerEvent: {}
+[14.682669] (-) TimerEvent: {}
+[14.698241] (qt_robot_control) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE - found\n'}
+[14.782909] (-) TimerEvent: {}
+[14.884153] (-) TimerEvent: {}
+[14.985106] (-) TimerEvent: {}
+[15.086132] (-) TimerEvent: {}
+[15.174839] (qt_robot_control) StdoutLine: {'line': b'-- library: /usr/lib/aarch64-linux-gnu/libcurl.so\n'}
+[15.186517] (-) TimerEvent: {}
+[15.287566] (-) TimerEvent: {}
+[15.388820] (-) TimerEvent: {}
+[15.457398] (qt_robot_control) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[15.488984] (-) TimerEvent: {}
+[15.595595] (-) TimerEvent: {}
+[15.698333] (-) TimerEvent: {}
+[15.800518] (-) TimerEvent: {}
+[15.902503] (-) TimerEvent: {}
+[16.005827] (-) TimerEvent: {}
+[16.052038] (qt_robot_control) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[16.056816] (qt_robot_control) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[16.058500] (qt_robot_control) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/HwHiAiUser/wheeltec_ros2/src/qt_robot_control/include\n'}
+[16.059239] (qt_robot_control) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[16.062836] (qt_robot_control) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[16.063252] (qt_robot_control) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[16.065231] (qt_robot_control) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[16.067441] (qt_robot_control) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[16.069637] (qt_robot_control) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[16.072962] (qt_robot_control) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[16.073699] (qt_robot_control) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[16.075135] (qt_robot_control) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[16.082943] (qt_robot_control) StdoutLine: {'line': b'-- Configuring done\n'}
+[16.106040] (-) TimerEvent: {}
+[16.208629] (-) TimerEvent: {}
+[16.306105] (qt_robot_control) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:54 (add_executable):\n'}
+[16.306866] (qt_robot_control) StderrLine: {'line': b'  Target "qt_robot_control" links to target "sensor_msgs::sensor_msgs" but\n'}
+[16.307195] (qt_robot_control) StderrLine: {'line': b'  the target was not found.  Perhaps a find_package() call is missing for an\n'}
+[16.307503] (qt_robot_control) StderrLine: {'line': b'  IMPORTED target, or an ALIAS target is missing?\n'}
+[16.310016] (-) TimerEvent: {}
+[16.310602] (qt_robot_control) StderrLine: {'line': b'\n'}
+[16.311057] (qt_robot_control) StderrLine: {'line': b'\x1b[0m\n'}
+[16.311346] (qt_robot_control) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:54 (add_executable):\n'}
+[16.311593] (qt_robot_control) StderrLine: {'line': b'  Target "qt_robot_control" links to target "nav_msgs::nav_msgs" but the\n'}
+[16.316886] (qt_robot_control) StderrLine: {'line': b'  target was not found.  Perhaps a find_package() call is missing for an\n'}
+[16.317316] (qt_robot_control) StderrLine: {'line': b'  IMPORTED target, or an ALIAS target is missing?\n'}
+[16.317581] (qt_robot_control) StderrLine: {'line': b'\n'}
+[16.317852] (qt_robot_control) StderrLine: {'line': b'\x1b[0m\n'}
+[16.318083] (qt_robot_control) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:54 (add_executable):\n'}
+[16.318297] (qt_robot_control) StderrLine: {'line': b'  Target "qt_robot_control" links to target "geometry_msgs::geometry_msgs"\n'}
+[16.318581] (qt_robot_control) StderrLine: {'line': b'  but the target was not found.  Perhaps a find_package() call is missing for\n'}
+[16.318797] (qt_robot_control) StderrLine: {'line': b'  an IMPORTED target, or an ALIAS target is missing?\n'}
+[16.333834] (qt_robot_control) StderrLine: {'line': b'\n'}
+[16.334457] (qt_robot_control) StderrLine: {'line': b'\x1b[0m\n'}
+[16.334747] (qt_robot_control) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:54 (add_executable):\n'}
+[16.334973] (qt_robot_control) StderrLine: {'line': b'  Target "qt_robot_control" links to target "std_msgs::std_msgs" but the\n'}
+[16.335255] (qt_robot_control) StderrLine: {'line': b'  target was not found.  Perhaps a find_package() call is missing for an\n'}
+[16.335494] (qt_robot_control) StderrLine: {'line': b'  IMPORTED target, or an ALIAS target is missing?\n'}
+[16.340859] (qt_robot_control) StderrLine: {'line': b'\n'}
+[16.341284] (qt_robot_control) StderrLine: {'line': b'\x1b[0m\n'}
+[16.358142] (qt_robot_control) StdoutLine: {'line': b'-- Generating done\n'}
+[16.358855] (qt_robot_control) StderrLine: {'line': b'\x1b[0mCMake Generate step failed.  Build files cannot be regenerated correctly.\x1b[0m\n'}
+[16.410230] (-) TimerEvent: {}
+[16.437235] (qt_robot_control) CommandEnded: {'returncode': 1}
+[16.524284] (-) TimerEvent: {}
+[16.615280] (qt_robot_control) JobEnded: {'identifier': 'qt_robot_control', 'rc': 1}
+[16.624270] (-) TimerEvent: {}
+[16.628117] (-) EventReactorShutdown: {}

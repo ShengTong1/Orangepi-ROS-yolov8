@@ -1,0 +1,26 @@
+[1.834s] Invoking command in '/home/HwHiAiUser/wheeltec_ros2/src/wheeltec_gpio_control': PYTHONPATH=/home/HwHiAiUser/wheeltec_ros2/build/wheeltec_gpio_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/HwHiAiUser/wheeltec_ros2/install/wheeltec_gpio_control/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/wheeltec_gpio_control build --build-base /home/HwHiAiUser/wheeltec_ros2/build/wheeltec_gpio_control/build install --record /home/HwHiAiUser/wheeltec_ros2/build/wheeltec_gpio_control/install.log --install-scripts $base/lib/wheeltec_gpio_control --single-version-externally-managed install_data
+[2.463s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[2.463s]   warnings.warn(
+[2.487s] running egg_info
+[2.490s] writing ../../build/wheeltec_gpio_control/wheeltec_gpio_control.egg-info/PKG-INFO
+[2.490s] writing dependency_links to ../../build/wheeltec_gpio_control/wheeltec_gpio_control.egg-info/dependency_links.txt
+[2.491s] writing entry points to ../../build/wheeltec_gpio_control/wheeltec_gpio_control.egg-info/entry_points.txt
+[2.491s] writing requirements to ../../build/wheeltec_gpio_control/wheeltec_gpio_control.egg-info/requires.txt
+[2.492s] writing top-level names to ../../build/wheeltec_gpio_control/wheeltec_gpio_control.egg-info/top_level.txt
+[2.496s] reading manifest file '../../build/wheeltec_gpio_control/wheeltec_gpio_control.egg-info/SOURCES.txt'
+[2.499s] writing manifest file '../../build/wheeltec_gpio_control/wheeltec_gpio_control.egg-info/SOURCES.txt'
+[2.499s] running build
+[2.500s] running build_py
+[2.500s] copying wheeltec_gpio_control/gpio_control_node.py -> /home/HwHiAiUser/wheeltec_ros2/build/wheeltec_gpio_control/build/lib/wheeltec_gpio_control
+[2.502s] running install
+[2.502s] running install_lib
+[2.504s] copying /home/HwHiAiUser/wheeltec_ros2/build/wheeltec_gpio_control/build/lib/wheeltec_gpio_control/gpio_control_node.py -> /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_gpio_control/lib/python3.10/site-packages/wheeltec_gpio_control
+[2.506s] byte-compiling /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_gpio_control/lib/python3.10/site-packages/wheeltec_gpio_control/gpio_control_node.py to gpio_control_node.cpython-310.pyc
+[2.511s] running install_data
+[2.511s] running install_egg_info
+[2.516s] removing '/home/HwHiAiUser/wheeltec_ros2/install/wheeltec_gpio_control/lib/python3.10/site-packages/wheeltec_gpio_control-0.0.1-py3.10.egg-info' (and everything under it)
+[2.517s] Copying ../../build/wheeltec_gpio_control/wheeltec_gpio_control.egg-info to /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_gpio_control/lib/python3.10/site-packages/wheeltec_gpio_control-0.0.1-py3.10.egg-info
+[2.519s] running install_scripts
+[2.582s] Installing gpio_control_node script to /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_gpio_control/lib/wheeltec_gpio_control
+[2.583s] writing list of installed files to '/home/HwHiAiUser/wheeltec_ros2/build/wheeltec_gpio_control/install.log'
+[2.688s] Invoked command in '/home/HwHiAiUser/wheeltec_ros2/src/wheeltec_gpio_control' returned '0': PYTHONPATH=/home/HwHiAiUser/wheeltec_ros2/build/wheeltec_gpio_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/HwHiAiUser/wheeltec_ros2/install/wheeltec_gpio_control/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/wheeltec_gpio_control build --build-base /home/HwHiAiUser/wheeltec_ros2/build/wheeltec_gpio_control/build install --record /home/HwHiAiUser/wheeltec_ros2/build/wheeltec_gpio_control/install.log --install-scripts $base/lib/wheeltec_gpio_control --single-version-externally-managed install_data

@@ -1,0 +1,33 @@
+[0.891s] Invoking command in '/home/HwHiAiUser/wheeltec_ros2/build/web_video_server': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_keyboard:/home/HwHiAiUser/wheeltec_ros2/install/tf2_tools:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/HwHiAiUser/wheeltec_ros2/build/web_video_server -- -j4 -l4
+[1.323s] [100%] Built target web_video_server
+[2.024s] Invoked command in '/home/HwHiAiUser/wheeltec_ros2/build/web_video_server' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_keyboard:/home/HwHiAiUser/wheeltec_ros2/install/tf2_tools:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/HwHiAiUser/wheeltec_ros2/build/web_video_server -- -j4 -l4
+[2.030s] Invoking command in '/home/HwHiAiUser/wheeltec_ros2/build/web_video_server': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_keyboard:/home/HwHiAiUser/wheeltec_ros2/install/tf2_tools:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/HwHiAiUser/wheeltec_ros2/build/web_video_server
+[2.055s] -- Install configuration: ""
+[2.058s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/web_video_server/lib/web_video_server/web_video_server
+[2.060s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/web_video_server/include/web_video_server
+[2.063s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/web_video_server/include/web_video_server/image_streamer.h
+[2.068s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/web_video_server/include/web_video_server/png_streamers.h
+[2.077s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/web_video_server/include/web_video_server/ros_compressed_streamer.h
+[2.083s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/web_video_server/include/web_video_server/libav_streamer.h
+[2.083s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/web_video_server/include/web_video_server/h264_streamer.h
+[2.085s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/web_video_server/include/web_video_server/multipart_stream.h
+[2.085s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/web_video_server/include/web_video_server/web_video_server.h
+[2.085s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/web_video_server/include/web_video_server/vp9_streamer.h
+[2.085s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/web_video_server/include/web_video_server/jpeg_streamers.h
+[2.094s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/web_video_server/include/web_video_server/vp8_streamer.h
+[2.096s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/web_video_server/share/ament_index/resource_index/package_run_dependencies/web_video_server
+[2.097s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/web_video_server/share/ament_index/resource_index/parent_prefix_path/web_video_server
+[2.098s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/web_video_server/share/web_video_server/environment/ament_prefix_path.sh
+[2.109s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/web_video_server/share/web_video_server/environment/ament_prefix_path.dsv
+[2.109s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/web_video_server/share/web_video_server/environment/path.sh
+[2.110s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/web_video_server/share/web_video_server/environment/path.dsv
+[2.110s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/web_video_server/share/web_video_server/local_setup.bash
+[2.111s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/web_video_server/share/web_video_server/local_setup.sh
+[2.111s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/web_video_server/share/web_video_server/local_setup.zsh
+[2.111s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/web_video_server/share/web_video_server/local_setup.dsv
+[2.112s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/web_video_server/share/web_video_server/package.dsv
+[2.114s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/web_video_server/share/ament_index/resource_index/packages/web_video_server
+[2.114s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/web_video_server/share/web_video_server/cmake/web_video_serverConfig.cmake
+[2.114s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/web_video_server/share/web_video_server/cmake/web_video_serverConfig-version.cmake
+[2.114s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/web_video_server/share/web_video_server/package.xml
+[2.115s] Invoked command in '/home/HwHiAiUser/wheeltec_ros2/build/web_video_server' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_keyboard:/home/HwHiAiUser/wheeltec_ros2/install/tf2_tools:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/HwHiAiUser/wheeltec_ros2/build/web_video_server

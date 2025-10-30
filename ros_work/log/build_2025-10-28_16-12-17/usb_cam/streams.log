@@ -1,0 +1,60 @@
+[0.222s] Invoking command in '/home/HwHiAiUser/wheeltec_ros2/build/usb_cam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_keyboard:/home/HwHiAiUser/wheeltec_ros2/install/wheeltec_gpio_control:/home/HwHiAiUser/wheeltec_ros2/install/tf2_tools:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/HwHiAiUser/wheeltec_ros2/build/usb_cam -- -j4 -l4
+[0.616s] [ 14%] Built target usb_cam
+[0.758s] [ 28%] Built target gtest
+[0.977s] [ 42%] Built target usb_cam_node
+[1.081s] [ 57%] Built target gtest_main
+[1.244s] [ 71%] Built target usb_cam_node_exe
+[1.360s] [ 85%] Built target test_pixel_formats
+[1.551s] [100%] Built target test_usb_cam_utils
+[2.451s] Invoked command in '/home/HwHiAiUser/wheeltec_ros2/build/usb_cam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_keyboard:/home/HwHiAiUser/wheeltec_ros2/install/wheeltec_gpio_control:/home/HwHiAiUser/wheeltec_ros2/install/tf2_tools:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/HwHiAiUser/wheeltec_ros2/build/usb_cam -- -j4 -l4
+[2.459s] Invoking command in '/home/HwHiAiUser/wheeltec_ros2/build/usb_cam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_keyboard:/home/HwHiAiUser/wheeltec_ros2/install/wheeltec_gpio_control:/home/HwHiAiUser/wheeltec_ros2/install/tf2_tools:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/HwHiAiUser/wheeltec_ros2/build/usb_cam
+[2.827s] -- Install configuration: ""
+[2.843s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/usb_cam/share/usb_cam/environment/library_path.sh
+[2.843s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/usb_cam/share/usb_cam/environment/library_path.dsv
+[2.844s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/usb_cam/lib/usb_cam/usb_cam_node_exe
+[2.858s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/usb_cam/lib/usb_cam/show_image.py
+[2.899s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/usb_cam/lib/libusb_cam.so
+[2.899s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/usb_cam/lib/libusb_cam_node.so
+[2.899s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/usb_cam/include
+[2.899s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/usb_cam/include/usb_cam
+[2.899s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/usb_cam/include/usb_cam/usb_cam.hpp
+[2.900s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/usb_cam/include/usb_cam/constants.hpp
+[2.900s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/usb_cam/include/usb_cam/formats
+[2.900s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/usb_cam/include/usb_cam/formats/uyvy.hpp
+[2.901s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/usb_cam/include/usb_cam/formats/mjpeg.hpp
+[2.901s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/usb_cam/include/usb_cam/formats/yuyv.hpp
+[2.901s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/usb_cam/include/usb_cam/formats/mono.hpp
+[2.901s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/usb_cam/include/usb_cam/formats/utils.hpp
+[2.901s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/usb_cam/include/usb_cam/formats/pixel_format_base.hpp
+[2.902s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/usb_cam/include/usb_cam/formats/rgb.hpp
+[2.902s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/usb_cam/include/usb_cam/formats/m420.hpp
+[2.902s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/usb_cam/include/usb_cam/utils.hpp
+[2.902s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/usb_cam/include/usb_cam/conversions.hpp
+[2.902s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/usb_cam/include/usb_cam/usb_cam_node.hpp
+[2.903s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/usb_cam/lib/libusb_cam_node.so
+[2.903s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/usb_cam/share/usb_cam/launch
+[2.903s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/usb_cam/share/usb_cam/launch/demo.launch.py
+[2.903s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/usb_cam/share/usb_cam/launch/usb_cam_launch.py
+[2.903s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/usb_cam/share/usb_cam/config
+[2.904s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/usb_cam/share/usb_cam/config/camera_info.yaml
+[2.904s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/usb_cam/share/usb_cam/config/params.yaml
+[2.904s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/usb_cam/share/ament_index/resource_index/package_run_dependencies/usb_cam
+[2.905s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/usb_cam/share/ament_index/resource_index/parent_prefix_path/usb_cam
+[2.905s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/usb_cam/share/usb_cam/environment/ament_prefix_path.sh
+[2.905s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/usb_cam/share/usb_cam/environment/ament_prefix_path.dsv
+[2.905s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/usb_cam/share/usb_cam/environment/path.sh
+[2.905s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/usb_cam/share/usb_cam/environment/path.dsv
+[2.905s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/usb_cam/share/usb_cam/local_setup.bash
+[2.906s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/usb_cam/share/usb_cam/local_setup.sh
+[2.906s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/usb_cam/share/usb_cam/local_setup.zsh
+[2.906s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/usb_cam/share/usb_cam/local_setup.dsv
+[2.917s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/usb_cam/share/usb_cam/package.dsv
+[2.921s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/usb_cam/share/ament_index/resource_index/packages/usb_cam
+[2.921s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/usb_cam/share/ament_index/resource_index/rclcpp_components/usb_cam
+[2.921s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/usb_cam/share/usb_cam/cmake/ament_cmake_export_libraries-extras.cmake
+[2.922s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/usb_cam/share/usb_cam/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.922s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/usb_cam/share/usb_cam/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.922s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/usb_cam/share/usb_cam/cmake/usb_camConfig.cmake
+[2.922s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/usb_cam/share/usb_cam/cmake/usb_camConfig-version.cmake
+[2.922s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/usb_cam/share/usb_cam/package.xml
+[2.926s] Invoked command in '/home/HwHiAiUser/wheeltec_ros2/build/usb_cam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_keyboard:/home/HwHiAiUser/wheeltec_ros2/install/wheeltec_gpio_control:/home/HwHiAiUser/wheeltec_ros2/install/tf2_tools:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/HwHiAiUser/wheeltec_ros2/build/usb_cam

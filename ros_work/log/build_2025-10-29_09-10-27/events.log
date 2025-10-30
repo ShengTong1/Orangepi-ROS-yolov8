@@ -1,0 +1,124 @@
+[0.000000] (-) TimerEvent: {}
+[0.000517] (-) JobUnselected: {'identifier': 'ackermann_msgs'}
+[0.001004] (-) JobUnselected: {'identifier': 'astra_camera'}
+[0.001748] (-) JobUnselected: {'identifier': 'astra_camera_msgs'}
+[0.002130] (-) JobUnselected: {'identifier': 'ldlidar'}
+[0.002504] (-) JobUnselected: {'identifier': 'ldlidar_sl_ros2'}
+[0.002630] (-) JobUnselected: {'identifier': 'ldlidar_stl_ros2'}
+[0.002689] (-) JobUnselected: {'identifier': 'lslidar_driver'}
+[0.002788] (-) JobUnselected: {'identifier': 'lslidar_msgs'}
+[0.002868] (-) JobUnselected: {'identifier': 'rplidar_ros'}
+[0.002952] (-) JobUnselected: {'identifier': 'serial'}
+[0.003026] (-) JobUnselected: {'identifier': 'tf2_tools'}
+[0.003100] (-) JobUnselected: {'identifier': 'turn_on_wheeltec_robot'}
+[0.003169] (-) JobUnselected: {'identifier': 'usb_cam'}
+[0.003240] (-) JobUnselected: {'identifier': 'web_video_server'}
+[0.003306] (-) JobUnselected: {'identifier': 'wheeltec_gpio_control'}
+[0.003376] (-) JobUnselected: {'identifier': 'wheeltec_robot_keyboard'}
+[0.003443] (-) JobUnselected: {'identifier': 'wheeltec_robot_msg'}
+[0.003511] (-) JobUnselected: {'identifier': 'wheeltec_robot_urdf'}
+[0.003577] (-) JobUnselected: {'identifier': 'wheeltec_rviz2'}
+[0.003649] (-) JobUnselected: {'identifier': 'yesense_interface'}
+[0.003716] (-) JobUnselected: {'identifier': 'yesense_std_ros2'}
+[0.003791] (qt_robot_control) JobQueued: {'identifier': 'qt_robot_control', 'dependencies': OrderedDict()}
+[0.003899] (qt_robot_control) JobStarted: {'identifier': 'qt_robot_control'}
+[0.026685] (qt_robot_control) JobProgress: {'identifier': 'qt_robot_control', 'progress': 'cmake'}
+[0.029997] (qt_robot_control) Command: {'cmd': ['/usr/bin/cmake', '/home/HwHiAiUser/wheeltec_ros2/src/qt_robot_control', '-DCMAKE_INSTALL_PREFIX=/home/HwHiAiUser/wheeltec_ros2/install/qt_robot_control'], 'cwd': '/home/HwHiAiUser/wheeltec_ros2/build/qt_robot_control', 'env': OrderedDict([('SHELL', '/bin/bash'), ('ROS_VERSION', '2'), ('COLORTERM', 'truecolor'), ('TERM_PROGRAM_VERSION', '1.6.46'), ('GTK_IM_MODULE', 'ibus'), ('CONDA_EXE', '/usr/local/miniconda3/bin/conda'), ('_CE_M', ''), ('ROS_PYTHON_VERSION', '3'), ('MS_ENABLE_GE', '1'), ('MX_SDK_HOME', '/home/HwHiAiUser/work/Mind_SDK/mxVision'), ('XMODIFIERS', '@im=ibus'), ('NPU_HOST_INC', '/usr/local/Ascend/ascend-toolkit/latest/runtime/include'), ('NPU_HOST_LIB', '/usr/local/Ascend/ascend-toolkit/latest/runtime/lib64/stub/aarch64'), ('PWD', '/home/HwHiAiUser/wheeltec_ros2/build/qt_robot_control'), ('LOGNAME', 'HwHiAiUser'), ('XDG_SESSION_TYPE', 'tty'), ('VSCODE_GIT_ASKPASS_NODE', '/home/HwHiAiUser/.cursor-server/bin/7236ee799a5bffd9f28fa4fd18bdc6eab5e08df0/node'), ('MOTD_SHOWN', 'pam'), ('GST_PLUGIN_SCANNER', '/home/HwHiAiUser/work/Mind_SDK/mxVision/opensource/libexec/gstreamer-1.0/gst-plugin-scanner'), ('HOME', '/home/HwHiAiUser'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('MS_DEV_FORCE_ACL', '1'), ('AMENT_PREFIX_PATH', '/home/HwHiAiUser/wheeltec_ros2/install/yesense_std_ros2:/home/HwHiAiUser/wheeltec_ros2/install/yesense_interface:/home/HwHiAiUser/wheeltec_ros2/install/wheeltec_rviz2:/home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_urdf:/home/HwHiAiUser/wheeltec_ros2/install/turn_on_wheeltec_robot:/home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg:/home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_keyboard:/home/HwHiAiUser/wheeltec_ros2/install/wheeltec_gpio_control:/home/HwHiAiUser/wheeltec_ros2/install/web_video_server:/home/HwHiAiUser/wheeltec_ros2/install/usb_cam:/home/HwHiAiUser/wheeltec_ros2/install/tf2_tools:/home/HwHiAiUser/wheeltec_ros2/install/serial:/home/HwHiAiUser/wheeltec_ros2/install/rplidar_ros:/home/HwHiAiUser/wheeltec_ros2/install/lslidar_driver:/home/HwHiAiUser/wheeltec_ros2/install/lslidar_msgs:/home/HwHiAiUser/wheeltec_ros2/install/ldlidar_stl_ros2:/home/HwHiAiUser/wheeltec_ros2/install/ldlidar_sl_ros2:/home/HwHiAiUser/wheeltec_ros2/install/ldlidar:/home/HwHiAiUser/wheeltec_ros2/install/astra_camera:/home/HwHiAiUser/wheeltec_ros2/install/astra_camera_msgs:/home/HwHiAiUser/wheeltec_ros2/install/ackermann_msgs:/opt/ros/humble'), ('GIT_ASKPASS', '/home/HwHiAiUser/.cursor-server/bin/7236ee799a5bffd9f28fa4fd18bdc6eab5e08df0/extensions/git/dist/askpass.sh'), ('CMAKE_PREFIX_PATH', '/home/HwHiAiUser/wheeltec_ros2/install/yesense_std_ros2:/home/HwHiAiUser/wheeltec_ros2/install/yesense_interface:/home/HwHiAiUser/wheeltec_ros2/install/wheeltec_rviz2:/home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_urdf:/home/HwHiAiUser/wheeltec_ros2/install/turn_on_wheeltec_robot:/home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg:/home/HwHiAiUser/wheeltec_ros2/install/web_video_server:/home/HwHiAiUser/wheeltec_ros2/install/usb_cam:/home/HwHiAiUser/wheeltec_ros2/install/serial:/home/HwHiAiUser/wheeltec_ros2/install/rplidar_ros:/home/HwHiAiUser/wheeltec_ros2/install/lslidar_driver:/home/HwHiAiUser/wheeltec_ros2/install/lslidar_msgs:/home/HwHiAiUser/wheeltec_ros2/install/ldlidar_stl_ros2:/home/HwHiAiUser/wheeltec_ros2/install/ldlidar_sl_ros2:/home/HwHiAiUser/wheeltec_ros2/install/ldlidar:/home/HwHiAiUser/wheeltec_ros2/install/astra_camera:/home/HwHiAiUser/wheeltec_ros2/install/astra_camera_msgs:/home/HwHiAiUser/wheeltec_ros2/install/ackermann_msgs:/home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_keyboard:/home/HwHiAiUser/wheeltec_ros2/install/wheeltec_gpio_control:/home/HwHiAiUser/wheeltec_ros2/install/tf2_tools:/opt/ros/humble'), ('COLCON_PREFIX_PATH', '/home/HwHiAiUser/wheeltec_ros2/install'), ('SSH_CONNECTION', '10.248.102.23 12022 10.248.102.204 22'), ('TOOLCHAIN_HOME', '/home/HwHiAiUser/Ascend/ascend-toolkit/latest/toolkit'), ('ASCEND_TOOLKIT_HOME', '/home/HwHiAiUser/Ascend/ascend-toolkit/latest'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('XDG_SESSION_CLASS', 'user'), ('PYTHONPATH', '/home/HwHiAiUser/work/Mind_SDK/mxVision/python:/home/HwHiAiUser/Ascend/ascend-toolkit/latest/python/site-packages:/home/HwHiAiUser/Ascend/ascend-toolkit/latest/opp/built-in/op_impl/ai_core/tbe:/home/HwHiAiUser/wheeltec_ros2/install/yesense_interface/local/lib/python3.10/dist-packages:/home/HwHiAiUser/wheeltec_ros2/install/turn_on_wheeltec_robot/local/lib/python3.10/dist-packages:/home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/local/lib/python3.10/dist-packages:/home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_keyboard/lib/python3.10/site-packages:/home/HwHiAiUser/wheeltec_ros2/install/wheeltec_gpio_control/lib/python3.10/site-packages:/home/HwHiAiUser/wheeltec_ros2/install/tf2_tools/lib/python3.10/site-packages:/home/HwHiAiUser/wheeltec_ros2/install/lslidar_msgs/local/lib/python3.10/dist-packages:/home/HwHiAiUser/wheeltec_ros2/install/astra_camera_msgs/local/lib/python3.10/dist-packages:/home/HwHiAiUser/wheeltec_ros2/install/ackermann_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/usr/local/Ascend/ascend-toolkit/latest/python/site-packages:/usr/local/Ascend/ascend-toolkit/latest/opp/built-in/op_impl/ai_core/tbe:/usr/local/Ascend/ascend-toolkit/laster/python/site-packages:/usr/local/Ascend/ascend-toolkit/laster/opp/built-in/op_impl/ai_core/tbe:'), ('COLCON', '1'), ('TERM', 'xterm-256color'), ('_CE_CONDA', ''), ('ASCEND_CUSTOM_OPP_PATH', '/home/HwHiAiUser/work/Mind_SDK/mxVision/operators/ascendc/vendors/customize:'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'HwHiAiUser'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-fc63ba625b.sock'), ('CONDA_SHLVL', '0'), ('SHLVL', '2'), ('QT_IM_MODULE', 'ibus'), ('XDG_SESSION_ID', '7'), ('ASCEND_OPP_PATH', '/home/HwHiAiUser/Ascend/ascend-toolkit/latest/opp'), ('GST_PLUGIN_PATH', '/home/HwHiAiUser/work/Mind_SDK/mxVision/opensource/lib/gstreamer-1.0:/home/HwHiAiUser/work/Mind_SDK/mxVision/lib/plugins'), ('CONDA_PYTHON_EXE', '/usr/local/miniconda3/bin/python'), ('LD_LIBRARY_PATH', '/usr/lib/aarch64-linux-gnu:/usr/lib:/home/HwHiAiUser/work/Mind_SDK/mxVision/operators/ascendc/vendors/customize/op_api/lib:/home/HwHiAiUser/work/Mind_SDK/mxVision/lib/modelpostprocessors:/home/HwHiAiUser/work/Mind_SDK/mxVision/lib:/home/HwHiAiUser/work/Mind_SDK/mxVision/opensource/lib:/home/HwHiAiUser/work/Mind_SDK/mxVision/opensource/lib64:/home/HwHiAiUser/Ascend/ascend-toolkit/latest/tools/aml/lib64:/home/HwHiAiUser/Ascend/ascend-toolkit/latest/tools/aml/lib64/plugin:/home/HwHiAiUser/Ascend/ascend-toolkit/latest/lib64:/home/HwHiAiUser/Ascend/ascend-toolkit/latest/lib64/plugin/opskernel:/home/HwHiAiUser/Ascend/ascend-toolkit/latest/lib64/plugin/nnengine:/home/HwHiAiUser/Ascend/ascend-toolkit/latest/opp/built-in/op_impl/ai_core/tbe/op_tiling/lib/linux/aarch64:/var/davinci/driver/lib64:/var/davinci/driver/lib64/common:/var/davinci/driver/lib64/driver:/home/HwHiAiUser/wheeltec_ros2/install/yesense_interface/lib:/home/HwHiAiUser/wheeltec_ros2/install/turn_on_wheeltec_robot/lib:/home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/lib:/home/HwHiAiUser/wheeltec_ros2/install/usb_cam/lib:/home/HwHiAiUser/wheeltec_ros2/install/serial/lib:/home/HwHiAiUser/wheeltec_ros2/install/lslidar_msgs/lib:/home/HwHiAiUser/wheeltec_ros2/install/astra_camera/lib:/home/HwHiAiUser/wheeltec_ros2/install/astra_camera_msgs/lib:/home/HwHiAiUser/wheeltec_ros2/install/ackermann_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/Ascend/ascend-toolkit/latest/tools/aml/lib64:/usr/local/Ascend/ascend-toolkit/latest/tools/aml/lib64/plugin:/usr/local/Ascend/ascend-toolkit/latest/lib64:/usr/local/Ascend/ascend-toolkit/latest/lib64/plugin/opskernel:/usr/local/Ascend/ascend-toolkit/latest/lib64/plugin/nnengine:/usr/local/Ascend/ascend-toolkit/latest/opp/built-in/op_impl/ai_core/tbe/op_tiling/lib/linux/aarch64:/lib64:/var/davinci/driver/lib64:/var/davinci/driver/lib64/common:/var/davinci/driver/lib64/driver:/usr/local/Ascend/ascend-toolkit/laster/runtime/lib64/stub/aarch64:/usr/local/Ascend/ascend-toolkit/laster/lib64:/usr/local/Ascend/ascend-toolkit/laster/lib64/plugin/opskernel:/usr/local/Ascend/ascend-toolkit/laster/lib64/plugin/nnengine:/usr/local/Ascend/ascend-toolkit/laster/opp/built-in/op_impl/ai_core/tbe/op_tiling:/usr/local/Ascend/driver/lib64:/var/davinci/driver/lib64:/var/davinci/driver/lib64/common:/var/davinci/driver/lib64/driver:'), ('ASCEND_AICPU_PATH', '/home/HwHiAiUser/Ascend/ascend-toolkit/latest'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('ROS_LOCALHOST_ONLY', '0'), ('SSH_CLIENT', '10.248.102.23 12022 22'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/HwHiAiUser/.cursor-server/bin/7236ee799a5bffd9f28fa4fd18bdc6eab5e08df0/extensions/git/dist/askpass-main.js'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('BROWSER', '/home/HwHiAiUser/.cursor-server/bin/7236ee799a5bffd9f28fa4fd18bdc6eab5e08df0/bin/helpers/browser.sh'), ('PATH', '/home/HwHiAiUser/Ascend/ascend-toolkit/latest/bin:/home/HwHiAiUser/Ascend/ascend-toolkit/latest/compiler/ccec_compiler/bin:/home/HwHiAiUser/Ascend/ascend-toolkit/latest/tools/ccec_compiler/bin:/opt/ros/humble/bin:/usr/local/Ascend/ascend-toolkit/latest/bin:/usr/local/Ascend/ascend-toolkit/latest/compiler/ccec_compiler/bin:/usr/local/Ascend/ascend-toolkit/latest/tools/ccec_compiler/bin:/usr/local/miniconda3/condabin:/home/HwHiAiUser/.cursor-server/bin/7236ee799a5bffd9f28fa4fd18bdc6eab5e08df0/bin/remote-cli:/home/HwHiAiUser/.cursor-server/bin/7236ee799a5bffd9f28fa4fd18bdc6eab5e08df0/bin/remote-cli:/home/HwHiAiUser/.local/bin:/usr/local/Ascend/ascend-toolkit/laster/bin:/usr/local/Ascend/ascend-toolkit/laster/compiler/ccec_compiler/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/HwHiAiUser/.fishros/bin/'), ('ASCEND_HOME_PATH', '/home/HwHiAiUser/Ascend/ascend-toolkit/latest'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'humble'), ('OLDPWD', '/home/HwHiAiUser'), ('TERM_PROGRAM', 'vscode'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-88d70f0b-7bec-40e5-8571-ddac2263ffc2.sock'), ('_', '/usr/bin/env')]), 'shell': False}
+[0.060926] (qt_robot_control) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099325] (-) TimerEvent: {}
+[0.200008] (-) TimerEvent: {}
+[0.300695] (-) TimerEvent: {}
+[0.401391] (-) TimerEvent: {}
+[0.459469] (qt_robot_control) StdoutLine: {'line': b'-- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.501490] (-) TimerEvent: {}
+[0.523542] (qt_robot_control) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.529323] (qt_robot_control) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.542814] (qt_robot_control) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.566974] (qt_robot_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.598349] (qt_robot_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.601678] (-) TimerEvent: {}
+[0.678513] (qt_robot_control) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.683050] (qt_robot_control) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.701676] (-) TimerEvent: {}
+[0.802258] (-) TimerEvent: {}
+[0.902932] (-) TimerEvent: {}
+[0.912805] (qt_robot_control) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.003090] (-) TimerEvent: {}
+[1.031364] (qt_robot_control) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[1.102256] (qt_robot_control) StdoutLine: {'line': b'-- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[1.103157] (-) TimerEvent: {}
+[1.144137] (qt_robot_control) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[1.165032] (qt_robot_control) StdoutLine: {'line': b'-- Found image_transport: 3.1.12 (/opt/ros/humble/share/image_transport/cmake)\n'}
+[1.203311] (-) TimerEvent: {}
+[1.222977] (qt_robot_control) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.16 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[1.303459] (-) TimerEvent: {}
+[1.404093] (-) TimerEvent: {}
+[1.410540] (qt_robot_control) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.16 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[1.418216] (qt_robot_control) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[1.421183] (qt_robot_control) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[1.424478] (qt_robot_control) StdoutLine: {'line': b'-- Found rviz_common: 11.2.22 (/opt/ros/humble/share/rviz_common/cmake)\n'}
+[1.448084] (qt_robot_control) StdoutLine: {'line': b"-- Setting assimp_DIR to: '/opt/ros/humble/share/rviz_assimp_vendor/cmake/../../../opt/rviz_assimp_vendor/lib/cmake/assimp-4.1'\n"}
+[1.458607] (qt_robot_control) StdoutLine: {'line': b"-- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'\n"}
+[1.461592] (qt_robot_control) StdoutLine: {'line': b'-- Found OGRE\n'}
+[1.462051] (qt_robot_control) StdoutLine: {'line': b'--   static     : OFF\n'}
+[1.462306] (qt_robot_control) StdoutLine: {'line': b'--   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume\n'}
+[1.462495] (qt_robot_control) StdoutLine: {'line': b'--   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI\n'}
+[1.462792] (qt_robot_control) StdoutLine: {'line': b'--   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media\n'}
+[1.462969] (qt_robot_control) StdoutLine: {'line': b'-- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain\n'}
+[1.463138] (qt_robot_control) StdoutLine: {'line': b'-- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib\n'}
+[1.463302] (qt_robot_control) StdoutLine: {'line': b'-- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI\n'}
+[1.463467] (qt_robot_control) StdoutLine: {'line': b'-- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE\n'}
+[1.463624] (qt_robot_control) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so\n'}
+[1.463780] (qt_robot_control) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so\n'}
+[1.463938] (qt_robot_control) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so\n'}
+[1.464100] (qt_robot_control) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so\n'}
+[1.466563] (qt_robot_control) StdoutLine: {'line': b'-- Could not find freeimage library\n'}
+[1.504228] (-) TimerEvent: {}
+[1.604897] (-) TimerEvent: {}
+[1.636312] (qt_robot_control) StdoutLine: {'line': b'-- library: /usr/lib/aarch64-linux-gnu/libcurl.so\n'}
+[1.691461] (qt_robot_control) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:145 (target_link_libraries):\n'}
+[1.692236] (qt_robot_control) StderrLine: {'line': b'  The keyword signature for target_link_libraries has already been used with\n'}
+[1.692656] (qt_robot_control) StderrLine: {'line': b'  the target "qt_robot_control".  All uses of target_link_libraries with a\n'}
+[1.692878] (qt_robot_control) StderrLine: {'line': b'  target must be either all-keyword or all-plain.\n'}
+[1.693063] (qt_robot_control) StderrLine: {'line': b'\n'}
+[1.693237] (qt_robot_control) StderrLine: {'line': b'  The uses of the keyword signature are here:\n'}
+[1.693395] (qt_robot_control) StderrLine: {'line': b'\n'}
+[1.693553] (qt_robot_control) StderrLine: {'line': b'   * CMakeLists.txt:57 (target_link_libraries)\n'}
+[1.694331] (qt_robot_control) StderrLine: {'line': b'\n'}
+[1.694507] (qt_robot_control) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.694667] (qt_robot_control) StderrLine: {'line': b'  CMakeLists.txt:64 (ament_target_dependencies)\n'}
+[1.694834] (qt_robot_control) StderrLine: {'line': b'\n'}
+[1.694987] (qt_robot_control) StderrLine: {'line': b'\x1b[0m\n'}
+[1.695185] (qt_robot_control) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:76 (target_link_libraries):\n'}
+[1.695353] (qt_robot_control) StderrLine: {'line': b'  The plain signature for target_link_libraries has already been used with\n'}
+[1.695505] (qt_robot_control) StderrLine: {'line': b'  the target "qt_robot_control".  All uses of target_link_libraries with a\n'}
+[1.695661] (qt_robot_control) StderrLine: {'line': b'  target must be either all-keyword or all-plain.\n'}
+[1.695820] (qt_robot_control) StderrLine: {'line': b'\n'}
+[1.695985] (qt_robot_control) StderrLine: {'line': b'  The uses of the plain signature are here:\n'}
+[1.696132] (qt_robot_control) StderrLine: {'line': b'\n'}
+[1.696289] (qt_robot_control) StderrLine: {'line': b'   * /opt/ros/humble/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:145 (target_link_libraries)\n'}
+[1.696451] (qt_robot_control) StderrLine: {'line': b'\n'}
+[1.696602] (qt_robot_control) StderrLine: {'line': b'\n'}
+[1.696744] (qt_robot_control) StderrLine: {'line': b'\x1b[0m\n'}
+[1.696902] (qt_robot_control) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.705103] (-) TimerEvent: {}
+[1.805832] (-) TimerEvent: {}
+[1.906466] (-) TimerEvent: {}
+[1.911794] (qt_robot_control) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.914551] (qt_robot_control) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.915905] (qt_robot_control) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/HwHiAiUser/wheeltec_ros2/src/qt_robot_control/include\n'}
+[1.916298] (qt_robot_control) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.917925] (qt_robot_control) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.918228] (qt_robot_control) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[1.918840] (qt_robot_control) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.919821] (qt_robot_control) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.920654] (qt_robot_control) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[1.922475] (qt_robot_control) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.922729] (qt_robot_control) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.923326] (qt_robot_control) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.925014] (qt_robot_control) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.925267] (qt_robot_control) StdoutLine: {'line': b'See also "/home/HwHiAiUser/wheeltec_ros2/build/qt_robot_control/CMakeFiles/CMakeOutput.log".\n'}
+[1.958265] (qt_robot_control) CommandEnded: {'returncode': 1}
+[2.006616] (qt_robot_control) JobEnded: {'identifier': 'qt_robot_control', 'rc': 1}
+[2.007832] (-) TimerEvent: {}
+[2.018142] (-) EventReactorShutdown: {}

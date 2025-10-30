@@ -1,0 +1,1 @@
+qtbase5-dev;qttools5-dev;rclcpp;rclcpp_components;sensor_msgs;nav_msgs;geometry_msgs;std_msgs;cv_bridge;image_transport;tf2_ros;tf2_geometry_msgs;rviz_common;rviz_rendering;rviz_visualization_tools;ament_lint_auto;ament_lint_common

@@ -1,0 +1,2 @@
+Invoking command in '/home/HwHiAiUser/wheeltec_ros2/build/qt_robot_control': _=/usr/bin/env /usr/bin/cmake /home/HwHiAiUser/wheeltec_ros2/src/qt_robot_control -DCMAKE_INSTALL_PREFIX=/home/HwHiAiUser/wheeltec_ros2/install/qt_robot_control
+Invoked command in '/home/HwHiAiUser/wheeltec_ros2/build/qt_robot_control' returned '1': _=/usr/bin/env /usr/bin/cmake /home/HwHiAiUser/wheeltec_ros2/src/qt_robot_control -DCMAKE_INSTALL_PREFIX=/home/HwHiAiUser/wheeltec_ros2/install/qt_robot_control

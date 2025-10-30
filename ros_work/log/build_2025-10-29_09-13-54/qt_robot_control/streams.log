@@ -1,0 +1,21 @@
+[0.029s] Invoking command in '/home/HwHiAiUser/wheeltec_ros2/build/qt_robot_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_keyboard:/home/HwHiAiUser/wheeltec_ros2/install/wheeltec_gpio_control:/home/HwHiAiUser/wheeltec_ros2/install/tf2_tools:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/HwHiAiUser/wheeltec_ros2/build/qt_robot_control -- -j4 -l4
+[0.133s] [ 11%] [34m[1mAutomatic MOC and UIC for target qt_robot_control[0m
+[0.181s] [ 11%] Built target qt_robot_control_autogen
+[0.210s] [35m[1mConsolidate compiler generated dependencies of target qt_robot_control[0m
+[0.276s] [ 22%] [32mBuilding CXX object CMakeFiles/qt_robot_control.dir/src/main.cpp.o[0m
+[12.153s] [ 33%] [32mBuilding CXX object CMakeFiles/qt_robot_control.dir/src/SystemMonitorWidget.cpp.o[0m
+[16.153s] [ 44%] [32mBuilding CXX object CMakeFiles/qt_robot_control.dir/src/RVizWidget.cpp.o[0m
+[19.098s] [ 55%] [32mBuilding CXX object CMakeFiles/qt_robot_control.dir/src/MainWindow.cpp.o[0m
+[33.683s] [01m[K/home/HwHiAiUser/wheeltec_ros2/src/qt_robot_control/src/MainWindow.cpp:[m[K In member function ‘[01m[Kvoid MainWindow::startProcess(const QString&, const QString&)[m[K’:
+[33.684s] [01m[K/home/HwHiAiUser/wheeltec_ros2/src/qt_robot_control/src/MainWindow.cpp:372:3:[m[K [01;31m[Kerror: [m[K‘[01m[KQProcessInfo[m[K’ was not declared in this scope; did you mean ‘[01m[KProcessInfo[m[K’?
+[33.684s]   372 |   [01;31m[KQProcessInfo[m[K proc_info;
+[33.684s]       |   [01;31m[K^~~~~~~~~~~~[m[K
+[33.684s]       |   [32m[KProcessInfo[m[K
+[33.731s] [01m[K/home/HwHiAiUser/wheeltec_ros2/src/qt_robot_control/src/MainWindow.cpp:373:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kproc_info[m[K’ was not declared in this scope; did you mean ‘[01m[KProcessInfo[m[K’?
+[33.731s]   373 |   [01;31m[Kproc_info[m[K.name = process_name;
+[33.731s]       |   [01;31m[K^~~~~~~~~[m[K
+[33.732s]       |   [32m[KProcessInfo[m[K
+[37.995s] gmake[2]: *** [CMakeFiles/qt_robot_control.dir/build.make:104: CMakeFiles/qt_robot_control.dir/src/MainWindow.cpp.o] Error 1
+[37.995s] gmake[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/qt_robot_control.dir/all] Error 2
+[37.996s] gmake: *** [Makefile:146: all] Error 2
+[38.001s] Invoked command in '/home/HwHiAiUser/wheeltec_ros2/build/qt_robot_control' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_keyboard:/home/HwHiAiUser/wheeltec_ros2/install/wheeltec_gpio_control:/home/HwHiAiUser/wheeltec_ros2/install/tf2_tools:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/HwHiAiUser/wheeltec_ros2/build/qt_robot_control -- -j4 -l4

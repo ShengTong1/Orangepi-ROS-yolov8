@@ -1,0 +1,79 @@
+[0.029s] Invoking command in '/home/HwHiAiUser/wheeltec_ros2/build/qt_robot_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_keyboard:/home/HwHiAiUser/wheeltec_ros2/install/wheeltec_gpio_control:/home/HwHiAiUser/wheeltec_ros2/install/tf2_tools:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/HwHiAiUser/wheeltec_ros2/build/qt_robot_control -- -j4 -l4
+[0.080s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.463s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[0.525s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.530s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.544s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.568s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.598s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.675s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.679s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.904s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.021s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.092s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.133s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[1.154s] -- Found image_transport: 3.1.12 (/opt/ros/humble/share/image_transport/cmake)
+[1.211s] -- Found tf2_ros: 0.25.16 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.398s] -- Found tf2_geometry_msgs: 0.25.16 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[1.405s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.408s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.411s] -- Found rviz_common: 11.2.22 (/opt/ros/humble/share/rviz_common/cmake)
+[1.435s] -- Setting assimp_DIR to: '/opt/ros/humble/share/rviz_assimp_vendor/cmake/../../../opt/rviz_assimp_vendor/lib/cmake/assimp-4.1'
+[1.445s] -- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[1.448s] -- Found OGRE
+[1.448s] --   static     : OFF
+[1.449s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[1.449s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[1.449s] --   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media
+[1.449s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[1.449s] -- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib
+[1.449s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[1.450s] -- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE
+[1.450s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[1.450s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[1.450s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[1.450s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[1.452s] -- Could not find freeimage library
+[1.618s] -- library: /usr/lib/aarch64-linux-gnu/libcurl.so
+[1.671s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.887s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.889s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.890s] -- Configured cppcheck include dirs: /home/HwHiAiUser/wheeltec_ros2/src/qt_robot_control/include
+[1.890s] -- Configured cppcheck exclude dirs and/or files: 
+[1.892s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.892s] -- Configured cpplint exclude dirs and/or files: 
+[1.893s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.894s] -- Added test 'lint_cmake' to check CMake code style
+[1.895s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.897s] -- Added test 'uncrustify' to check C / C++ code style
+[1.897s] -- Configured uncrustify additional arguments: 
+[1.898s] -- Added test 'xmllint' to check XML markup files
+[1.900s] -- Configuring done
+[1.987s] -- Generating done
+[2.006s] -- Build files have been written to: /home/HwHiAiUser/wheeltec_ros2/build/qt_robot_control
+[2.097s] [ 11%] Automatic MOC and UIC for target qt_robot_control
+[2.143s] [ 11%] Built target qt_robot_control_autogen
+[2.217s] Consolidate compiler generated dependencies of target qt_robot_control
+[2.259s] [100%] Built target qt_robot_control
+[2.281s] Invoked command in '/home/HwHiAiUser/wheeltec_ros2/build/qt_robot_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_keyboard:/home/HwHiAiUser/wheeltec_ros2/install/wheeltec_gpio_control:/home/HwHiAiUser/wheeltec_ros2/install/tf2_tools:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/HwHiAiUser/wheeltec_ros2/build/qt_robot_control -- -j4 -l4
+[2.301s] Invoking command in '/home/HwHiAiUser/wheeltec_ros2/build/qt_robot_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_keyboard:/home/HwHiAiUser/wheeltec_ros2/install/wheeltec_gpio_control:/home/HwHiAiUser/wheeltec_ros2/install/tf2_tools:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/HwHiAiUser/wheeltec_ros2/build/qt_robot_control
+[2.317s] -- Install configuration: ""
+[2.318s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/qt_robot_control/lib/qt_robot_control/qt_robot_control
+[2.318s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/qt_robot_control/share/qt_robot_control/launch
+[2.319s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/qt_robot_control/share/qt_robot_control/launch/qt_robot_control.launch.py
+[2.319s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/qt_robot_control/share/ament_index/resource_index/package_run_dependencies/qt_robot_control
+[2.319s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/qt_robot_control/share/ament_index/resource_index/parent_prefix_path/qt_robot_control
+[2.320s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/qt_robot_control/share/qt_robot_control/environment/ament_prefix_path.sh
+[2.320s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/qt_robot_control/share/qt_robot_control/environment/ament_prefix_path.dsv
+[2.320s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/qt_robot_control/share/qt_robot_control/environment/path.sh
+[2.321s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/qt_robot_control/share/qt_robot_control/environment/path.dsv
+[2.321s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/qt_robot_control/share/qt_robot_control/local_setup.bash
+[2.321s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/qt_robot_control/share/qt_robot_control/local_setup.sh
+[2.321s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/qt_robot_control/share/qt_robot_control/local_setup.zsh
+[2.322s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/qt_robot_control/share/qt_robot_control/local_setup.dsv
+[2.322s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/qt_robot_control/share/qt_robot_control/package.dsv
+[2.322s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/qt_robot_control/share/ament_index/resource_index/packages/qt_robot_control
+[2.322s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/qt_robot_control/share/qt_robot_control/cmake/qt_robot_controlConfig.cmake
+[2.322s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/qt_robot_control/share/qt_robot_control/cmake/qt_robot_controlConfig-version.cmake
+[2.322s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/qt_robot_control/share/qt_robot_control/package.xml
+[2.325s] Invoked command in '/home/HwHiAiUser/wheeltec_ros2/build/qt_robot_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_keyboard:/home/HwHiAiUser/wheeltec_ros2/install/wheeltec_gpio_control:/home/HwHiAiUser/wheeltec_ros2/install/tf2_tools:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/HwHiAiUser/wheeltec_ros2/build/qt_robot_control

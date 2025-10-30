@@ -1,0 +1,33 @@
+[0.067s] Invoking command in '/home/HwHiAiUser/wheeltec_ros2/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_keyboard:/home/HwHiAiUser/wheeltec_ros2/install/tf2_tools:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/HwHiAiUser/wheeltec_ros2/build/serial -- -j4 -l4
+[0.360s] [100%] Built target serial
+[0.402s] Invoked command in '/home/HwHiAiUser/wheeltec_ros2/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_keyboard:/home/HwHiAiUser/wheeltec_ros2/install/tf2_tools:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/HwHiAiUser/wheeltec_ros2/build/serial -- -j4 -l4
+[0.437s] Invoking command in '/home/HwHiAiUser/wheeltec_ros2/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_keyboard:/home/HwHiAiUser/wheeltec_ros2/install/tf2_tools:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/HwHiAiUser/wheeltec_ros2/build/serial
+[0.466s] -- Install configuration: ""
+[0.467s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/serial/lib/libserial.a
+[0.468s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/serial/share/serial/environment/library_path.sh
+[0.469s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/serial/share/serial/environment/library_path.dsv
+[0.469s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/serial/include/serial
+[0.469s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/serial/include/serial/impl
+[0.470s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/serial/include/serial/impl/unix.h
+[0.470s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/serial/include/serial/impl/win.h
+[0.470s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/serial/include/serial/serial.h
+[0.470s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/serial/include/serial/v8stdint.h
+[0.470s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/serial/share/ament_index/resource_index/package_run_dependencies/serial
+[0.471s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/serial/share/ament_index/resource_index/parent_prefix_path/serial
+[0.471s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/serial/share/serial/environment/ament_prefix_path.sh
+[0.471s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/serial/share/serial/environment/ament_prefix_path.dsv
+[0.471s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/serial/share/serial/environment/path.sh
+[0.471s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/serial/share/serial/environment/path.dsv
+[0.472s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/serial/share/serial/local_setup.bash
+[0.472s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/serial/share/serial/local_setup.sh
+[0.472s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/serial/share/serial/local_setup.zsh
+[0.473s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/serial/share/serial/local_setup.dsv
+[0.473s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/serial/share/serial/package.dsv
+[0.474s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/serial/share/ament_index/resource_index/packages/serial
+[0.474s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.474s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake
+[0.474s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/serial/share/serial/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.475s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/serial/share/serial/cmake/serialConfig.cmake
+[0.475s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/serial/share/serial/cmake/serialConfig-version.cmake
+[0.475s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/serial/share/serial/package.xml
+[0.479s] Invoked command in '/home/HwHiAiUser/wheeltec_ros2/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_keyboard:/home/HwHiAiUser/wheeltec_ros2/install/tf2_tools:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/HwHiAiUser/wheeltec_ros2/build/serial

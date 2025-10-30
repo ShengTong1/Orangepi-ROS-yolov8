@@ -1,0 +1,54 @@
+[0.020s] Invoking command in '/home/HwHiAiUser/wheeltec_ros2/build/wheeltec_rviz2': CMAKE_PREFIX_PATH=/opt/ros/humble _=/usr/bin/env /usr/bin/cmake /home/HwHiAiUser/wheeltec_ros2/src/wheeltec_rviz2 -DCMAKE_INSTALL_PREFIX=/home/HwHiAiUser/wheeltec_ros2/install/wheeltec_rviz2
+[0.467s] -- The C compiler identification is GNU 11.4.0
+[0.691s] -- The CXX compiler identification is GNU 11.4.0
+[0.713s] -- Detecting C compiler ABI info
+[1.034s] -- Detecting C compiler ABI info - done
+[1.083s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.083s] -- Detecting C compile features
+[1.087s] -- Detecting C compile features - done
+[1.107s] -- Detecting CXX compiler ABI info
+[1.445s] -- Detecting CXX compiler ABI info - done
+[1.491s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.496s] -- Detecting CXX compile features
+[1.498s] -- Detecting CXX compile features - done
+[1.507s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.355s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.743s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.081s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.088s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.091s] -- Added test 'lint_cmake' to check CMake code style
+[3.094s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.098s] -- Added test 'xmllint' to check XML markup files
+[3.113s] -- Configuring done
+[3.140s] -- Generating done
+[3.151s] -- Build files have been written to: /home/HwHiAiUser/wheeltec_ros2/build/wheeltec_rviz2
+[3.172s] Invoked command in '/home/HwHiAiUser/wheeltec_ros2/build/wheeltec_rviz2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble _=/usr/bin/env /usr/bin/cmake /home/HwHiAiUser/wheeltec_ros2/src/wheeltec_rviz2 -DCMAKE_INSTALL_PREFIX=/home/HwHiAiUser/wheeltec_ros2/install/wheeltec_rviz2
+[3.174s] Invoking command in '/home/HwHiAiUser/wheeltec_ros2/build/wheeltec_rviz2': CMAKE_PREFIX_PATH=/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/HwHiAiUser/wheeltec_ros2/build/wheeltec_rviz2 -- -j4 -l4
+[3.290s] Invoked command in '/home/HwHiAiUser/wheeltec_ros2/build/wheeltec_rviz2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/HwHiAiUser/wheeltec_ros2/build/wheeltec_rviz2 -- -j4 -l4
+[3.292s] Invoking command in '/home/HwHiAiUser/wheeltec_ros2/build/wheeltec_rviz2': CMAKE_PREFIX_PATH=/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/HwHiAiUser/wheeltec_ros2/build/wheeltec_rviz2
+[3.315s] -- Install configuration: ""
+[3.316s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_rviz2/share/wheeltec_rviz2/launch
+[3.317s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_rviz2/share/wheeltec_rviz2/launch/wheeltec_rtabmapviz.launch.py
+[3.318s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_rviz2/share/wheeltec_rviz2/launch/wheeltec_rviz.launch.py
+[3.320s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_rviz2/share/wheeltec_rviz2/rviz
+[3.321s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_rviz2/share/wheeltec_rviz2/rviz/wheeltec.rviz
+[3.322s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_rviz2/share/wheeltec_rviz2/rviz/carto_3d.rviz
+[3.322s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_rviz2/share/wheeltec_rviz2/rviz/lio-sam.rviz
+[3.324s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_rviz2/share/wheeltec_rviz2/rviz/lego_loam.rviz
+[3.325s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_rviz2/share/wheeltec_rviz2/rviz/orb_config.rviz
+[3.326s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_rviz2/share/ament_index/resource_index/package_run_dependencies/wheeltec_rviz2
+[3.327s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_rviz2/share/ament_index/resource_index/parent_prefix_path/wheeltec_rviz2
+[3.329s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_rviz2/share/wheeltec_rviz2/environment/ament_prefix_path.sh
+[3.330s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_rviz2/share/wheeltec_rviz2/environment/ament_prefix_path.dsv
+[3.331s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_rviz2/share/wheeltec_rviz2/environment/path.sh
+[3.332s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_rviz2/share/wheeltec_rviz2/environment/path.dsv
+[3.333s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_rviz2/share/wheeltec_rviz2/local_setup.bash
+[3.333s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_rviz2/share/wheeltec_rviz2/local_setup.sh
+[3.334s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_rviz2/share/wheeltec_rviz2/local_setup.zsh
+[3.336s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_rviz2/share/wheeltec_rviz2/local_setup.dsv
+[3.337s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_rviz2/share/wheeltec_rviz2/package.dsv
+[3.338s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_rviz2/share/ament_index/resource_index/packages/wheeltec_rviz2
+[3.340s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_rviz2/share/wheeltec_rviz2/cmake/wheeltec_rviz2Config.cmake
+[3.341s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_rviz2/share/wheeltec_rviz2/cmake/wheeltec_rviz2Config-version.cmake
+[3.342s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_rviz2/share/wheeltec_rviz2/package.xml
+[3.352s] Invoked command in '/home/HwHiAiUser/wheeltec_ros2/build/wheeltec_rviz2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/HwHiAiUser/wheeltec_ros2/build/wheeltec_rviz2

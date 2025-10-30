@@ -1,0 +1,14 @@
+{
+  "package_name": "astra_camera_msgs",
+  "non_idl_tuples": [
+    "/home/HwHiAiUser/wheeltec_ros2/src/astra_camera_msgs:msg/DeviceInfo.msg",
+    "/home/HwHiAiUser/wheeltec_ros2/src/astra_camera_msgs:msg/Extrinsics.msg",
+    "/home/HwHiAiUser/wheeltec_ros2/src/astra_camera_msgs:msg/Metadata.msg",
+    "/home/HwHiAiUser/wheeltec_ros2/src/astra_camera_msgs:srv/GetDeviceInfo.srv",
+    "/home/HwHiAiUser/wheeltec_ros2/src/astra_camera_msgs:srv/GetCameraInfo.srv",
+    "/home/HwHiAiUser/wheeltec_ros2/src/astra_camera_msgs:srv/GetCameraParams.srv",
+    "/home/HwHiAiUser/wheeltec_ros2/src/astra_camera_msgs:srv/GetInt32.srv",
+    "/home/HwHiAiUser/wheeltec_ros2/src/astra_camera_msgs:srv/GetString.srv",
+    "/home/HwHiAiUser/wheeltec_ros2/src/astra_camera_msgs:srv/SetInt32.srv"
+  ]
+}

@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<launch>
+    <!-- Astra深度相机 -->
+    <include file="$(find-pkg-share astra_camera)/launch/astra.launch.xml">
+        <arg name="depth_width" value="640"/>
+        <arg name="depth_height" value="400"/>
+        <arg name="enable_color" value="false"/>
+        <arg name="enable_depth" value="true"/>
+        <arg name="enable_ir" value="true"/>
+    </include>
+
+    <!-- USB摄像头（RGB） -->
+    <node pkg="usb_cam" exec="usb_cam_node_exe" name="usb_cam" output="screen">
+        <remap from="usb_cam/image_raw" to="camera/rgb/image_raw"/>
+        <param name="video_device" value="/dev/video0"/>
+        <param name="image_width" value="640"/>
+        <param name="image_height" value="480"/>
+        <param name="framerate" value="30"/>
+        <param name="pixel_format" value="YUYV"/>
+        <param name="brightness" value="128"/>
+        <param name="contrast" value="128"/>
+        <param name="saturation" value="128"/>
+        <param name="sharpness" value="128"/>
+        <param name="gain" value="100"/>
+        <param name="auto_white_balance" value="true"/>
+        <param name="auto_exposure" value="true"/>
+        <param name="auto_focus" value="false"/>
+    </node>
+
+    <!-- 可选：RViz2 -->
+    <!-- <node pkg="rviz2" exec="rviz2" name="rviz2"/> -->
+</launch>
+

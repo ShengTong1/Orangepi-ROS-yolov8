@@ -1,0 +1,95 @@
+[0.041s] Invoking command in '/home/HwHiAiUser/wheeltec_ros2/build/ldlidar': CMAKE_PREFIX_PATH=/opt/ros/humble _=/usr/bin/env /usr/bin/cmake /home/HwHiAiUser/wheeltec_ros2/src/wheeltec_lidar_ros2/LDlidar/ldlidar_stl06n_ros2/ldlidar -DCMAKE_INSTALL_PREFIX=/home/HwHiAiUser/wheeltec_ros2/install/ldlidar
+[0.298s] -- The C compiler identification is GNU 11.4.0
+[0.522s] -- The CXX compiler identification is GNU 11.4.0
+[0.544s] -- Detecting C compiler ABI info
+[0.793s] -- Detecting C compiler ABI info - done
+[0.874s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.875s] -- Detecting C compile features
+[0.875s] -- Detecting C compile features - done
+[0.886s] -- Detecting CXX compiler ABI info
+[1.215s] -- Detecting CXX compiler ABI info - done
+[1.233s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.233s] -- Detecting CXX compile features
+[1.235s] -- Detecting CXX compile features - done
+[1.241s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.915s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.290s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[2.396s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.408s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.431s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.462s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.505s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.624s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.630s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.877s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.954s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.072s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.097s] -- Looking for pthread.h
+[3.367s] -- Looking for pthread.h - found
+[3.368s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.666s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.671s] -- Found Threads: TRUE  
+[3.868s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[3.977s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.292s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.297s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.297s] -- Configured cppcheck include dirs: /home/HwHiAiUser/wheeltec_ros2/src/wheeltec_lidar_ros2/LDlidar/ldlidar_stl06n_ros2/ldlidar/include;/home/HwHiAiUser/wheeltec_ros2/src/wheeltec_lidar_ros2/LDlidar/ldlidar_stl06n_ros2/ldlidar/../ldlidar_driver/include/core;/home/HwHiAiUser/wheeltec_ros2/src/wheeltec_lidar_ros2/LDlidar/ldlidar_stl06n_ros2/ldlidar/../ldlidar_driver/include/dataprocess;/home/HwHiAiUser/wheeltec_ros2/src/wheeltec_lidar_ros2/LDlidar/ldlidar_stl06n_ros2/ldlidar/../ldlidar_driver/include/filter;/home/HwHiAiUser/wheeltec_ros2/src/wheeltec_lidar_ros2/LDlidar/ldlidar_stl06n_ros2/ldlidar/../ldlidar_driver/include/logger;/home/HwHiAiUser/wheeltec_ros2/src/wheeltec_lidar_ros2/LDlidar/ldlidar_stl06n_ros2/ldlidar/../ldlidar_driver/include/networkcom;/home/HwHiAiUser/wheeltec_ros2/src/wheeltec_lidar_ros2/LDlidar/ldlidar_stl06n_ros2/ldlidar/../ldlidar_driver/include/serialcom
+[4.297s] -- Configured cppcheck exclude dirs and/or files: 
+[4.299s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[4.300s] -- Configured cpplint exclude dirs and/or files: 
+[4.301s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.303s] -- Added test 'lint_cmake' to check CMake code style
+[4.305s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[4.308s] -- Added test 'uncrustify' to check C / C++ code style
+[4.308s] -- Configured uncrustify additional arguments: 
+[4.311s] -- Added test 'xmllint' to check XML markup files
+[4.315s] -- Configuring done
+[4.354s] -- Generating done
+[4.366s] -- Build files have been written to: /home/HwHiAiUser/wheeltec_ros2/build/ldlidar
+[4.431s] Invoked command in '/home/HwHiAiUser/wheeltec_ros2/build/ldlidar' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble _=/usr/bin/env /usr/bin/cmake /home/HwHiAiUser/wheeltec_ros2/src/wheeltec_lidar_ros2/LDlidar/ldlidar_stl06n_ros2/ldlidar -DCMAKE_INSTALL_PREFIX=/home/HwHiAiUser/wheeltec_ros2/install/ldlidar
+[4.441s] Invoking command in '/home/HwHiAiUser/wheeltec_ros2/build/ldlidar': CMAKE_PREFIX_PATH=/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/HwHiAiUser/wheeltec_ros2/build/ldlidar -- -j4 -l4
+[4.713s] [ 12%] [32mBuilding CXX object CMakeFiles/ldlidar.dir/src/ros2_node/main.cpp.o[0m
+[22.721s] [ 25%] [32mBuilding CXX object CMakeFiles/ldlidar.dir/home/HwHiAiUser/wheeltec_ros2/src/wheeltec_lidar_ros2/LDlidar/ldlidar_stl06n_ros2/ldlidar_driver/src/filter/tofbf.cpp.o[0m
+[25.630s] [ 37%] [32mBuilding CXX object CMakeFiles/ldlidar.dir/home/HwHiAiUser/wheeltec_ros2/src/wheeltec_lidar_ros2/LDlidar/ldlidar_stl06n_ros2/ldlidar_driver/src/logger/log_module.cpp.o[0m
+[26.655s] [ 50%] [32mBuilding CXX object CMakeFiles/ldlidar.dir/home/HwHiAiUser/wheeltec_ros2/src/wheeltec_lidar_ros2/LDlidar/ldlidar_stl06n_ros2/ldlidar_driver/src/networkcom/network_socket_interface_linux.cpp.o[0m
+[29.364s] [ 62%] [32mBuilding CXX object CMakeFiles/ldlidar.dir/home/HwHiAiUser/wheeltec_ros2/src/wheeltec_lidar_ros2/LDlidar/ldlidar_stl06n_ros2/ldlidar_driver/src/serialcom/serial_interface_linux.cpp.o[0m
+[31.627s] [ 75%] [32mBuilding CXX object CMakeFiles/ldlidar.dir/home/HwHiAiUser/wheeltec_ros2/src/wheeltec_lidar_ros2/LDlidar/ldlidar_stl06n_ros2/ldlidar_driver/src/dataprocess/lipkg.cpp.o[0m
+[34.808s] [ 87%] [32mBuilding CXX object CMakeFiles/ldlidar.dir/home/HwHiAiUser/wheeltec_ros2/src/wheeltec_lidar_ros2/LDlidar/ldlidar_stl06n_ros2/ldlidar_driver/src/core/ldlidar_driver.cpp.o[0m
+[38.226s] [100%] [32m[1mLinking CXX executable ldlidar[0m
+[39.754s] [100%] Built target ldlidar
+[39.803s] Invoked command in '/home/HwHiAiUser/wheeltec_ros2/build/ldlidar' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/HwHiAiUser/wheeltec_ros2/build/ldlidar -- -j4 -l4
+[39.819s] Invoking command in '/home/HwHiAiUser/wheeltec_ros2/build/ldlidar': CMAKE_PREFIX_PATH=/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/HwHiAiUser/wheeltec_ros2/build/ldlidar
+[39.851s] -- Install configuration: ""
+[39.852s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/ldlidar/lib/ldlidar/ldlidar
+[39.870s] -- Set runtime path of "/home/HwHiAiUser/wheeltec_ros2/install/ldlidar/lib/ldlidar/ldlidar" to ""
+[39.871s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/ldlidar/share/ldlidar//launch
+[39.872s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/ldlidar/share/ldlidar//launch/viewer_ld06.launch.py
+[39.874s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/ldlidar/share/ldlidar//launch/viewer_ld19.launch.py
+[39.876s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/ldlidar/share/ldlidar//launch/viewer_stl06p.launch.py
+[39.877s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/ldlidar/share/ldlidar//launch/ld19.launch.py
+[39.878s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/ldlidar/share/ldlidar//launch/ld06.launch.py
+[39.878s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/ldlidar/share/ldlidar//launch/viewer_stl27l.launch.py
+[39.878s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/ldlidar/share/ldlidar//launch/stl27l.launch.py
+[39.883s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/ldlidar/share/ldlidar//launch/stl26.launch.py
+[39.884s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/ldlidar/share/ldlidar//launch/stl06p.launch.py
+[39.885s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/ldlidar/share/ldlidar//launch/stl06n.launch.py
+[39.885s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/ldlidar/share/ldlidar//launch/viewer_stl06n.launch.py
+[39.885s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/ldlidar/share/ldlidar//launch/viewer_stl26.launch.py
+[39.886s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/ldlidar/share/ldlidar//rviz2
+[39.886s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/ldlidar/share/ldlidar//rviz2/ldlidar.rviz
+[39.890s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/ldlidar/share/ament_index/resource_index/package_run_dependencies/ldlidar
+[39.890s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/ldlidar/share/ament_index/resource_index/parent_prefix_path/ldlidar
+[39.891s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/ldlidar/share/ldlidar/environment/ament_prefix_path.sh
+[39.891s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/ldlidar/share/ldlidar/environment/ament_prefix_path.dsv
+[39.891s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/ldlidar/share/ldlidar/environment/path.sh
+[39.892s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/ldlidar/share/ldlidar/environment/path.dsv
+[39.892s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/ldlidar/share/ldlidar/local_setup.bash
+[39.893s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/ldlidar/share/ldlidar/local_setup.sh
+[39.893s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/ldlidar/share/ldlidar/local_setup.zsh
+[39.893s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/ldlidar/share/ldlidar/local_setup.dsv
+[39.893s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/ldlidar/share/ldlidar/package.dsv
+[39.894s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/ldlidar/share/ament_index/resource_index/packages/ldlidar
+[39.900s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/ldlidar/share/ldlidar/cmake/ldlidarConfig.cmake
+[39.901s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/ldlidar/share/ldlidar/cmake/ldlidarConfig-version.cmake
+[39.901s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/ldlidar/share/ldlidar/package.xml
+[39.910s] Invoked command in '/home/HwHiAiUser/wheeltec_ros2/build/ldlidar' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/HwHiAiUser/wheeltec_ros2/build/ldlidar

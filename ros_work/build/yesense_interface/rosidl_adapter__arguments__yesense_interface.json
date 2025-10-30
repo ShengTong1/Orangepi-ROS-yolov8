@@ -1,0 +1,27 @@
+{
+  "package_name": "yesense_interface",
+  "non_idl_tuples": [
+    "/home/HwHiAiUser/wheeltec_ros2/src/wheeltec_imu/yesense_ros2/yesense_interface:msg/Tid.msg",
+    "/home/HwHiAiUser/wheeltec_ros2/src/wheeltec_imu/yesense_ros2/yesense_interface:msg/ThreeAxis.msg",
+    "/home/HwHiAiUser/wheeltec_ros2/src/wheeltec_imu/yesense_ros2/yesense_interface:msg/SensorTemp.msg",
+    "/home/HwHiAiUser/wheeltec_ros2/src/wheeltec_imu/yesense_ros2/yesense_interface:msg/Pressure.msg",
+    "/home/HwHiAiUser/wheeltec_ros2/src/wheeltec_imu/yesense_ros2/yesense_interface:msg/EulerAngle.msg",
+    "/home/HwHiAiUser/wheeltec_ros2/src/wheeltec_imu/yesense_ros2/yesense_interface:msg/Quat.msg",
+    "/home/HwHiAiUser/wheeltec_ros2/src/wheeltec_imu/yesense_ros2/yesense_interface:msg/GnssPos.msg",
+    "/home/HwHiAiUser/wheeltec_ros2/src/wheeltec_imu/yesense_ros2/yesense_interface:msg/NavStatus.msg",
+    "/home/HwHiAiUser/wheeltec_ros2/src/wheeltec_imu/yesense_ros2/yesense_interface:msg/Vel.msg",
+    "/home/HwHiAiUser/wheeltec_ros2/src/wheeltec_imu/yesense_ros2/yesense_interface:msg/Utc.msg",
+    "/home/HwHiAiUser/wheeltec_ros2/src/wheeltec_imu/yesense_ros2/yesense_interface:msg/SampleTimestamp.msg",
+    "/home/HwHiAiUser/wheeltec_ros2/src/wheeltec_imu/yesense_ros2/yesense_interface:msg/ImuData.msg",
+    "/home/HwHiAiUser/wheeltec_ros2/src/wheeltec_imu/yesense_ros2/yesense_interface:msg/ImuDataTenAxis.msg",
+    "/home/HwHiAiUser/wheeltec_ros2/src/wheeltec_imu/yesense_ros2/yesense_interface:msg/EulerOnly.msg",
+    "/home/HwHiAiUser/wheeltec_ros2/src/wheeltec_imu/yesense_ros2/yesense_interface:msg/RobotLord.msg",
+    "/home/HwHiAiUser/wheeltec_ros2/src/wheeltec_imu/yesense_ros2/yesense_interface:msg/AttitudeMinVru.msg",
+    "/home/HwHiAiUser/wheeltec_ros2/src/wheeltec_imu/yesense_ros2/yesense_interface:msg/AttitudeMinAhrs.msg",
+    "/home/HwHiAiUser/wheeltec_ros2/src/wheeltec_imu/yesense_ros2/yesense_interface:msg/AttitudeAllData.msg",
+    "/home/HwHiAiUser/wheeltec_ros2/src/wheeltec_imu/yesense_ros2/yesense_interface:msg/PosOnly.msg",
+    "/home/HwHiAiUser/wheeltec_ros2/src/wheeltec_imu/yesense_ros2/yesense_interface:msg/NavMin.msg",
+    "/home/HwHiAiUser/wheeltec_ros2/src/wheeltec_imu/yesense_ros2/yesense_interface:msg/NavMinUtc.msg",
+    "/home/HwHiAiUser/wheeltec_ros2/src/wheeltec_imu/yesense_ros2/yesense_interface:msg/NavAll.msg"
+  ]
+}

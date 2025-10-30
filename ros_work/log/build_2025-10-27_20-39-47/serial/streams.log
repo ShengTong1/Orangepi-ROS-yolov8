@@ -1,0 +1,71 @@
+[0.051s] Invoking command in '/home/HwHiAiUser/wheeltec_ros2/build/serial': CMAKE_PREFIX_PATH=/opt/ros/humble _=/usr/bin/env /usr/bin/cmake /home/HwHiAiUser/wheeltec_ros2/src/depend/serial_ros2 -DCMAKE_INSTALL_PREFIX=/home/HwHiAiUser/wheeltec_ros2/install/serial
+[0.328s] -- The C compiler identification is GNU 11.4.0
+[0.591s] -- The CXX compiler identification is GNU 11.4.0
+[0.635s] -- Detecting C compiler ABI info
+[0.974s] -- Detecting C compiler ABI info - done
+[0.994s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.994s] -- Detecting C compile features
+[0.996s] -- Detecting C compile features - done
+[1.009s] -- Detecting CXX compiler ABI info
+[1.383s] -- Detecting CXX compiler ABI info - done
+[1.427s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.428s] -- Detecting CXX compile features
+[1.429s] -- Detecting CXX compile features - done
+[1.439s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.445s] -- Found ament_cmake_core: 1.3.12 (/opt/ros/humble/share/ament_cmake_core/cmake)
+[2.107s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.411s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.429s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.599s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.937s] -- Configuring done
+[2.950s] -- Generating done
+[2.958s] -- Build files have been written to: /home/HwHiAiUser/wheeltec_ros2/build/serial
+[2.982s] Invoked command in '/home/HwHiAiUser/wheeltec_ros2/build/serial' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble _=/usr/bin/env /usr/bin/cmake /home/HwHiAiUser/wheeltec_ros2/src/depend/serial_ros2 -DCMAKE_INSTALL_PREFIX=/home/HwHiAiUser/wheeltec_ros2/install/serial
+[2.984s] Invoking command in '/home/HwHiAiUser/wheeltec_ros2/build/serial': CMAKE_PREFIX_PATH=/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/HwHiAiUser/wheeltec_ros2/build/serial -- -j4 -l4
+[3.143s] [ 25%] [32mBuilding CXX object CMakeFiles/serial.dir/src/serial.cc.o[0m
+[4.787s] [ 50%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/list_ports/list_ports_linux.cc.o[0m
+[5.795s] [01m[K/home/HwHiAiUser/wheeltec_ros2/src/depend/serial_ros2/src/impl/list_ports/list_ports_linux.cc:[m[K In function ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> > glob(const std::vector<std::__cxx11::basic_string<char> >&)[m[K’:
+[5.796s] [01m[K/home/HwHiAiUser/wheeltec_ros2/src/depend/serial_ros2/src/impl/list_ports/list_ports_linux.cc:66:40:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[5.796s]    66 |     for(int path_index = 0; [01;35m[Kpath_index < glob_results.gl_pathc[m[K; path_index++)
+[5.796s]       |                             [01;35m[K~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.797s] [01m[K/home/HwHiAiUser/wheeltec_ros2/src/depend/serial_ros2/src/impl/list_ports/list_ports_linux.cc:57:9:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kglob_retval[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[5.797s]    57 |     int [01;35m[Kglob_retval[m[K = glob(patterns[0].c_str(), 0, NULL, &glob_results);
+[5.797s]       |         [01;35m[K^~~~~~~~~~~[m[K
+[5.807s] [01m[K/home/HwHiAiUser/wheeltec_ros2/src/depend/serial_ros2/src/impl/list_ports/list_ports_linux.cc:[m[K In function ‘[01m[Kstd::string format(const char*, ...)[m[K’:
+[5.807s] [01m[K/home/HwHiAiUser/wheeltec_ros2/src/depend/serial_ros2/src/impl/list_ports/list_ports_linux.cc:246:31:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[5.807s]   246 |         else if( [01;35m[Kreturn_value >= buffer_size_bytes[m[K )
+[5.808s]       |                  [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+[6.538s] [ 75%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/unix.cc.o[0m
+[7.880s] [100%] [32m[1mLinking CXX static library libserial.a[0m
+[7.984s] [100%] Built target serial
+[8.021s] Invoked command in '/home/HwHiAiUser/wheeltec_ros2/build/serial' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/HwHiAiUser/wheeltec_ros2/build/serial -- -j4 -l4
+[8.051s] Invoking command in '/home/HwHiAiUser/wheeltec_ros2/build/serial': CMAKE_PREFIX_PATH=/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/HwHiAiUser/wheeltec_ros2/build/serial
+[8.078s] -- Install configuration: ""
+[8.079s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/serial/lib/libserial.a
+[8.082s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/serial/share/serial/environment/library_path.sh
+[8.084s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/serial/share/serial/environment/library_path.dsv
+[8.087s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/serial/include/serial
+[8.088s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/serial/include/serial/impl
+[8.088s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/serial/include/serial/impl/unix.h
+[8.090s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/serial/include/serial/impl/win.h
+[8.093s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/serial/include/serial/serial.h
+[8.096s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/serial/include/serial/v8stdint.h
+[8.099s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/serial/share/ament_index/resource_index/package_run_dependencies/serial
+[8.101s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/serial/share/ament_index/resource_index/parent_prefix_path/serial
+[8.101s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/serial/share/serial/environment/ament_prefix_path.sh
+[8.103s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/serial/share/serial/environment/ament_prefix_path.dsv
+[8.105s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/serial/share/serial/environment/path.sh
+[8.105s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/serial/share/serial/environment/path.dsv
+[8.106s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/serial/share/serial/local_setup.bash
+[8.108s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/serial/share/serial/local_setup.sh
+[8.109s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/serial/share/serial/local_setup.zsh
+[8.110s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/serial/share/serial/local_setup.dsv
+[8.111s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/serial/share/serial/package.dsv
+[8.112s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/serial/share/ament_index/resource_index/packages/serial
+[8.114s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake
+[8.115s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake
+[8.117s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/serial/share/serial/cmake/ament_cmake_export_dependencies-extras.cmake
+[8.118s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/serial/share/serial/cmake/serialConfig.cmake
+[8.119s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/serial/share/serial/cmake/serialConfig-version.cmake
+[8.119s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/serial/share/serial/package.xml
+[8.129s] Invoked command in '/home/HwHiAiUser/wheeltec_ros2/build/serial' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/HwHiAiUser/wheeltec_ros2/build/serial

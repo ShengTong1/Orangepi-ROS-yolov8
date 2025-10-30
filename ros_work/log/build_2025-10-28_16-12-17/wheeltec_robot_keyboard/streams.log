@@ -1,0 +1,21 @@
+[5.594s] Invoking command in '/home/HwHiAiUser/wheeltec_ros2/src/wheeltec_robot_keyboard': PYTHONPATH=/home/HwHiAiUser/wheeltec_ros2/build/wheeltec_robot_keyboard/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_keyboard/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/wheeltec_robot_keyboard build --build-base /home/HwHiAiUser/wheeltec_ros2/build/wheeltec_robot_keyboard/build install --record /home/HwHiAiUser/wheeltec_ros2/build/wheeltec_robot_keyboard/install.log --single-version-externally-managed install_data
+[6.588s] running egg_info
+[6.593s] writing ../../build/wheeltec_robot_keyboard/wheeltec_robot_keyboard.egg-info/PKG-INFO
+[6.595s] writing dependency_links to ../../build/wheeltec_robot_keyboard/wheeltec_robot_keyboard.egg-info/dependency_links.txt
+[6.600s] writing entry points to ../../build/wheeltec_robot_keyboard/wheeltec_robot_keyboard.egg-info/entry_points.txt
+[6.601s] writing requirements to ../../build/wheeltec_robot_keyboard/wheeltec_robot_keyboard.egg-info/requires.txt
+[6.603s] writing top-level names to ../../build/wheeltec_robot_keyboard/wheeltec_robot_keyboard.egg-info/top_level.txt
+[6.611s] reading manifest file '../../build/wheeltec_robot_keyboard/wheeltec_robot_keyboard.egg-info/SOURCES.txt'
+[6.621s] writing manifest file '../../build/wheeltec_robot_keyboard/wheeltec_robot_keyboard.egg-info/SOURCES.txt'
+[6.625s] running build
+[6.625s] running build_py
+[6.625s] running install
+[6.626s] running install_lib
+[6.626s] running install_data
+[6.626s] running install_egg_info
+[6.637s] removing '/home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_keyboard/lib/python3.10/site-packages/wheeltec_robot_keyboard-2.0.1-py3.10.egg-info' (and everything under it)
+[6.637s] Copying ../../build/wheeltec_robot_keyboard/wheeltec_robot_keyboard.egg-info to /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_keyboard/lib/python3.10/site-packages/wheeltec_robot_keyboard-2.0.1-py3.10.egg-info
+[6.637s] running install_scripts
+[6.714s] Installing wheeltec_keyboard script to /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_keyboard/lib/wheeltec_robot_keyboard
+[6.716s] writing list of installed files to '/home/HwHiAiUser/wheeltec_ros2/build/wheeltec_robot_keyboard/install.log'
+[6.931s] Invoked command in '/home/HwHiAiUser/wheeltec_ros2/src/wheeltec_robot_keyboard' returned '0': PYTHONPATH=/home/HwHiAiUser/wheeltec_ros2/build/wheeltec_robot_keyboard/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_keyboard/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/wheeltec_robot_keyboard build --build-base /home/HwHiAiUser/wheeltec_ros2/build/wheeltec_robot_keyboard/build install --record /home/HwHiAiUser/wheeltec_ros2/build/wheeltec_robot_keyboard/install.log --single-version-externally-managed install_data

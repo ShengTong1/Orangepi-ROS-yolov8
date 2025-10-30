@@ -1,0 +1,3 @@
+[console_scripts]
+gpio_control_node = wheeltec_gpio_control.gpio_control_node:main
+

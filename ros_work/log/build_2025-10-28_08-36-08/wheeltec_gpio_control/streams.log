@@ -1,0 +1,28 @@
+[2.305s] Invoking command in '/home/HwHiAiUser/wheeltec_ros2/src/wheeltec_gpio_control': PYTHONPATH=/home/HwHiAiUser/wheeltec_ros2/build/wheeltec_gpio_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/HwHiAiUser/wheeltec_ros2/install/wheeltec_gpio_control/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/wheeltec_gpio_control build --build-base /home/HwHiAiUser/wheeltec_ros2/build/wheeltec_gpio_control/build install --record /home/HwHiAiUser/wheeltec_ros2/build/wheeltec_gpio_control/install.log --install-scripts $base/lib/wheeltec_gpio_control --single-version-externally-managed install_data
+[3.632s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[3.633s]   warnings.warn(
+[3.673s] running egg_info
+[3.677s] writing ../../build/wheeltec_gpio_control/wheeltec_gpio_control.egg-info/PKG-INFO
+[3.680s] writing dependency_links to ../../build/wheeltec_gpio_control/wheeltec_gpio_control.egg-info/dependency_links.txt
+[3.682s] writing entry points to ../../build/wheeltec_gpio_control/wheeltec_gpio_control.egg-info/entry_points.txt
+[3.684s] writing requirements to ../../build/wheeltec_gpio_control/wheeltec_gpio_control.egg-info/requires.txt
+[3.684s] writing top-level names to ../../build/wheeltec_gpio_control/wheeltec_gpio_control.egg-info/top_level.txt
+[3.689s] reading manifest file '../../build/wheeltec_gpio_control/wheeltec_gpio_control.egg-info/SOURCES.txt'
+[3.694s] writing manifest file '../../build/wheeltec_gpio_control/wheeltec_gpio_control.egg-info/SOURCES.txt'
+[3.694s] running build
+[3.696s] running build_py
+[3.696s] copying wheeltec_gpio_control/gpio_control_node.py -> /home/HwHiAiUser/wheeltec_ros2/build/wheeltec_gpio_control/build/lib/wheeltec_gpio_control
+[3.696s] running install
+[3.697s] running install_lib
+[3.699s] copying /home/HwHiAiUser/wheeltec_ros2/build/wheeltec_gpio_control/build/lib/wheeltec_gpio_control/gpio_control_node.py -> /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_gpio_control/lib/python3.10/site-packages/wheeltec_gpio_control
+[3.701s] byte-compiling /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_gpio_control/lib/python3.10/site-packages/wheeltec_gpio_control/gpio_control_node.py to gpio_control_node.cpython-310.pyc
+[3.708s] running install_data
+[3.709s] copying package.xml -> /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_gpio_control/share/wheeltec_gpio_control
+[3.709s] copying launch/gpio_control.launch.py -> /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_gpio_control/share/wheeltec_gpio_control/launch
+[3.709s] running install_egg_info
+[3.718s] removing '/home/HwHiAiUser/wheeltec_ros2/install/wheeltec_gpio_control/lib/python3.10/site-packages/wheeltec_gpio_control-0.0.1-py3.10.egg-info' (and everything under it)
+[3.718s] Copying ../../build/wheeltec_gpio_control/wheeltec_gpio_control.egg-info to /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_gpio_control/lib/python3.10/site-packages/wheeltec_gpio_control-0.0.1-py3.10.egg-info
+[3.721s] running install_scripts
+[3.815s] Installing gpio_control_node script to /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_gpio_control/lib/wheeltec_gpio_control
+[3.816s] writing list of installed files to '/home/HwHiAiUser/wheeltec_ros2/build/wheeltec_gpio_control/install.log'
+[4.011s] Invoked command in '/home/HwHiAiUser/wheeltec_ros2/src/wheeltec_gpio_control' returned '0': PYTHONPATH=/home/HwHiAiUser/wheeltec_ros2/build/wheeltec_gpio_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/HwHiAiUser/wheeltec_ros2/install/wheeltec_gpio_control/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/wheeltec_gpio_control build --build-base /home/HwHiAiUser/wheeltec_ros2/build/wheeltec_gpio_control/build install --record /home/HwHiAiUser/wheeltec_ros2/build/wheeltec_gpio_control/install.log --install-scripts $base/lib/wheeltec_gpio_control --single-version-externally-managed install_data

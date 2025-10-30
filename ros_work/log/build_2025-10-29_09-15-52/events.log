@@ -1,0 +1,365 @@
+[0.000000] (-) TimerEvent: {}
+[0.000888] (-) JobUnselected: {'identifier': 'ackermann_msgs'}
+[0.001700] (-) JobUnselected: {'identifier': 'astra_camera'}
+[0.002139] (-) JobUnselected: {'identifier': 'astra_camera_msgs'}
+[0.002497] (-) JobUnselected: {'identifier': 'ldlidar'}
+[0.002618] (-) JobUnselected: {'identifier': 'ldlidar_sl_ros2'}
+[0.002708] (-) JobUnselected: {'identifier': 'ldlidar_stl_ros2'}
+[0.002787] (-) JobUnselected: {'identifier': 'lslidar_driver'}
+[0.002865] (-) JobUnselected: {'identifier': 'lslidar_msgs'}
+[0.002937] (-) JobUnselected: {'identifier': 'rplidar_ros'}
+[0.003013] (-) JobUnselected: {'identifier': 'serial'}
+[0.003084] (-) JobUnselected: {'identifier': 'tf2_tools'}
+[0.003159] (-) JobUnselected: {'identifier': 'turn_on_wheeltec_robot'}
+[0.003232] (-) JobUnselected: {'identifier': 'usb_cam'}
+[0.003320] (-) JobUnselected: {'identifier': 'web_video_server'}
+[0.003394] (-) JobUnselected: {'identifier': 'wheeltec_gpio_control'}
+[0.003458] (-) JobUnselected: {'identifier': 'wheeltec_robot_keyboard'}
+[0.003504] (-) JobUnselected: {'identifier': 'wheeltec_robot_msg'}
+[0.003545] (-) JobUnselected: {'identifier': 'wheeltec_robot_urdf'}
+[0.003585] (-) JobUnselected: {'identifier': 'wheeltec_rviz2'}
+[0.003629] (-) JobUnselected: {'identifier': 'yesense_interface'}
+[0.003679] (-) JobUnselected: {'identifier': 'yesense_std_ros2'}
+[0.003727] (qt_robot_control) JobQueued: {'identifier': 'qt_robot_control', 'dependencies': OrderedDict()}
+[0.003779] (qt_robot_control) JobStarted: {'identifier': 'qt_robot_control'}
+[0.026134] (qt_robot_control) JobProgress: {'identifier': 'qt_robot_control', 'progress': 'cmake'}
+[0.028532] (qt_robot_control) JobProgress: {'identifier': 'qt_robot_control', 'progress': 'build'}
+[0.030505] (qt_robot_control) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/HwHiAiUser/wheeltec_ros2/build/qt_robot_control', '--', '-j4', '-l4'], 'cwd': '/home/HwHiAiUser/wheeltec_ros2/build/qt_robot_control', 'env': OrderedDict([('SHELL', '/bin/bash'), ('ROS_VERSION', '2'), ('COLORTERM', 'truecolor'), ('TERM_PROGRAM_VERSION', '1.6.46'), ('GTK_IM_MODULE', 'ibus'), ('CONDA_EXE', '/usr/local/miniconda3/bin/conda'), ('_CE_M', ''), ('ROS_PYTHON_VERSION', '3'), ('MS_ENABLE_GE', '1'), ('MX_SDK_HOME', '/home/HwHiAiUser/work/Mind_SDK/mxVision'), ('XMODIFIERS', '@im=ibus'), ('NPU_HOST_INC', '/usr/local/Ascend/ascend-toolkit/latest/runtime/include'), ('NPU_HOST_LIB', '/usr/local/Ascend/ascend-toolkit/latest/runtime/lib64/stub/aarch64'), ('PWD', '/home/HwHiAiUser/wheeltec_ros2/build/qt_robot_control'), ('LOGNAME', 'HwHiAiUser'), ('XDG_SESSION_TYPE', 'tty'), ('VSCODE_GIT_ASKPASS_NODE', '/home/HwHiAiUser/.cursor-server/bin/7236ee799a5bffd9f28fa4fd18bdc6eab5e08df0/node'), ('MOTD_SHOWN', 'pam'), ('GST_PLUGIN_SCANNER', '/home/HwHiAiUser/work/Mind_SDK/mxVision/opensource/libexec/gstreamer-1.0/gst-plugin-scanner'), ('HOME', '/home/HwHiAiUser'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('MS_DEV_FORCE_ACL', '1'), ('AMENT_PREFIX_PATH', '/home/HwHiAiUser/wheeltec_ros2/install/yesense_std_ros2:/home/HwHiAiUser/wheeltec_ros2/install/yesense_interface:/home/HwHiAiUser/wheeltec_ros2/install/wheeltec_rviz2:/home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_urdf:/home/HwHiAiUser/wheeltec_ros2/install/turn_on_wheeltec_robot:/home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg:/home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_keyboard:/home/HwHiAiUser/wheeltec_ros2/install/wheeltec_gpio_control:/home/HwHiAiUser/wheeltec_ros2/install/web_video_server:/home/HwHiAiUser/wheeltec_ros2/install/usb_cam:/home/HwHiAiUser/wheeltec_ros2/install/tf2_tools:/home/HwHiAiUser/wheeltec_ros2/install/serial:/home/HwHiAiUser/wheeltec_ros2/install/rplidar_ros:/home/HwHiAiUser/wheeltec_ros2/install/lslidar_driver:/home/HwHiAiUser/wheeltec_ros2/install/lslidar_msgs:/home/HwHiAiUser/wheeltec_ros2/install/ldlidar_stl_ros2:/home/HwHiAiUser/wheeltec_ros2/install/ldlidar_sl_ros2:/home/HwHiAiUser/wheeltec_ros2/install/ldlidar:/home/HwHiAiUser/wheeltec_ros2/install/astra_camera:/home/HwHiAiUser/wheeltec_ros2/install/astra_camera_msgs:/home/HwHiAiUser/wheeltec_ros2/install/ackermann_msgs:/opt/ros/humble'), ('GIT_ASKPASS', '/home/HwHiAiUser/.cursor-server/bin/7236ee799a5bffd9f28fa4fd18bdc6eab5e08df0/extensions/git/dist/askpass.sh'), ('CMAKE_PREFIX_PATH', '/home/HwHiAiUser/wheeltec_ros2/install/yesense_std_ros2:/home/HwHiAiUser/wheeltec_ros2/install/yesense_interface:/home/HwHiAiUser/wheeltec_ros2/install/wheeltec_rviz2:/home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_urdf:/home/HwHiAiUser/wheeltec_ros2/install/turn_on_wheeltec_robot:/home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg:/home/HwHiAiUser/wheeltec_ros2/install/web_video_server:/home/HwHiAiUser/wheeltec_ros2/install/usb_cam:/home/HwHiAiUser/wheeltec_ros2/install/serial:/home/HwHiAiUser/wheeltec_ros2/install/rplidar_ros:/home/HwHiAiUser/wheeltec_ros2/install/lslidar_driver:/home/HwHiAiUser/wheeltec_ros2/install/lslidar_msgs:/home/HwHiAiUser/wheeltec_ros2/install/ldlidar_stl_ros2:/home/HwHiAiUser/wheeltec_ros2/install/ldlidar_sl_ros2:/home/HwHiAiUser/wheeltec_ros2/install/ldlidar:/home/HwHiAiUser/wheeltec_ros2/install/astra_camera:/home/HwHiAiUser/wheeltec_ros2/install/astra_camera_msgs:/home/HwHiAiUser/wheeltec_ros2/install/ackermann_msgs:/home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_keyboard:/home/HwHiAiUser/wheeltec_ros2/install/wheeltec_gpio_control:/home/HwHiAiUser/wheeltec_ros2/install/tf2_tools:/opt/ros/humble'), ('COLCON_PREFIX_PATH', '/home/HwHiAiUser/wheeltec_ros2/install'), ('SSH_CONNECTION', '10.248.102.23 12022 10.248.102.204 22'), ('TOOLCHAIN_HOME', '/home/HwHiAiUser/Ascend/ascend-toolkit/latest/toolkit'), ('ASCEND_TOOLKIT_HOME', '/home/HwHiAiUser/Ascend/ascend-toolkit/latest'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('XDG_SESSION_CLASS', 'user'), ('PYTHONPATH', '/home/HwHiAiUser/work/Mind_SDK/mxVision/python:/home/HwHiAiUser/Ascend/ascend-toolkit/latest/python/site-packages:/home/HwHiAiUser/Ascend/ascend-toolkit/latest/opp/built-in/op_impl/ai_core/tbe:/home/HwHiAiUser/wheeltec_ros2/install/yesense_interface/local/lib/python3.10/dist-packages:/home/HwHiAiUser/wheeltec_ros2/install/turn_on_wheeltec_robot/local/lib/python3.10/dist-packages:/home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/local/lib/python3.10/dist-packages:/home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_keyboard/lib/python3.10/site-packages:/home/HwHiAiUser/wheeltec_ros2/install/wheeltec_gpio_control/lib/python3.10/site-packages:/home/HwHiAiUser/wheeltec_ros2/install/tf2_tools/lib/python3.10/site-packages:/home/HwHiAiUser/wheeltec_ros2/install/lslidar_msgs/local/lib/python3.10/dist-packages:/home/HwHiAiUser/wheeltec_ros2/install/astra_camera_msgs/local/lib/python3.10/dist-packages:/home/HwHiAiUser/wheeltec_ros2/install/ackermann_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/usr/local/Ascend/ascend-toolkit/latest/python/site-packages:/usr/local/Ascend/ascend-toolkit/latest/opp/built-in/op_impl/ai_core/tbe:/usr/local/Ascend/ascend-toolkit/laster/python/site-packages:/usr/local/Ascend/ascend-toolkit/laster/opp/built-in/op_impl/ai_core/tbe:'), ('COLCON', '1'), ('TERM', 'xterm-256color'), ('_CE_CONDA', ''), ('ASCEND_CUSTOM_OPP_PATH', '/home/HwHiAiUser/work/Mind_SDK/mxVision/operators/ascendc/vendors/customize:'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'HwHiAiUser'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-fc63ba625b.sock'), ('CONDA_SHLVL', '0'), ('SHLVL', '2'), ('QT_IM_MODULE', 'ibus'), ('XDG_SESSION_ID', '7'), ('ASCEND_OPP_PATH', '/home/HwHiAiUser/Ascend/ascend-toolkit/latest/opp'), ('GST_PLUGIN_PATH', '/home/HwHiAiUser/work/Mind_SDK/mxVision/opensource/lib/gstreamer-1.0:/home/HwHiAiUser/work/Mind_SDK/mxVision/lib/plugins'), ('CONDA_PYTHON_EXE', '/usr/local/miniconda3/bin/python'), ('LD_LIBRARY_PATH', '/usr/lib/aarch64-linux-gnu:/usr/lib:/home/HwHiAiUser/work/Mind_SDK/mxVision/operators/ascendc/vendors/customize/op_api/lib:/home/HwHiAiUser/work/Mind_SDK/mxVision/lib/modelpostprocessors:/home/HwHiAiUser/work/Mind_SDK/mxVision/lib:/home/HwHiAiUser/work/Mind_SDK/mxVision/opensource/lib:/home/HwHiAiUser/work/Mind_SDK/mxVision/opensource/lib64:/home/HwHiAiUser/Ascend/ascend-toolkit/latest/tools/aml/lib64:/home/HwHiAiUser/Ascend/ascend-toolkit/latest/tools/aml/lib64/plugin:/home/HwHiAiUser/Ascend/ascend-toolkit/latest/lib64:/home/HwHiAiUser/Ascend/ascend-toolkit/latest/lib64/plugin/opskernel:/home/HwHiAiUser/Ascend/ascend-toolkit/latest/lib64/plugin/nnengine:/home/HwHiAiUser/Ascend/ascend-toolkit/latest/opp/built-in/op_impl/ai_core/tbe/op_tiling/lib/linux/aarch64:/var/davinci/driver/lib64:/var/davinci/driver/lib64/common:/var/davinci/driver/lib64/driver:/home/HwHiAiUser/wheeltec_ros2/install/yesense_interface/lib:/home/HwHiAiUser/wheeltec_ros2/install/turn_on_wheeltec_robot/lib:/home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/lib:/home/HwHiAiUser/wheeltec_ros2/install/usb_cam/lib:/home/HwHiAiUser/wheeltec_ros2/install/serial/lib:/home/HwHiAiUser/wheeltec_ros2/install/lslidar_msgs/lib:/home/HwHiAiUser/wheeltec_ros2/install/astra_camera/lib:/home/HwHiAiUser/wheeltec_ros2/install/astra_camera_msgs/lib:/home/HwHiAiUser/wheeltec_ros2/install/ackermann_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/Ascend/ascend-toolkit/latest/tools/aml/lib64:/usr/local/Ascend/ascend-toolkit/latest/tools/aml/lib64/plugin:/usr/local/Ascend/ascend-toolkit/latest/lib64:/usr/local/Ascend/ascend-toolkit/latest/lib64/plugin/opskernel:/usr/local/Ascend/ascend-toolkit/latest/lib64/plugin/nnengine:/usr/local/Ascend/ascend-toolkit/latest/opp/built-in/op_impl/ai_core/tbe/op_tiling/lib/linux/aarch64:/lib64:/var/davinci/driver/lib64:/var/davinci/driver/lib64/common:/var/davinci/driver/lib64/driver:/usr/local/Ascend/ascend-toolkit/laster/runtime/lib64/stub/aarch64:/usr/local/Ascend/ascend-toolkit/laster/lib64:/usr/local/Ascend/ascend-toolkit/laster/lib64/plugin/opskernel:/usr/local/Ascend/ascend-toolkit/laster/lib64/plugin/nnengine:/usr/local/Ascend/ascend-toolkit/laster/opp/built-in/op_impl/ai_core/tbe/op_tiling:/usr/local/Ascend/driver/lib64:/var/davinci/driver/lib64:/var/davinci/driver/lib64/common:/var/davinci/driver/lib64/driver:'), ('ASCEND_AICPU_PATH', '/home/HwHiAiUser/Ascend/ascend-toolkit/latest'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('ROS_LOCALHOST_ONLY', '0'), ('SSH_CLIENT', '10.248.102.23 12022 22'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/HwHiAiUser/.cursor-server/bin/7236ee799a5bffd9f28fa4fd18bdc6eab5e08df0/extensions/git/dist/askpass-main.js'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('BROWSER', '/home/HwHiAiUser/.cursor-server/bin/7236ee799a5bffd9f28fa4fd18bdc6eab5e08df0/bin/helpers/browser.sh'), ('PATH', '/home/HwHiAiUser/Ascend/ascend-toolkit/latest/bin:/home/HwHiAiUser/Ascend/ascend-toolkit/latest/compiler/ccec_compiler/bin:/home/HwHiAiUser/Ascend/ascend-toolkit/latest/tools/ccec_compiler/bin:/opt/ros/humble/bin:/usr/local/Ascend/ascend-toolkit/latest/bin:/usr/local/Ascend/ascend-toolkit/latest/compiler/ccec_compiler/bin:/usr/local/Ascend/ascend-toolkit/latest/tools/ccec_compiler/bin:/usr/local/miniconda3/condabin:/home/HwHiAiUser/.cursor-server/bin/7236ee799a5bffd9f28fa4fd18bdc6eab5e08df0/bin/remote-cli:/home/HwHiAiUser/.cursor-server/bin/7236ee799a5bffd9f28fa4fd18bdc6eab5e08df0/bin/remote-cli:/home/HwHiAiUser/.local/bin:/usr/local/Ascend/ascend-toolkit/laster/bin:/usr/local/Ascend/ascend-toolkit/laster/compiler/ccec_compiler/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/HwHiAiUser/.fishros/bin/'), ('ASCEND_HOME_PATH', '/home/HwHiAiUser/Ascend/ascend-toolkit/latest'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'humble'), ('OLDPWD', '/home/HwHiAiUser'), ('TERM_PROGRAM', 'vscode'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-88d70f0b-7bec-40e5-8571-ddac2263ffc2.sock'), ('_', '/usr/bin/env')]), 'shell': False}
+[0.099315] (-) TimerEvent: {}
+[0.137592] (qt_robot_control) StdoutLine: {'line': b'[ 11%] \x1b[34m\x1b[1mAutomatic MOC and UIC for target qt_robot_control\x1b[0m\n'}
+[0.185778] (qt_robot_control) StdoutLine: {'line': b'[ 11%] Built target qt_robot_control_autogen\n'}
+[0.199440] (-) TimerEvent: {}
+[0.226632] (qt_robot_control) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target qt_robot_control\x1b[0m\n'}
+[0.299632] (-) TimerEvent: {}
+[0.309827] (qt_robot_control) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/qt_robot_control.dir/src/MainWindow.cpp.o\x1b[0m\n'}
+[0.399799] (-) TimerEvent: {}
+[0.500536] (-) TimerEvent: {}
+[0.601152] (-) TimerEvent: {}
+[0.701774] (-) TimerEvent: {}
+[0.802383] (-) TimerEvent: {}
+[0.903004] (-) TimerEvent: {}
+[1.003642] (-) TimerEvent: {}
+[1.104319] (-) TimerEvent: {}
+[1.205027] (-) TimerEvent: {}
+[1.305650] (-) TimerEvent: {}
+[1.406281] (-) TimerEvent: {}
+[1.506921] (-) TimerEvent: {}
+[1.607544] (-) TimerEvent: {}
+[1.708191] (-) TimerEvent: {}
+[1.808859] (-) TimerEvent: {}
+[1.909464] (-) TimerEvent: {}
+[2.010106] (-) TimerEvent: {}
+[2.110773] (-) TimerEvent: {}
+[2.211440] (-) TimerEvent: {}
+[2.312136] (-) TimerEvent: {}
+[2.412839] (-) TimerEvent: {}
+[2.513471] (-) TimerEvent: {}
+[2.614124] (-) TimerEvent: {}
+[2.714766] (-) TimerEvent: {}
+[2.815379] (-) TimerEvent: {}
+[2.916008] (-) TimerEvent: {}
+[3.016656] (-) TimerEvent: {}
+[3.117303] (-) TimerEvent: {}
+[3.217939] (-) TimerEvent: {}
+[3.318572] (-) TimerEvent: {}
+[3.419225] (-) TimerEvent: {}
+[3.519864] (-) TimerEvent: {}
+[3.620546] (-) TimerEvent: {}
+[3.721199] (-) TimerEvent: {}
+[3.821810] (-) TimerEvent: {}
+[3.922441] (-) TimerEvent: {}
+[4.023086] (-) TimerEvent: {}
+[4.123741] (-) TimerEvent: {}
+[4.224410] (-) TimerEvent: {}
+[4.325166] (-) TimerEvent: {}
+[4.425837] (-) TimerEvent: {}
+[4.526546] (-) TimerEvent: {}
+[4.627308] (-) TimerEvent: {}
+[4.728023] (-) TimerEvent: {}
+[4.828792] (-) TimerEvent: {}
+[4.929514] (-) TimerEvent: {}
+[5.030226] (-) TimerEvent: {}
+[5.130892] (-) TimerEvent: {}
+[5.231594] (-) TimerEvent: {}
+[5.332269] (-) TimerEvent: {}
+[5.433072] (-) TimerEvent: {}
+[5.533730] (-) TimerEvent: {}
+[5.634405] (-) TimerEvent: {}
+[5.735089] (-) TimerEvent: {}
+[5.835754] (-) TimerEvent: {}
+[5.936455] (-) TimerEvent: {}
+[6.037221] (-) TimerEvent: {}
+[6.137918] (-) TimerEvent: {}
+[6.238629] (-) TimerEvent: {}
+[6.339309] (-) TimerEvent: {}
+[6.439985] (-) TimerEvent: {}
+[6.540689] (-) TimerEvent: {}
+[6.641351] (-) TimerEvent: {}
+[6.742079] (-) TimerEvent: {}
+[6.842743] (-) TimerEvent: {}
+[6.943490] (-) TimerEvent: {}
+[7.044303] (-) TimerEvent: {}
+[7.145124] (-) TimerEvent: {}
+[7.245772] (-) TimerEvent: {}
+[7.346409] (-) TimerEvent: {}
+[7.447048] (-) TimerEvent: {}
+[7.547746] (-) TimerEvent: {}
+[7.648399] (-) TimerEvent: {}
+[7.749160] (-) TimerEvent: {}
+[7.849802] (-) TimerEvent: {}
+[7.950448] (-) TimerEvent: {}
+[8.051093] (-) TimerEvent: {}
+[8.151746] (-) TimerEvent: {}
+[8.252377] (-) TimerEvent: {}
+[8.353119] (-) TimerEvent: {}
+[8.453754] (-) TimerEvent: {}
+[8.554389] (-) TimerEvent: {}
+[8.655020] (-) TimerEvent: {}
+[8.755684] (-) TimerEvent: {}
+[8.856306] (-) TimerEvent: {}
+[8.957030] (-) TimerEvent: {}
+[9.057645] (-) TimerEvent: {}
+[9.158308] (-) TimerEvent: {}
+[9.258951] (-) TimerEvent: {}
+[9.359595] (-) TimerEvent: {}
+[9.460248] (-) TimerEvent: {}
+[9.561069] (-) TimerEvent: {}
+[9.661858] (-) TimerEvent: {}
+[9.762515] (-) TimerEvent: {}
+[9.863222] (-) TimerEvent: {}
+[9.963900] (-) TimerEvent: {}
+[10.064639] (-) TimerEvent: {}
+[10.165404] (-) TimerEvent: {}
+[10.266448] (-) TimerEvent: {}
+[10.367097] (-) TimerEvent: {}
+[10.467753] (-) TimerEvent: {}
+[10.568444] (-) TimerEvent: {}
+[10.669411] (-) TimerEvent: {}
+[10.770052] (-) TimerEvent: {}
+[10.870676] (-) TimerEvent: {}
+[10.971309] (-) TimerEvent: {}
+[11.071989] (-) TimerEvent: {}
+[11.172621] (-) TimerEvent: {}
+[11.273286] (-) TimerEvent: {}
+[11.373944] (-) TimerEvent: {}
+[11.474585] (-) TimerEvent: {}
+[11.575231] (-) TimerEvent: {}
+[11.675875] (-) TimerEvent: {}
+[11.776549] (-) TimerEvent: {}
+[11.877217] (-) TimerEvent: {}
+[11.977884] (-) TimerEvent: {}
+[12.078580] (-) TimerEvent: {}
+[12.179267] (-) TimerEvent: {}
+[12.279921] (-) TimerEvent: {}
+[12.380613] (-) TimerEvent: {}
+[12.481252] (-) TimerEvent: {}
+[12.581948] (-) TimerEvent: {}
+[12.682636] (-) TimerEvent: {}
+[12.783298] (-) TimerEvent: {}
+[12.883966] (-) TimerEvent: {}
+[12.984678] (-) TimerEvent: {}
+[13.085367] (-) TimerEvent: {}
+[13.186130] (-) TimerEvent: {}
+[13.287402] (-) TimerEvent: {}
+[13.389587] (-) TimerEvent: {}
+[13.490343] (-) TimerEvent: {}
+[13.591082] (-) TimerEvent: {}
+[13.691818] (-) TimerEvent: {}
+[13.792630] (-) TimerEvent: {}
+[13.893412] (-) TimerEvent: {}
+[13.994157] (-) TimerEvent: {}
+[14.094913] (-) TimerEvent: {}
+[14.195615] (-) TimerEvent: {}
+[14.296356] (-) TimerEvent: {}
+[14.397121] (-) TimerEvent: {}
+[14.497845] (-) TimerEvent: {}
+[14.598648] (-) TimerEvent: {}
+[14.699357] (-) TimerEvent: {}
+[14.800072] (-) TimerEvent: {}
+[14.900890] (-) TimerEvent: {}
+[15.001556] (-) TimerEvent: {}
+[15.102214] (-) TimerEvent: {}
+[15.202889] (-) TimerEvent: {}
+[15.303574] (-) TimerEvent: {}
+[15.404274] (-) TimerEvent: {}
+[15.505078] (-) TimerEvent: {}
+[15.605779] (-) TimerEvent: {}
+[15.706495] (-) TimerEvent: {}
+[15.807148] (-) TimerEvent: {}
+[15.907801] (-) TimerEvent: {}
+[16.008435] (-) TimerEvent: {}
+[16.109181] (-) TimerEvent: {}
+[16.209824] (-) TimerEvent: {}
+[16.310482] (-) TimerEvent: {}
+[16.411203] (-) TimerEvent: {}
+[16.511983] (-) TimerEvent: {}
+[16.612723] (-) TimerEvent: {}
+[16.713521] (-) TimerEvent: {}
+[16.814118] (-) TimerEvent: {}
+[16.914775] (-) TimerEvent: {}
+[17.015409] (-) TimerEvent: {}
+[17.116153] (-) TimerEvent: {}
+[17.216840] (-) TimerEvent: {}
+[17.317494] (-) TimerEvent: {}
+[17.418135] (-) TimerEvent: {}
+[17.518781] (-) TimerEvent: {}
+[17.619447] (-) TimerEvent: {}
+[17.720136] (-) TimerEvent: {}
+[17.820865] (-) TimerEvent: {}
+[17.921548] (-) TimerEvent: {}
+[18.022325] (-) TimerEvent: {}
+[18.123052] (-) TimerEvent: {}
+[18.223793] (-) TimerEvent: {}
+[18.324439] (-) TimerEvent: {}
+[18.425183] (-) TimerEvent: {}
+[18.525989] (-) TimerEvent: {}
+[18.626644] (-) TimerEvent: {}
+[18.727362] (-) TimerEvent: {}
+[18.828034] (-) TimerEvent: {}
+[18.928757] (-) TimerEvent: {}
+[19.015930] (qt_robot_control) StdoutLine: {'line': b'[ 33%] \x1b[32m\x1b[1mLinking CXX executable qt_robot_control\x1b[0m\n'}
+[19.029014] (-) TimerEvent: {}
+[19.129645] (-) TimerEvent: {}
+[19.230377] (-) TimerEvent: {}
+[19.331142] (-) TimerEvent: {}
+[19.431878] (-) TimerEvent: {}
+[19.533046] (-) TimerEvent: {}
+[19.633861] (-) TimerEvent: {}
+[19.734510] (-) TimerEvent: {}
+[19.835242] (-) TimerEvent: {}
+[19.936011] (-) TimerEvent: {}
+[20.036935] (-) TimerEvent: {}
+[20.137852] (-) TimerEvent: {}
+[20.238764] (-) TimerEvent: {}
+[20.339643] (-) TimerEvent: {}
+[20.440564] (-) TimerEvent: {}
+[20.541465] (-) TimerEvent: {}
+[20.642181] (-) TimerEvent: {}
+[20.742942] (-) TimerEvent: {}
+[20.843849] (-) TimerEvent: {}
+[20.944876] (-) TimerEvent: {}
+[21.045769] (-) TimerEvent: {}
+[21.146499] (-) TimerEvent: {}
+[21.247242] (-) TimerEvent: {}
+[21.347999] (-) TimerEvent: {}
+[21.448760] (-) TimerEvent: {}
+[21.549532] (-) TimerEvent: {}
+[21.650427] (-) TimerEvent: {}
+[21.751272] (-) TimerEvent: {}
+[21.851983] (-) TimerEvent: {}
+[21.952740] (-) TimerEvent: {}
+[22.053473] (-) TimerEvent: {}
+[22.154213] (-) TimerEvent: {}
+[22.254945] (-) TimerEvent: {}
+[22.355638] (-) TimerEvent: {}
+[22.456341] (-) TimerEvent: {}
+[22.557102] (-) TimerEvent: {}
+[22.657936] (-) TimerEvent: {}
+[22.758881] (-) TimerEvent: {}
+[22.859885] (-) TimerEvent: {}
+[22.960949] (-) TimerEvent: {}
+[23.061668] (-) TimerEvent: {}
+[23.162383] (-) TimerEvent: {}
+[23.263103] (-) TimerEvent: {}
+[23.363820] (-) TimerEvent: {}
+[23.464638] (-) TimerEvent: {}
+[23.565462] (-) TimerEvent: {}
+[23.666488] (-) TimerEvent: {}
+[23.767377] (-) TimerEvent: {}
+[23.868262] (-) TimerEvent: {}
+[23.969214] (-) TimerEvent: {}
+[24.070097] (-) TimerEvent: {}
+[24.170879] (-) TimerEvent: {}
+[24.271594] (-) TimerEvent: {}
+[24.372308] (-) TimerEvent: {}
+[24.473106] (-) TimerEvent: {}
+[24.573846] (-) TimerEvent: {}
+[24.674645] (-) TimerEvent: {}
+[24.775550] (-) TimerEvent: {}
+[24.876284] (-) TimerEvent: {}
+[24.977155] (-) TimerEvent: {}
+[25.077889] (-) TimerEvent: {}
+[25.178603] (-) TimerEvent: {}
+[25.279280] (-) TimerEvent: {}
+[25.379965] (-) TimerEvent: {}
+[25.480638] (-) TimerEvent: {}
+[25.581443] (-) TimerEvent: {}
+[25.682264] (-) TimerEvent: {}
+[25.782996] (-) TimerEvent: {}
+[25.883797] (-) TimerEvent: {}
+[25.984583] (-) TimerEvent: {}
+[26.085269] (-) TimerEvent: {}
+[26.185973] (-) TimerEvent: {}
+[26.286644] (-) TimerEvent: {}
+[26.387377] (-) TimerEvent: {}
+[26.488082] (-) TimerEvent: {}
+[26.588848] (-) TimerEvent: {}
+[26.689582] (-) TimerEvent: {}
+[26.790378] (-) TimerEvent: {}
+[26.891106] (-) TimerEvent: {}
+[26.991805] (-) TimerEvent: {}
+[27.092542] (-) TimerEvent: {}
+[27.193275] (-) TimerEvent: {}
+[27.293957] (-) TimerEvent: {}
+[27.394664] (-) TimerEvent: {}
+[27.495345] (-) TimerEvent: {}
+[27.595972] (-) TimerEvent: {}
+[27.696667] (-) TimerEvent: {}
+[27.797345] (-) TimerEvent: {}
+[27.898091] (-) TimerEvent: {}
+[27.998804] (-) TimerEvent: {}
+[28.099541] (-) TimerEvent: {}
+[28.200200] (-) TimerEvent: {}
+[28.300956] (-) TimerEvent: {}
+[28.401644] (-) TimerEvent: {}
+[28.502250] (-) TimerEvent: {}
+[28.602866] (-) TimerEvent: {}
+[28.703581] (-) TimerEvent: {}
+[28.804215] (-) TimerEvent: {}
+[28.905005] (-) TimerEvent: {}
+[29.005962] (-) TimerEvent: {}
+[29.106768] (-) TimerEvent: {}
+[29.207444] (-) TimerEvent: {}
+[29.308260] (-) TimerEvent: {}
+[29.408950] (-) TimerEvent: {}
+[29.509564] (-) TimerEvent: {}
+[29.610244] (-) TimerEvent: {}
+[29.710900] (-) TimerEvent: {}
+[29.811533] (-) TimerEvent: {}
+[29.912176] (-) TimerEvent: {}
+[30.012878] (-) TimerEvent: {}
+[30.113526] (-) TimerEvent: {}
+[30.214195] (-) TimerEvent: {}
+[30.314860] (-) TimerEvent: {}
+[30.415503] (-) TimerEvent: {}
+[30.516164] (-) TimerEvent: {}
+[30.616816] (-) TimerEvent: {}
+[30.717437] (-) TimerEvent: {}
+[30.818098] (-) TimerEvent: {}
+[30.918807] (-) TimerEvent: {}
+[30.971559] (qt_robot_control) StdoutLine: {'line': b'[100%] Built target qt_robot_control\n'}
+[30.994194] (qt_robot_control) CommandEnded: {'returncode': 0}
+[30.996050] (qt_robot_control) JobProgress: {'identifier': 'qt_robot_control', 'progress': 'install'}
+[31.014307] (qt_robot_control) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/HwHiAiUser/wheeltec_ros2/build/qt_robot_control'], 'cwd': '/home/HwHiAiUser/wheeltec_ros2/build/qt_robot_control', 'env': OrderedDict([('SHELL', '/bin/bash'), ('ROS_VERSION', '2'), ('COLORTERM', 'truecolor'), ('TERM_PROGRAM_VERSION', '1.6.46'), ('GTK_IM_MODULE', 'ibus'), ('CONDA_EXE', '/usr/local/miniconda3/bin/conda'), ('_CE_M', ''), ('ROS_PYTHON_VERSION', '3'), ('MS_ENABLE_GE', '1'), ('MX_SDK_HOME', '/home/HwHiAiUser/work/Mind_SDK/mxVision'), ('XMODIFIERS', '@im=ibus'), ('NPU_HOST_INC', '/usr/local/Ascend/ascend-toolkit/latest/runtime/include'), ('NPU_HOST_LIB', '/usr/local/Ascend/ascend-toolkit/latest/runtime/lib64/stub/aarch64'), ('PWD', '/home/HwHiAiUser/wheeltec_ros2/build/qt_robot_control'), ('LOGNAME', 'HwHiAiUser'), ('XDG_SESSION_TYPE', 'tty'), ('VSCODE_GIT_ASKPASS_NODE', '/home/HwHiAiUser/.cursor-server/bin/7236ee799a5bffd9f28fa4fd18bdc6eab5e08df0/node'), ('MOTD_SHOWN', 'pam'), ('GST_PLUGIN_SCANNER', '/home/HwHiAiUser/work/Mind_SDK/mxVision/opensource/libexec/gstreamer-1.0/gst-plugin-scanner'), ('HOME', '/home/HwHiAiUser'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('MS_DEV_FORCE_ACL', '1'), ('AMENT_PREFIX_PATH', '/home/HwHiAiUser/wheeltec_ros2/install/yesense_std_ros2:/home/HwHiAiUser/wheeltec_ros2/install/yesense_interface:/home/HwHiAiUser/wheeltec_ros2/install/wheeltec_rviz2:/home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_urdf:/home/HwHiAiUser/wheeltec_ros2/install/turn_on_wheeltec_robot:/home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg:/home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_keyboard:/home/HwHiAiUser/wheeltec_ros2/install/wheeltec_gpio_control:/home/HwHiAiUser/wheeltec_ros2/install/web_video_server:/home/HwHiAiUser/wheeltec_ros2/install/usb_cam:/home/HwHiAiUser/wheeltec_ros2/install/tf2_tools:/home/HwHiAiUser/wheeltec_ros2/install/serial:/home/HwHiAiUser/wheeltec_ros2/install/rplidar_ros:/home/HwHiAiUser/wheeltec_ros2/install/lslidar_driver:/home/HwHiAiUser/wheeltec_ros2/install/lslidar_msgs:/home/HwHiAiUser/wheeltec_ros2/install/ldlidar_stl_ros2:/home/HwHiAiUser/wheeltec_ros2/install/ldlidar_sl_ros2:/home/HwHiAiUser/wheeltec_ros2/install/ldlidar:/home/HwHiAiUser/wheeltec_ros2/install/astra_camera:/home/HwHiAiUser/wheeltec_ros2/install/astra_camera_msgs:/home/HwHiAiUser/wheeltec_ros2/install/ackermann_msgs:/opt/ros/humble'), ('GIT_ASKPASS', '/home/HwHiAiUser/.cursor-server/bin/7236ee799a5bffd9f28fa4fd18bdc6eab5e08df0/extensions/git/dist/askpass.sh'), ('CMAKE_PREFIX_PATH', '/home/HwHiAiUser/wheeltec_ros2/install/yesense_std_ros2:/home/HwHiAiUser/wheeltec_ros2/install/yesense_interface:/home/HwHiAiUser/wheeltec_ros2/install/wheeltec_rviz2:/home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_urdf:/home/HwHiAiUser/wheeltec_ros2/install/turn_on_wheeltec_robot:/home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg:/home/HwHiAiUser/wheeltec_ros2/install/web_video_server:/home/HwHiAiUser/wheeltec_ros2/install/usb_cam:/home/HwHiAiUser/wheeltec_ros2/install/serial:/home/HwHiAiUser/wheeltec_ros2/install/rplidar_ros:/home/HwHiAiUser/wheeltec_ros2/install/lslidar_driver:/home/HwHiAiUser/wheeltec_ros2/install/lslidar_msgs:/home/HwHiAiUser/wheeltec_ros2/install/ldlidar_stl_ros2:/home/HwHiAiUser/wheeltec_ros2/install/ldlidar_sl_ros2:/home/HwHiAiUser/wheeltec_ros2/install/ldlidar:/home/HwHiAiUser/wheeltec_ros2/install/astra_camera:/home/HwHiAiUser/wheeltec_ros2/install/astra_camera_msgs:/home/HwHiAiUser/wheeltec_ros2/install/ackermann_msgs:/home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_keyboard:/home/HwHiAiUser/wheeltec_ros2/install/wheeltec_gpio_control:/home/HwHiAiUser/wheeltec_ros2/install/tf2_tools:/opt/ros/humble'), ('COLCON_PREFIX_PATH', '/home/HwHiAiUser/wheeltec_ros2/install'), ('SSH_CONNECTION', '10.248.102.23 12022 10.248.102.204 22'), ('TOOLCHAIN_HOME', '/home/HwHiAiUser/Ascend/ascend-toolkit/latest/toolkit'), ('ASCEND_TOOLKIT_HOME', '/home/HwHiAiUser/Ascend/ascend-toolkit/latest'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('XDG_SESSION_CLASS', 'user'), ('PYTHONPATH', '/home/HwHiAiUser/work/Mind_SDK/mxVision/python:/home/HwHiAiUser/Ascend/ascend-toolkit/latest/python/site-packages:/home/HwHiAiUser/Ascend/ascend-toolkit/latest/opp/built-in/op_impl/ai_core/tbe:/home/HwHiAiUser/wheeltec_ros2/install/yesense_interface/local/lib/python3.10/dist-packages:/home/HwHiAiUser/wheeltec_ros2/install/turn_on_wheeltec_robot/local/lib/python3.10/dist-packages:/home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/local/lib/python3.10/dist-packages:/home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_keyboard/lib/python3.10/site-packages:/home/HwHiAiUser/wheeltec_ros2/install/wheeltec_gpio_control/lib/python3.10/site-packages:/home/HwHiAiUser/wheeltec_ros2/install/tf2_tools/lib/python3.10/site-packages:/home/HwHiAiUser/wheeltec_ros2/install/lslidar_msgs/local/lib/python3.10/dist-packages:/home/HwHiAiUser/wheeltec_ros2/install/astra_camera_msgs/local/lib/python3.10/dist-packages:/home/HwHiAiUser/wheeltec_ros2/install/ackermann_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/usr/local/Ascend/ascend-toolkit/latest/python/site-packages:/usr/local/Ascend/ascend-toolkit/latest/opp/built-in/op_impl/ai_core/tbe:/usr/local/Ascend/ascend-toolkit/laster/python/site-packages:/usr/local/Ascend/ascend-toolkit/laster/opp/built-in/op_impl/ai_core/tbe:'), ('COLCON', '1'), ('TERM', 'xterm-256color'), ('_CE_CONDA', ''), ('ASCEND_CUSTOM_OPP_PATH', '/home/HwHiAiUser/work/Mind_SDK/mxVision/operators/ascendc/vendors/customize:'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'HwHiAiUser'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-fc63ba625b.sock'), ('CONDA_SHLVL', '0'), ('SHLVL', '2'), ('QT_IM_MODULE', 'ibus'), ('XDG_SESSION_ID', '7'), ('ASCEND_OPP_PATH', '/home/HwHiAiUser/Ascend/ascend-toolkit/latest/opp'), ('GST_PLUGIN_PATH', '/home/HwHiAiUser/work/Mind_SDK/mxVision/opensource/lib/gstreamer-1.0:/home/HwHiAiUser/work/Mind_SDK/mxVision/lib/plugins'), ('CONDA_PYTHON_EXE', '/usr/local/miniconda3/bin/python'), ('LD_LIBRARY_PATH', '/usr/lib/aarch64-linux-gnu:/usr/lib:/home/HwHiAiUser/work/Mind_SDK/mxVision/operators/ascendc/vendors/customize/op_api/lib:/home/HwHiAiUser/work/Mind_SDK/mxVision/lib/modelpostprocessors:/home/HwHiAiUser/work/Mind_SDK/mxVision/lib:/home/HwHiAiUser/work/Mind_SDK/mxVision/opensource/lib:/home/HwHiAiUser/work/Mind_SDK/mxVision/opensource/lib64:/home/HwHiAiUser/Ascend/ascend-toolkit/latest/tools/aml/lib64:/home/HwHiAiUser/Ascend/ascend-toolkit/latest/tools/aml/lib64/plugin:/home/HwHiAiUser/Ascend/ascend-toolkit/latest/lib64:/home/HwHiAiUser/Ascend/ascend-toolkit/latest/lib64/plugin/opskernel:/home/HwHiAiUser/Ascend/ascend-toolkit/latest/lib64/plugin/nnengine:/home/HwHiAiUser/Ascend/ascend-toolkit/latest/opp/built-in/op_impl/ai_core/tbe/op_tiling/lib/linux/aarch64:/var/davinci/driver/lib64:/var/davinci/driver/lib64/common:/var/davinci/driver/lib64/driver:/home/HwHiAiUser/wheeltec_ros2/install/yesense_interface/lib:/home/HwHiAiUser/wheeltec_ros2/install/turn_on_wheeltec_robot/lib:/home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_msg/lib:/home/HwHiAiUser/wheeltec_ros2/install/usb_cam/lib:/home/HwHiAiUser/wheeltec_ros2/install/serial/lib:/home/HwHiAiUser/wheeltec_ros2/install/lslidar_msgs/lib:/home/HwHiAiUser/wheeltec_ros2/install/astra_camera/lib:/home/HwHiAiUser/wheeltec_ros2/install/astra_camera_msgs/lib:/home/HwHiAiUser/wheeltec_ros2/install/ackermann_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/Ascend/ascend-toolkit/latest/tools/aml/lib64:/usr/local/Ascend/ascend-toolkit/latest/tools/aml/lib64/plugin:/usr/local/Ascend/ascend-toolkit/latest/lib64:/usr/local/Ascend/ascend-toolkit/latest/lib64/plugin/opskernel:/usr/local/Ascend/ascend-toolkit/latest/lib64/plugin/nnengine:/usr/local/Ascend/ascend-toolkit/latest/opp/built-in/op_impl/ai_core/tbe/op_tiling/lib/linux/aarch64:/lib64:/var/davinci/driver/lib64:/var/davinci/driver/lib64/common:/var/davinci/driver/lib64/driver:/usr/local/Ascend/ascend-toolkit/laster/runtime/lib64/stub/aarch64:/usr/local/Ascend/ascend-toolkit/laster/lib64:/usr/local/Ascend/ascend-toolkit/laster/lib64/plugin/opskernel:/usr/local/Ascend/ascend-toolkit/laster/lib64/plugin/nnengine:/usr/local/Ascend/ascend-toolkit/laster/opp/built-in/op_impl/ai_core/tbe/op_tiling:/usr/local/Ascend/driver/lib64:/var/davinci/driver/lib64:/var/davinci/driver/lib64/common:/var/davinci/driver/lib64/driver:'), ('ASCEND_AICPU_PATH', '/home/HwHiAiUser/Ascend/ascend-toolkit/latest'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('ROS_LOCALHOST_ONLY', '0'), ('SSH_CLIENT', '10.248.102.23 12022 22'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/HwHiAiUser/.cursor-server/bin/7236ee799a5bffd9f28fa4fd18bdc6eab5e08df0/extensions/git/dist/askpass-main.js'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('BROWSER', '/home/HwHiAiUser/.cursor-server/bin/7236ee799a5bffd9f28fa4fd18bdc6eab5e08df0/bin/helpers/browser.sh'), ('PATH', '/home/HwHiAiUser/Ascend/ascend-toolkit/latest/bin:/home/HwHiAiUser/Ascend/ascend-toolkit/latest/compiler/ccec_compiler/bin:/home/HwHiAiUser/Ascend/ascend-toolkit/latest/tools/ccec_compiler/bin:/opt/ros/humble/bin:/usr/local/Ascend/ascend-toolkit/latest/bin:/usr/local/Ascend/ascend-toolkit/latest/compiler/ccec_compiler/bin:/usr/local/Ascend/ascend-toolkit/latest/tools/ccec_compiler/bin:/usr/local/miniconda3/condabin:/home/HwHiAiUser/.cursor-server/bin/7236ee799a5bffd9f28fa4fd18bdc6eab5e08df0/bin/remote-cli:/home/HwHiAiUser/.cursor-server/bin/7236ee799a5bffd9f28fa4fd18bdc6eab5e08df0/bin/remote-cli:/home/HwHiAiUser/.local/bin:/usr/local/Ascend/ascend-toolkit/laster/bin:/usr/local/Ascend/ascend-toolkit/laster/compiler/ccec_compiler/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/HwHiAiUser/.fishros/bin/'), ('ASCEND_HOME_PATH', '/home/HwHiAiUser/Ascend/ascend-toolkit/latest'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'humble'), ('OLDPWD', '/home/HwHiAiUser'), ('TERM_PROGRAM', 'vscode'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-88d70f0b-7bec-40e5-8571-ddac2263ffc2.sock'), ('_', '/usr/bin/env')]), 'shell': False}
+[31.018928] (-) TimerEvent: {}
+[31.031144] (qt_robot_control) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[31.031767] (qt_robot_control) StdoutLine: {'line': b'-- Installing: /home/HwHiAiUser/wheeltec_ros2/install/qt_robot_control/lib/qt_robot_control/qt_robot_control\n'}
+[31.052293] (qt_robot_control) StdoutLine: {'line': b'-- Set runtime path of "/home/HwHiAiUser/wheeltec_ros2/install/qt_robot_control/lib/qt_robot_control/qt_robot_control" to ""\n'}
+[31.052935] (qt_robot_control) StdoutLine: {'line': b'-- Installing: /home/HwHiAiUser/wheeltec_ros2/install/qt_robot_control/share/ament_index/resource_index/package_run_dependencies/qt_robot_control\n'}
+[31.053250] (qt_robot_control) StdoutLine: {'line': b'-- Installing: /home/HwHiAiUser/wheeltec_ros2/install/qt_robot_control/share/ament_index/resource_index/parent_prefix_path/qt_robot_control\n'}
+[31.053509] (qt_robot_control) StdoutLine: {'line': b'-- Installing: /home/HwHiAiUser/wheeltec_ros2/install/qt_robot_control/share/qt_robot_control/environment/ament_prefix_path.sh\n'}
+[31.053798] (qt_robot_control) StdoutLine: {'line': b'-- Installing: /home/HwHiAiUser/wheeltec_ros2/install/qt_robot_control/share/qt_robot_control/environment/ament_prefix_path.dsv\n'}
+[31.054031] (qt_robot_control) StdoutLine: {'line': b'-- Installing: /home/HwHiAiUser/wheeltec_ros2/install/qt_robot_control/share/qt_robot_control/environment/path.sh\n'}
+[31.054258] (qt_robot_control) StdoutLine: {'line': b'-- Installing: /home/HwHiAiUser/wheeltec_ros2/install/qt_robot_control/share/qt_robot_control/environment/path.dsv\n'}
+[31.054487] (qt_robot_control) StdoutLine: {'line': b'-- Installing: /home/HwHiAiUser/wheeltec_ros2/install/qt_robot_control/share/qt_robot_control/local_setup.bash\n'}
+[31.054705] (qt_robot_control) StdoutLine: {'line': b'-- Installing: /home/HwHiAiUser/wheeltec_ros2/install/qt_robot_control/share/qt_robot_control/local_setup.sh\n'}
+[31.054950] (qt_robot_control) StdoutLine: {'line': b'-- Installing: /home/HwHiAiUser/wheeltec_ros2/install/qt_robot_control/share/qt_robot_control/local_setup.zsh\n'}
+[31.055190] (qt_robot_control) StdoutLine: {'line': b'-- Installing: /home/HwHiAiUser/wheeltec_ros2/install/qt_robot_control/share/qt_robot_control/local_setup.dsv\n'}
+[31.055419] (qt_robot_control) StdoutLine: {'line': b'-- Installing: /home/HwHiAiUser/wheeltec_ros2/install/qt_robot_control/share/qt_robot_control/package.dsv\n'}
+[31.055869] (qt_robot_control) StdoutLine: {'line': b'-- Installing: /home/HwHiAiUser/wheeltec_ros2/install/qt_robot_control/share/ament_index/resource_index/packages/qt_robot_control\n'}
+[31.056328] (qt_robot_control) StdoutLine: {'line': b'-- Installing: /home/HwHiAiUser/wheeltec_ros2/install/qt_robot_control/share/qt_robot_control/cmake/qt_robot_controlConfig.cmake\n'}
+[31.056842] (qt_robot_control) StdoutLine: {'line': b'-- Installing: /home/HwHiAiUser/wheeltec_ros2/install/qt_robot_control/share/qt_robot_control/cmake/qt_robot_controlConfig-version.cmake\n'}
+[31.057075] (qt_robot_control) StdoutLine: {'line': b'-- Installing: /home/HwHiAiUser/wheeltec_ros2/install/qt_robot_control/share/qt_robot_control/package.xml\n'}
+[31.060862] (qt_robot_control) CommandEnded: {'returncode': 0}
+[31.111030] (qt_robot_control) JobEnded: {'identifier': 'qt_robot_control', 'rc': 0}
+[31.113250] (-) EventReactorShutdown: {}

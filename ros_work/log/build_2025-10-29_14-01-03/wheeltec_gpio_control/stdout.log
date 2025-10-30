@@ -1,0 +1,22 @@
+running egg_info
+writing ../../build/wheeltec_gpio_control/wheeltec_gpio_control.egg-info/PKG-INFO
+writing dependency_links to ../../build/wheeltec_gpio_control/wheeltec_gpio_control.egg-info/dependency_links.txt
+writing entry points to ../../build/wheeltec_gpio_control/wheeltec_gpio_control.egg-info/entry_points.txt
+writing requirements to ../../build/wheeltec_gpio_control/wheeltec_gpio_control.egg-info/requires.txt
+writing top-level names to ../../build/wheeltec_gpio_control/wheeltec_gpio_control.egg-info/top_level.txt
+reading manifest file '../../build/wheeltec_gpio_control/wheeltec_gpio_control.egg-info/SOURCES.txt'
+writing manifest file '../../build/wheeltec_gpio_control/wheeltec_gpio_control.egg-info/SOURCES.txt'
+running build
+running build_py
+copying wheeltec_gpio_control/gpio_control_node.py -> /home/HwHiAiUser/wheeltec_ros2/build/wheeltec_gpio_control/build/lib/wheeltec_gpio_control
+running install
+running install_lib
+copying /home/HwHiAiUser/wheeltec_ros2/build/wheeltec_gpio_control/build/lib/wheeltec_gpio_control/gpio_control_node.py -> /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_gpio_control/lib/python3.10/site-packages/wheeltec_gpio_control
+byte-compiling /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_gpio_control/lib/python3.10/site-packages/wheeltec_gpio_control/gpio_control_node.py to gpio_control_node.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/HwHiAiUser/wheeltec_ros2/install/wheeltec_gpio_control/lib/python3.10/site-packages/wheeltec_gpio_control-0.0.1-py3.10.egg-info' (and everything under it)
+Copying ../../build/wheeltec_gpio_control/wheeltec_gpio_control.egg-info to /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_gpio_control/lib/python3.10/site-packages/wheeltec_gpio_control-0.0.1-py3.10.egg-info
+running install_scripts
+Installing gpio_control_node script to /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_gpio_control/lib/wheeltec_gpio_control
+writing list of installed files to '/home/HwHiAiUser/wheeltec_ros2/build/wheeltec_gpio_control/install.log'

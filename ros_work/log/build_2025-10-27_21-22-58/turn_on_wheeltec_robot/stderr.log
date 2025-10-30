@@ -1,0 +1,39 @@
+/home/HwHiAiUser/wheeltec_ros2/src/turn_on_wheeltec_robot/src/wheeltec_robot.cpp:750:70: warning: backslash and newline separated by space
+  750 |   ("/set_charge",std::bind(&turn_on_robot::Set_Charge_Callback,this, \
+      |                                                                       
+/home/HwHiAiUser/wheeltec_ros2/src/turn_on_wheeltec_robot/src/wheeltec_robot.cpp: In member function ‘bool turn_on_robot::Get_Sensor_Data()’:
+/home/HwHiAiUser/wheeltec_ros2/src/turn_on_wheeltec_robot/src/wheeltec_robot.cpp:381:50: warning: ISO C++ forbids variable length array ‘Receive_Data_Tr’ [-Wvla]
+  381 |   uint8_t Receive_Data_Pr[RECEIVE_DATA_SIZE]={0},Receive_Data_Tr[temp]={0}; //Temporary variable to save the data of the lower machine //临时变量，保存下位机数据
+      |                                                  ^~~~~~~~~~~~~~~
+/home/HwHiAiUser/wheeltec_ros2/src/turn_on_wheeltec_robot/src/Quaternion_Solution.cpp: In function ‘float InvSqrt(float)’:
+/home/HwHiAiUser/wheeltec_ros2/src/turn_on_wheeltec_robot/src/Quaternion_Solution.cpp:15:12: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+   15 |     i = * (( long * ) &y);
+      |           ~^~~~~~~~~~~~~~
+/home/HwHiAiUser/wheeltec_ros2/src/turn_on_wheeltec_robot/src/Quaternion_Solution.cpp:17:12: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+   17 |     y = * (( float * ) &i);
+      |           ~^~~~~~~~~~~~~~~
+/home/HwHiAiUser/wheeltec_ros2/src/turn_on_wheeltec_robot/src/Quaternion_Solution.cpp:15:9: warning: ‘y’ is used uninitialized [-Wuninitialized]
+   15 |     i = * (( long * ) &y);
+      |         ^~~~~~~~~~~~~~~~~
+/home/HwHiAiUser/wheeltec_ros2/src/turn_on_wheeltec_robot/src/Quaternion_Solution.cpp:11:23: note: ‘y’ declared here
+   11 |     volatile float x, y;
+      |                       ^
+/home/HwHiAiUser/wheeltec_ros2/src/turn_on_wheeltec_robot/src/Quaternion_Solution.cpp:15:9: warning: array subscript ‘long int[0]’ is partly outside array bounds of ‘volatile float [1]’ [-Warray-bounds]
+   15 |     i = * (( long * ) &y);
+      |         ^~~~~~~~~~~~~~~~~
+/home/HwHiAiUser/wheeltec_ros2/src/turn_on_wheeltec_robot/src/Quaternion_Solution.cpp:11:23: note: while referencing ‘y’
+   11 |     volatile float x, y;
+      |                       ^
+/home/HwHiAiUser/wheeltec_ros2/src/turn_on_wheeltec_robot/src/Quaternion_Solution.cpp: In function ‘void Quaternion_Solution(float, float, float, float, float, float)’:
+/home/HwHiAiUser/wheeltec_ros2/src/turn_on_wheeltec_robot/src/Quaternion_Solution.cpp:15:9: warning: array subscript ‘long int[0]’ is partly outside array bounds of ‘volatile float [1]’ [-Warray-bounds]
+   15 |     i = * (( long * ) &y);
+      |         ^~~~~~~~~~~~~~~~~
+/home/HwHiAiUser/wheeltec_ros2/src/turn_on_wheeltec_robot/src/Quaternion_Solution.cpp:11:23: note: while referencing ‘y’
+   11 |     volatile float x, y;
+      |                       ^
+/home/HwHiAiUser/wheeltec_ros2/src/turn_on_wheeltec_robot/src/Quaternion_Solution.cpp:15:9: warning: array subscript ‘long int[0]’ is partly outside array bounds of ‘volatile float [1]’ [-Warray-bounds]
+   15 |     i = * (( long * ) &y);
+      |         ^~~~~~~~~~~~~~~~~
+/home/HwHiAiUser/wheeltec_ros2/src/turn_on_wheeltec_robot/src/Quaternion_Solution.cpp:11:23: note: while referencing ‘y’
+   11 |     volatile float x, y;
+      |                       ^

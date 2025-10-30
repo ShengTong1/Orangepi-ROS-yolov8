@@ -1,0 +1,29 @@
+[0.030s] Invoking command in '/home/HwHiAiUser/wheeltec_ros2/build/qt_robot_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_keyboard:/home/HwHiAiUser/wheeltec_ros2/install/wheeltec_gpio_control:/home/HwHiAiUser/wheeltec_ros2/install/tf2_tools:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/HwHiAiUser/wheeltec_ros2/build/qt_robot_control -- -j4 -l4
+[0.123s] [ 11%] Automatic MOC and UIC for target qt_robot_control
+[0.172s] [ 11%] Built target qt_robot_control_autogen
+[0.255s] Consolidate compiler generated dependencies of target qt_robot_control
+[0.297s] [ 22%] Building CXX object CMakeFiles/qt_robot_control.dir/src/MainWindow.cpp.o
+[19.628s] [ 33%] Building CXX object CMakeFiles/qt_robot_control.dir/src/RosImageSubscriber.cpp.o
+[58.405s] [ 33%] Linking CXX executable qt_robot_control
+[72.216s] [100%] Built target qt_robot_control
+[72.246s] Invoked command in '/home/HwHiAiUser/wheeltec_ros2/build/qt_robot_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_keyboard:/home/HwHiAiUser/wheeltec_ros2/install/wheeltec_gpio_control:/home/HwHiAiUser/wheeltec_ros2/install/tf2_tools:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/HwHiAiUser/wheeltec_ros2/build/qt_robot_control -- -j4 -l4
+[72.273s] Invoking command in '/home/HwHiAiUser/wheeltec_ros2/build/qt_robot_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_keyboard:/home/HwHiAiUser/wheeltec_ros2/install/wheeltec_gpio_control:/home/HwHiAiUser/wheeltec_ros2/install/tf2_tools:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/HwHiAiUser/wheeltec_ros2/build/qt_robot_control
+[72.295s] -- Install configuration: ""
+[72.295s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/qt_robot_control/lib/qt_robot_control/qt_robot_control
+[72.324s] -- Set runtime path of "/home/HwHiAiUser/wheeltec_ros2/install/qt_robot_control/lib/qt_robot_control/qt_robot_control" to ""
+[72.324s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/qt_robot_control/share/ament_index/resource_index/package_run_dependencies/qt_robot_control
+[72.324s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/qt_robot_control/share/ament_index/resource_index/parent_prefix_path/qt_robot_control
+[72.324s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/qt_robot_control/share/qt_robot_control/environment/ament_prefix_path.sh
+[72.326s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/qt_robot_control/share/qt_robot_control/environment/ament_prefix_path.dsv
+[72.326s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/qt_robot_control/share/qt_robot_control/environment/path.sh
+[72.326s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/qt_robot_control/share/qt_robot_control/environment/path.dsv
+[72.327s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/qt_robot_control/share/qt_robot_control/local_setup.bash
+[72.327s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/qt_robot_control/share/qt_robot_control/local_setup.sh
+[72.327s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/qt_robot_control/share/qt_robot_control/local_setup.zsh
+[72.327s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/qt_robot_control/share/qt_robot_control/local_setup.dsv
+[72.327s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/qt_robot_control/share/qt_robot_control/package.dsv
+[72.338s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/qt_robot_control/share/ament_index/resource_index/packages/qt_robot_control
+[72.338s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/qt_robot_control/share/qt_robot_control/cmake/qt_robot_controlConfig.cmake
+[72.339s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/qt_robot_control/share/qt_robot_control/cmake/qt_robot_controlConfig-version.cmake
+[72.340s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/qt_robot_control/share/qt_robot_control/package.xml
+[72.341s] Invoked command in '/home/HwHiAiUser/wheeltec_ros2/build/qt_robot_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_keyboard:/home/HwHiAiUser/wheeltec_ros2/install/wheeltec_gpio_control:/home/HwHiAiUser/wheeltec_ros2/install/tf2_tools:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/HwHiAiUser/wheeltec_ros2/build/qt_robot_control

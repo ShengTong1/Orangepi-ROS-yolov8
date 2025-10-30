@@ -1,0 +1,29 @@
+[0.037s] Invoking command in '/home/HwHiAiUser/wheeltec_ros2/build/wheeltec_rviz2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_keyboard:/home/HwHiAiUser/wheeltec_ros2/install/tf2_tools:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/HwHiAiUser/wheeltec_ros2/build/wheeltec_rviz2 -- -j4 -l4
+[0.348s] Invoked command in '/home/HwHiAiUser/wheeltec_ros2/build/wheeltec_rviz2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_keyboard:/home/HwHiAiUser/wheeltec_ros2/install/tf2_tools:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/HwHiAiUser/wheeltec_ros2/build/wheeltec_rviz2 -- -j4 -l4
+[0.358s] Invoking command in '/home/HwHiAiUser/wheeltec_ros2/build/wheeltec_rviz2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_keyboard:/home/HwHiAiUser/wheeltec_ros2/install/tf2_tools:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/HwHiAiUser/wheeltec_ros2/build/wheeltec_rviz2
+[0.360s] -- Install configuration: ""
+[0.361s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_rviz2/share/wheeltec_rviz2/launch
+[0.365s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_rviz2/share/wheeltec_rviz2/launch/wheeltec_rtabmapviz.launch.py
+[0.365s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_rviz2/share/wheeltec_rviz2/launch/wheeltec_rviz.launch.py
+[0.366s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_rviz2/share/wheeltec_rviz2/rviz
+[0.366s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_rviz2/share/wheeltec_rviz2/rviz/wheeltec.rviz
+[0.369s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_rviz2/share/wheeltec_rviz2/rviz/carto_3d.rviz
+[0.386s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_rviz2/share/wheeltec_rviz2/rviz/lio-sam.rviz
+[0.386s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_rviz2/share/wheeltec_rviz2/rviz/lego_loam.rviz
+[0.386s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_rviz2/share/wheeltec_rviz2/rviz/orb_config.rviz
+[0.386s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_rviz2/share/ament_index/resource_index/package_run_dependencies/wheeltec_rviz2
+[0.386s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_rviz2/share/ament_index/resource_index/parent_prefix_path/wheeltec_rviz2
+[0.388s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_rviz2/share/wheeltec_rviz2/environment/ament_prefix_path.sh
+[0.388s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_rviz2/share/wheeltec_rviz2/environment/ament_prefix_path.dsv
+[0.388s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_rviz2/share/wheeltec_rviz2/environment/path.sh
+[0.388s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_rviz2/share/wheeltec_rviz2/environment/path.dsv
+[0.388s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_rviz2/share/wheeltec_rviz2/local_setup.bash
+[0.389s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_rviz2/share/wheeltec_rviz2/local_setup.sh
+[0.389s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_rviz2/share/wheeltec_rviz2/local_setup.zsh
+[0.389s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_rviz2/share/wheeltec_rviz2/local_setup.dsv
+[0.389s] -- Installing: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_rviz2/share/wheeltec_rviz2/package.dsv
+[0.395s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_rviz2/share/ament_index/resource_index/packages/wheeltec_rviz2
+[0.395s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_rviz2/share/wheeltec_rviz2/cmake/wheeltec_rviz2Config.cmake
+[0.395s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_rviz2/share/wheeltec_rviz2/cmake/wheeltec_rviz2Config-version.cmake
+[0.396s] -- Up-to-date: /home/HwHiAiUser/wheeltec_ros2/install/wheeltec_rviz2/share/wheeltec_rviz2/package.xml
+[0.423s] Invoked command in '/home/HwHiAiUser/wheeltec_ros2/build/wheeltec_rviz2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/HwHiAiUser/wheeltec_ros2/install/wheeltec_robot_keyboard:/home/HwHiAiUser/wheeltec_ros2/install/tf2_tools:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/HwHiAiUser/wheeltec_ros2/build/wheeltec_rviz2

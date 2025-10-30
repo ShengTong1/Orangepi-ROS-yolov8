@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "yesense_interface__py",
+		"source" : "/home/HwHiAiUser/wheeltec_ros2/build/yesense_interface/yesense_interface__py"
+	}
+}
