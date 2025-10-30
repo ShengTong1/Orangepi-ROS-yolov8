@@ -1,0 +1,193 @@
+{
+  "binList": [
+    {
+      "implMode": "high_performance",
+      "int64Mode": false,
+      "simplifiedKeyMode": 0,
+      "simplifiedKey": [
+        "ScaleAddCustom/d=0,p=1/1,2/1,2/1,2",
+        "ScaleAddCustom/d=0,p=0/1,2/1,2/1,2",
+        "ScaleAddCustom/d=1,p=1/1,2/1,2/1,2",
+        "ScaleAddCustom/d=1,p=0/1,2/1,2/1,2"
+      ],
+      "staticKey": "6b29e7b663f7b6a32f5bdc9a82dab320e7eb747df4a4a17ec45cf2cb31c1b8b8,15d8ec37a346c693469692c69da1d6c8b538710121097569fcebf3e472b12707",
+      "inputs": [
+        {
+          "name": "x",
+          "index": 0,
+          "dtype": "float16",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ],
+          "format_match_mode": "FormatAgnostic"
+        },
+        {
+          "name": "y",
+          "index": 1,
+          "dtype": "float16",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ],
+          "format_match_mode": "FormatAgnostic"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "z",
+          "index": 0,
+          "dtype": "float16",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ],
+          "format_match_mode": "FormatAgnostic"
+        }
+      ],
+      "attrs": [
+        {
+          "name": "scale",
+          "dtype": "float",
+          "value": 0.0
+        }
+      ],
+      "opMode": "dynamic",
+      "optionalInputMode": "gen_placeholder",
+      "deterministic": "ignore",
+      "optionalOutputMode": "gen_placeholder",
+      "binInfo": {
+        "jsonFilePath": "ascend310p/scale_add_custom/ScaleAddCustom_19e8f6b3ffe496843b5f0a15b5f98ccc.json"
+      }
+    },
+    {
+      "implMode": "high_performance",
+      "int64Mode": false,
+      "simplifiedKeyMode": 0,
+      "simplifiedKey": [
+        "ScaleAddCustom/d=0,p=1/0,2/0,2/0,2",
+        "ScaleAddCustom/d=0,p=0/0,2/0,2/0,2",
+        "ScaleAddCustom/d=1,p=1/0,2/0,2/0,2",
+        "ScaleAddCustom/d=1,p=0/0,2/0,2/0,2"
+      ],
+      "staticKey": "5aacbf5c669e50b0cdaf51137a12b23cd521ea2e91d60aa997cfe43e0a0be9fc,f126c0ee3057ec4def2e340d56e977006e1e3b098c666baace8fe5750ac89dc3",
+      "inputs": [
+        {
+          "name": "x",
+          "index": 0,
+          "dtype": "float32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ],
+          "format_match_mode": "FormatAgnostic"
+        },
+        {
+          "name": "y",
+          "index": 1,
+          "dtype": "float32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ],
+          "format_match_mode": "FormatAgnostic"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "z",
+          "index": 0,
+          "dtype": "float32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ],
+          "format_match_mode": "FormatAgnostic"
+        }
+      ],
+      "attrs": [
+        {
+          "name": "scale",
+          "dtype": "float",
+          "value": 0.0
+        }
+      ],
+      "opMode": "dynamic",
+      "optionalInputMode": "gen_placeholder",
+      "deterministic": "ignore",
+      "optionalOutputMode": "gen_placeholder",
+      "binInfo": {
+        "jsonFilePath": "ascend310p/scale_add_custom/ScaleAddCustom_26114b2bd4c07e0ccb79b870840ff6e6.json"
+      }
+    },
+    {
+      "implMode": "high_performance",
+      "int64Mode": false,
+      "simplifiedKeyMode": 0,
+      "simplifiedKey": [
+        "ScaleAddCustom/d=0,p=1/4,2/4,2/4,2",
+        "ScaleAddCustom/d=0,p=0/4,2/4,2/4,2",
+        "ScaleAddCustom/d=1,p=1/4,2/4,2/4,2",
+        "ScaleAddCustom/d=1,p=0/4,2/4,2/4,2"
+      ],
+      "staticKey": "777b6139637ebfb80736d6cdb3582969b50b064277d3a6121319221b1d2f2284,3ffe5a6bd245024f63a3b2e8d0b2b5080d9394fd470009013be88fa0fbaec1cd",
+      "inputs": [
+        {
+          "name": "x",
+          "index": 0,
+          "dtype": "uint8",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ],
+          "format_match_mode": "FormatAgnostic"
+        },
+        {
+          "name": "y",
+          "index": 1,
+          "dtype": "uint8",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ],
+          "format_match_mode": "FormatAgnostic"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "z",
+          "index": 0,
+          "dtype": "uint8",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ],
+          "format_match_mode": "FormatAgnostic"
+        }
+      ],
+      "attrs": [
+        {
+          "name": "scale",
+          "dtype": "float",
+          "value": 0.0
+        }
+      ],
+      "opMode": "dynamic",
+      "optionalInputMode": "gen_placeholder",
+      "deterministic": "ignore",
+      "optionalOutputMode": "gen_placeholder",
+      "binInfo": {
+        "jsonFilePath": "ascend310p/scale_add_custom/ScaleAddCustom_7ac079c3bd6d73657b024f966f9c8ece.json"
+      }
+    }
+  ]
+}

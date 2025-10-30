@@ -1,0 +1,11 @@
+prefix=/usr1/opensource/opensource/opensource/tmp/protobuf
+exec_prefix=/usr1/opensource/opensource/opensource/tmp/protobuf
+libdir=/usr1/opensource/opensource/opensource/tmp/protobuf/lib
+includedir=/usr1/opensource/opensource/opensource/tmp/protobuf/include
+
+Name: UTF8 Range
+Description: Google's UTF8 Library
+Version: 1.0
+Requires: absl_strings
+Libs: -L${libdir} -lutf8_validity -lutf8_range -pthread
+Cflags: -I${includedir}

@@ -1,0 +1,105 @@
+{
+ "binFileName": "CompareCustom_a1c34968138f05bcfd4ac07bf9a2c036",
+ "binFileSuffix": ".o",
+ "blockDim": -1,
+ "coreType": "AiCore",
+ "globalworkspace_spec_workspace": {
+  "size": 32,
+  "type": 0
+ },
+ "kernelName": "CompareCustom_a1c34968138f05bcfd4ac07bf9a2c036",
+ "magic": "RT_DEV_BINARY_MAGIC_ELF",
+ "memoryStamping": [],
+ "opParaSize": 16,
+ "parameters": [
+  null,
+  null,
+  null,
+  null
+ ],
+ "sha256": "614159766e849c9c193cf0c847974dc18a8ecf2b06fd3cb40cf6a219a23314cf",
+ "workspace": {
+  "num": 1,
+  "size": [
+   -1
+  ],
+  "type": [
+   0
+  ]
+ },
+ "kernelList": [
+  {
+   "kernelName": "CompareCustom_a1c34968138f05bcfd4ac07bf9a2c036_1"
+  },
+  {
+   "kernelName": "CompareCustom_a1c34968138f05bcfd4ac07bf9a2c036_2"
+  },
+  {
+   "kernelName": "CompareCustom_a1c34968138f05bcfd4ac07bf9a2c036_3"
+  }
+ ],
+ "optionalInputMode": "gen_placeholder",
+ "optionalOutputMode": "gen_placeholder",
+ "compileInfo": {},
+ "supportInfo": {
+  "implMode": "high_performance",
+  "int64Mode": false,
+  "simplifiedKeyMode": 0,
+  "simplifiedKey": [
+   "CompareCustom/d=0,p=1/0,2/0,2/0,2",
+   "CompareCustom/d=0,p=0/0,2/0,2/0,2",
+   "CompareCustom/d=1,p=1/0,2/0,2/0,2",
+   "CompareCustom/d=1,p=0/0,2/0,2/0,2"
+  ],
+  "optionalInputMode": "gen_placeholder",
+  "optionalOutputMode": "gen_placeholder",
+  "staticKey": "6454b8fcb90961004cb54da713026413ee9a6d9ea251bb818ae36876faa2d859,3f26e0f64eaf1d6eff9b03acfcdc692fea2ac64e577bb65dcc3b654ea53bab17",
+  "inputs": [
+   {
+    "name": "x",
+    "index": 0,
+    "dtype": "float32",
+    "format": "ND",
+    "paramType": "required",
+    "shape": [
+     -2
+    ],
+    "format_match_mode": "FormatAgnostic"
+   },
+   {
+    "name": "y",
+    "index": 1,
+    "dtype": "float32",
+    "format": "ND",
+    "paramType": "required",
+    "shape": [
+     -2
+    ],
+    "format_match_mode": "FormatAgnostic"
+   }
+  ],
+  "outputs": [
+   {
+    "name": "z",
+    "index": 0,
+    "dtype": "float32",
+    "format": "ND",
+    "paramType": "required",
+    "shape": [
+     -2
+    ],
+    "format_match_mode": "FormatAgnostic"
+   }
+  ],
+  "attrs": [
+   {
+    "name": "operation",
+    "dtype": "int",
+    "value": 0
+   }
+  ],
+  "opMode": "dynamic",
+  "deterministic": "ignore"
+ },
+ "filePath": "ascend310p/compare_custom/CompareCustom_a1c34968138f05bcfd4ac07bf9a2c036.json"
+}

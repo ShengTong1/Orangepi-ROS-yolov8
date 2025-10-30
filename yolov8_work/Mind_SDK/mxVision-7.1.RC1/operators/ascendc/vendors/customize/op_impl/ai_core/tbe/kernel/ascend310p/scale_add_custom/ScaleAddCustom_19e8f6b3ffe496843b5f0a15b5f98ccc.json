@@ -1,0 +1,105 @@
+{
+ "binFileName": "ScaleAddCustom_19e8f6b3ffe496843b5f0a15b5f98ccc",
+ "binFileSuffix": ".o",
+ "blockDim": -1,
+ "coreType": "AiCore",
+ "globalworkspace_spec_workspace": {
+  "size": 32,
+  "type": 0
+ },
+ "kernelName": "ScaleAddCustom_19e8f6b3ffe496843b5f0a15b5f98ccc",
+ "magic": "RT_DEV_BINARY_MAGIC_ELF",
+ "memoryStamping": [],
+ "opParaSize": 16,
+ "parameters": [
+  null,
+  null,
+  null,
+  null
+ ],
+ "sha256": "996f6c7ed590ad7b725f3dfdc33a5b57fcd777888d9e0e686a7c3fef5e29884e",
+ "workspace": {
+  "num": 1,
+  "size": [
+   -1
+  ],
+  "type": [
+   0
+  ]
+ },
+ "kernelList": [
+  {
+   "kernelName": "ScaleAddCustom_19e8f6b3ffe496843b5f0a15b5f98ccc_1"
+  },
+  {
+   "kernelName": "ScaleAddCustom_19e8f6b3ffe496843b5f0a15b5f98ccc_2"
+  },
+  {
+   "kernelName": "ScaleAddCustom_19e8f6b3ffe496843b5f0a15b5f98ccc_3"
+  }
+ ],
+ "optionalInputMode": "gen_placeholder",
+ "optionalOutputMode": "gen_placeholder",
+ "compileInfo": {},
+ "supportInfo": {
+  "implMode": "high_performance",
+  "int64Mode": false,
+  "simplifiedKeyMode": 0,
+  "simplifiedKey": [
+   "ScaleAddCustom/d=0,p=1/1,2/1,2/1,2",
+   "ScaleAddCustom/d=0,p=0/1,2/1,2/1,2",
+   "ScaleAddCustom/d=1,p=1/1,2/1,2/1,2",
+   "ScaleAddCustom/d=1,p=0/1,2/1,2/1,2"
+  ],
+  "optionalInputMode": "gen_placeholder",
+  "optionalOutputMode": "gen_placeholder",
+  "staticKey": "6b29e7b663f7b6a32f5bdc9a82dab320e7eb747df4a4a17ec45cf2cb31c1b8b8,15d8ec37a346c693469692c69da1d6c8b538710121097569fcebf3e472b12707",
+  "inputs": [
+   {
+    "name": "x",
+    "index": 0,
+    "dtype": "float16",
+    "format": "ND",
+    "paramType": "required",
+    "shape": [
+     -2
+    ],
+    "format_match_mode": "FormatAgnostic"
+   },
+   {
+    "name": "y",
+    "index": 1,
+    "dtype": "float16",
+    "format": "ND",
+    "paramType": "required",
+    "shape": [
+     -2
+    ],
+    "format_match_mode": "FormatAgnostic"
+   }
+  ],
+  "outputs": [
+   {
+    "name": "z",
+    "index": 0,
+    "dtype": "float16",
+    "format": "ND",
+    "paramType": "required",
+    "shape": [
+     -2
+    ],
+    "format_match_mode": "FormatAgnostic"
+   }
+  ],
+  "attrs": [
+   {
+    "name": "scale",
+    "dtype": "float",
+    "value": 0.0
+   }
+  ],
+  "opMode": "dynamic",
+  "deterministic": "ignore"
+ },
+ "filePath": "ascend310p/scale_add_custom/ScaleAddCustom_19e8f6b3ffe496843b5f0a15b5f98ccc.json"
+}

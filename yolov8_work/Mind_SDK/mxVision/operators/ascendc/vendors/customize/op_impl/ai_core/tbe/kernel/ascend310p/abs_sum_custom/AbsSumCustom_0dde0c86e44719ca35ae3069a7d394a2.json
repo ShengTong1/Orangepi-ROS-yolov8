@@ -1,0 +1,86 @@
+{
+ "binFileName": "AbsSumCustom_0dde0c86e44719ca35ae3069a7d394a2",
+ "binFileSuffix": ".o",
+ "blockDim": -1,
+ "coreType": "AiCore",
+ "globalworkspace_spec_workspace": {
+  "size": 32,
+  "type": 0
+ },
+ "kernelName": "AbsSumCustom_0dde0c86e44719ca35ae3069a7d394a2",
+ "magic": "RT_DEV_BINARY_MAGIC_ELF",
+ "memoryStamping": [],
+ "opParaSize": 16,
+ "parameters": [
+  null,
+  null,
+  null
+ ],
+ "sha256": "81eb3ff59aed95ac119b4ab6d75f02d5c68422abbba3f80b48a42e288e2f6076",
+ "workspace": {
+  "num": 1,
+  "size": [
+   -1
+  ],
+  "type": [
+   0
+  ]
+ },
+ "kernelList": [
+  {
+   "kernelName": "AbsSumCustom_0dde0c86e44719ca35ae3069a7d394a2_1"
+  },
+  {
+   "kernelName": "AbsSumCustom_0dde0c86e44719ca35ae3069a7d394a2_2"
+  },
+  {
+   "kernelName": "AbsSumCustom_0dde0c86e44719ca35ae3069a7d394a2_3"
+  }
+ ],
+ "optionalInputMode": "gen_placeholder",
+ "optionalOutputMode": "gen_placeholder",
+ "compileInfo": {},
+ "supportInfo": {
+  "implMode": "high_performance",
+  "int64Mode": false,
+  "simplifiedKeyMode": 0,
+  "simplifiedKey": [
+   "AbsSumCustom/d=0,p=1/0,2/0,2",
+   "AbsSumCustom/d=0,p=0/0,2/0,2",
+   "AbsSumCustom/d=1,p=1/0,2/0,2",
+   "AbsSumCustom/d=1,p=0/0,2/0,2"
+  ],
+  "optionalInputMode": "gen_placeholder",
+  "optionalOutputMode": "gen_placeholder",
+  "staticKey": "ed019adc02c4ef2c154076e56faf06976be9b74c8438bfd28b1cccb0b7635e35,174b597c066dd43443d16f1cbf342fb69d122ca8a248e828c078b208c9bfe6f7",
+  "inputs": [
+   {
+    "name": "x",
+    "index": 0,
+    "dtype": "float32",
+    "format": "ND",
+    "paramType": "required",
+    "shape": [
+     -2
+    ],
+    "format_match_mode": "FormatAgnostic"
+   }
+  ],
+  "outputs": [
+   {
+    "name": "z",
+    "index": 0,
+    "dtype": "float32",
+    "format": "ND",
+    "paramType": "required",
+    "shape": [
+     -2
+    ],
+    "format_match_mode": "FormatAgnostic"
+   }
+  ],
+  "opMode": "dynamic",
+  "deterministic": "ignore"
+ },
+ "filePath": "ascend310p/abs_sum_custom/AbsSumCustom_0dde0c86e44719ca35ae3069a7d394a2.json"
+}

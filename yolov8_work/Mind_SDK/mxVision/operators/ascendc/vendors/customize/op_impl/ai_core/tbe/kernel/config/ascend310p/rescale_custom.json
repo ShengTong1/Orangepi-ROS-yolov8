@@ -1,0 +1,175 @@
+{
+  "binList": [
+    {
+      "implMode": "high_performance",
+      "int64Mode": false,
+      "simplifiedKeyMode": 0,
+      "simplifiedKey": [
+        "RescaleCustom/d=0,p=1/4,2/4,2",
+        "RescaleCustom/d=0,p=0/4,2/4,2",
+        "RescaleCustom/d=1,p=1/4,2/4,2",
+        "RescaleCustom/d=1,p=0/4,2/4,2"
+      ],
+      "staticKey": "78a3a16395999d03e66c491fb5dbe58613c65f68b06d47696e5d8d54bd6af97d,49111b747aa2840a6211a3c1141e84d21e50e4d035b1cac155dd953a0d178cda",
+      "inputs": [
+        {
+          "name": "x",
+          "index": 0,
+          "dtype": "uint8",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ],
+          "format_match_mode": "FormatAgnostic"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "z",
+          "index": 0,
+          "dtype": "uint8",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ],
+          "format_match_mode": "FormatAgnostic"
+        }
+      ],
+      "attrs": [
+        {
+          "name": "scale",
+          "dtype": "float",
+          "value": 0.0
+        },
+        {
+          "name": "bias",
+          "dtype": "float",
+          "value": 0.0
+        }
+      ],
+      "opMode": "dynamic",
+      "optionalInputMode": "gen_placeholder",
+      "deterministic": "ignore",
+      "optionalOutputMode": "gen_placeholder",
+      "binInfo": {
+        "jsonFilePath": "ascend310p/rescale_custom/RescaleCustom_1674e64c192f18f526ca196ab9a01fa4.json"
+      }
+    },
+    {
+      "implMode": "high_performance",
+      "int64Mode": false,
+      "simplifiedKeyMode": 0,
+      "simplifiedKey": [
+        "RescaleCustom/d=0,p=1/0,2/0,2",
+        "RescaleCustom/d=0,p=0/0,2/0,2",
+        "RescaleCustom/d=1,p=1/0,2/0,2",
+        "RescaleCustom/d=1,p=0/0,2/0,2"
+      ],
+      "staticKey": "253c9b1acc1568569e0970b09b98e22cd263746aa4ca9fd90277528145d5ea4c,c003cd8299fcbebbe79d29c760cadf468b97791575d331f792d53d37f0532a62",
+      "inputs": [
+        {
+          "name": "x",
+          "index": 0,
+          "dtype": "float32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ],
+          "format_match_mode": "FormatAgnostic"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "z",
+          "index": 0,
+          "dtype": "float32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ],
+          "format_match_mode": "FormatAgnostic"
+        }
+      ],
+      "attrs": [
+        {
+          "name": "scale",
+          "dtype": "float",
+          "value": 0.0
+        },
+        {
+          "name": "bias",
+          "dtype": "float",
+          "value": 0.0
+        }
+      ],
+      "opMode": "dynamic",
+      "optionalInputMode": "gen_placeholder",
+      "deterministic": "ignore",
+      "optionalOutputMode": "gen_placeholder",
+      "binInfo": {
+        "jsonFilePath": "ascend310p/rescale_custom/RescaleCustom_7cae73a91f5c716c5c9c5cfb54322f9a.json"
+      }
+    },
+    {
+      "implMode": "high_performance",
+      "int64Mode": false,
+      "simplifiedKeyMode": 0,
+      "simplifiedKey": [
+        "RescaleCustom/d=0,p=1/1,2/1,2",
+        "RescaleCustom/d=0,p=0/1,2/1,2",
+        "RescaleCustom/d=1,p=1/1,2/1,2",
+        "RescaleCustom/d=1,p=0/1,2/1,2"
+      ],
+      "staticKey": "addd200e7cb0cc764048893258fc33b9fc71185d727ee2a8054670586565960f,9017f05c9d2c08fe1324b3e2e0a0bc83c5709e86aa98f344d955310f96b4ada8",
+      "inputs": [
+        {
+          "name": "x",
+          "index": 0,
+          "dtype": "float16",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ],
+          "format_match_mode": "FormatAgnostic"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "z",
+          "index": 0,
+          "dtype": "float16",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ],
+          "format_match_mode": "FormatAgnostic"
+        }
+      ],
+      "attrs": [
+        {
+          "name": "scale",
+          "dtype": "float",
+          "value": 0.0
+        },
+        {
+          "name": "bias",
+          "dtype": "float",
+          "value": 0.0
+        }
+      ],
+      "opMode": "dynamic",
+      "optionalInputMode": "gen_placeholder",
+      "deterministic": "ignore",
+      "optionalOutputMode": "gen_placeholder",
+      "binInfo": {
+        "jsonFilePath": "ascend310p/rescale_custom/RescaleCustom_a64c68f2ca8478912ec6a1c2bfa48561.json"
+      }
+    }
+  ]
+}

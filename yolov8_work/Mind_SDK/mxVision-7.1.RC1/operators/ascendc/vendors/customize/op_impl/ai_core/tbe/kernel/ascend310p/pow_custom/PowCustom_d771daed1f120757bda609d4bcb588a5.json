@@ -1,0 +1,98 @@
+{
+ "binFileName": "PowCustom_d771daed1f120757bda609d4bcb588a5",
+ "binFileSuffix": ".o",
+ "blockDim": -1,
+ "coreType": "AiCore",
+ "globalworkspace_spec_workspace": {
+  "size": 32,
+  "type": 0
+ },
+ "kernelName": "PowCustom_d771daed1f120757bda609d4bcb588a5",
+ "magic": "RT_DEV_BINARY_MAGIC_ELF",
+ "memoryStamping": [],
+ "opParaSize": 16,
+ "parameters": [
+  null,
+  null,
+  null,
+  null
+ ],
+ "sha256": "5f63e1c4a07e07ce606a1dad048c368065fa715f6c78f743e845abbabc176a0e",
+ "workspace": {
+  "num": 1,
+  "size": [
+   -1
+  ],
+  "type": [
+   0
+  ]
+ },
+ "kernelList": [
+  {
+   "kernelName": "PowCustom_d771daed1f120757bda609d4bcb588a5_1"
+  },
+  {
+   "kernelName": "PowCustom_d771daed1f120757bda609d4bcb588a5_2"
+  },
+  {
+   "kernelName": "PowCustom_d771daed1f120757bda609d4bcb588a5_3"
+  }
+ ],
+ "optionalInputMode": "gen_placeholder",
+ "optionalOutputMode": "gen_placeholder",
+ "compileInfo": {},
+ "supportInfo": {
+  "implMode": "high_performance",
+  "int64Mode": false,
+  "simplifiedKeyMode": 0,
+  "simplifiedKey": [
+   "PowCustom/d=0,p=1/4,2/4,2/4,2",
+   "PowCustom/d=0,p=0/4,2/4,2/4,2",
+   "PowCustom/d=1,p=1/4,2/4,2/4,2",
+   "PowCustom/d=1,p=0/4,2/4,2/4,2"
+  ],
+  "optionalInputMode": "gen_placeholder",
+  "optionalOutputMode": "gen_placeholder",
+  "staticKey": "468d962c5fa68b6e0e2df00e5d2cc4e9fe3b2e1b185d593c52af258383edda83,6c247a7bffb132f6e074e49f53edb6a347b263e0d27abf81b42e1204b913297b",
+  "inputs": [
+   {
+    "name": "x",
+    "index": 0,
+    "dtype": "uint8",
+    "format": "ND",
+    "paramType": "required",
+    "shape": [
+     -2
+    ],
+    "format_match_mode": "FormatAgnostic"
+   },
+   {
+    "name": "y",
+    "index": 1,
+    "dtype": "uint8",
+    "format": "ND",
+    "paramType": "required",
+    "shape": [
+     -2
+    ],
+    "format_match_mode": "FormatAgnostic"
+   }
+  ],
+  "outputs": [
+   {
+    "name": "z",
+    "index": 0,
+    "dtype": "uint8",
+    "format": "ND",
+    "paramType": "required",
+    "shape": [
+     -2
+    ],
+    "format_match_mode": "FormatAgnostic"
+   }
+  ],
+  "opMode": "dynamic",
+  "deterministic": "ignore"
+ },
+ "filePath": "ascend310p/pow_custom/PowCustom_d771daed1f120757bda609d4bcb588a5.json"
+}

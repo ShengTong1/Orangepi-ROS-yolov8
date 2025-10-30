@@ -1,0 +1,103 @@
+{
+ "binFileName": "ErodeCustom_3f94bcd00b1cd7a4a904163b903b613e",
+ "binFileSuffix": ".o",
+ "blockDim": -1,
+ "coreType": "AiCore",
+ "globalworkspace_spec_workspace": {
+  "size": 32,
+  "type": 0
+ },
+ "kernelName": "ErodeCustom_3f94bcd00b1cd7a4a904163b903b613e",
+ "magic": "RT_DEV_BINARY_MAGIC_ELF",
+ "memoryStamping": [],
+ "opParaSize": 24,
+ "parameters": [
+  null,
+  null,
+  null
+ ],
+ "sha256": "3688e9164cbe63ab5a97992fa16f5e18b19d6e086da96f0575486babe810e7a4",
+ "workspace": {
+  "num": 1,
+  "size": [
+   -1
+  ],
+  "type": [
+   0
+  ]
+ },
+ "kernelList": [
+  {
+   "kernelName": "ErodeCustom_3f94bcd00b1cd7a4a904163b903b613e_1"
+  },
+  {
+   "kernelName": "ErodeCustom_3f94bcd00b1cd7a4a904163b903b613e_2"
+  },
+  {
+   "kernelName": "ErodeCustom_3f94bcd00b1cd7a4a904163b903b613e_3"
+  }
+ ],
+ "optionalInputMode": "gen_placeholder",
+ "optionalOutputMode": "gen_placeholder",
+ "compileInfo": {},
+ "supportInfo": {
+  "implMode": "high_performance",
+  "int64Mode": false,
+  "simplifiedKeyMode": 0,
+  "simplifiedKey": [
+   "ErodeCustom/d=0,p=1/0,2/0,2",
+   "ErodeCustom/d=0,p=0/0,2/0,2",
+   "ErodeCustom/d=1,p=1/0,2/0,2",
+   "ErodeCustom/d=1,p=0/0,2/0,2"
+  ],
+  "optionalInputMode": "gen_placeholder",
+  "optionalOutputMode": "gen_placeholder",
+  "staticKey": "072ab45d1c7faf204e9069031c9d7409c7f3d9dafa5e7b6cc1ed9c2796018d00,7b93ffcf2b833f1b1c440dd38c8c3f8073cd4fe823281a51540d4db04107ca6f",
+  "inputs": [
+   {
+    "name": "src",
+    "index": 0,
+    "dtype": "float32",
+    "format": "ND",
+    "paramType": "required",
+    "shape": [
+     -2
+    ],
+    "format_match_mode": "FormatAgnostic"
+   }
+  ],
+  "outputs": [
+   {
+    "name": "out",
+    "index": 0,
+    "dtype": "float32",
+    "format": "ND",
+    "paramType": "required",
+    "shape": [
+     -2
+    ],
+    "format_match_mode": "FormatAgnostic"
+   }
+  ],
+  "attrs": [
+   {
+    "name": "kernel",
+    "dtype": "int",
+    "value": 0
+   },
+   {
+    "name": "height",
+    "dtype": "int",
+    "value": 0
+   },
+   {
+    "name": "width",
+    "dtype": "int",
+    "value": 0
+   }
+  ],
+  "opMode": "dynamic",
+  "deterministic": "ignore"
+ },
+ "filePath": "ascend310p/erode_custom/ErodeCustom_3f94bcd00b1cd7a4a904163b903b613e.json"
+}

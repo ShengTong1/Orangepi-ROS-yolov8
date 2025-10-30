@@ -1,0 +1,115 @@
+{
+ "binFileName": "AddWeightedCustom_dc0d639895e5e1a92471014b07716a4c",
+ "binFileSuffix": ".o",
+ "blockDim": -1,
+ "coreType": "AiCore",
+ "globalworkspace_spec_workspace": {
+  "size": 32,
+  "type": 0
+ },
+ "kernelName": "AddWeightedCustom_dc0d639895e5e1a92471014b07716a4c",
+ "magic": "RT_DEV_BINARY_MAGIC_ELF",
+ "memoryStamping": [],
+ "opParaSize": 24,
+ "parameters": [
+  null,
+  null,
+  null,
+  null
+ ],
+ "sha256": "af2b786d37b2875f82d496ee5ffc7f5e9d71f6b3e1dd35058fbe5c7447c6d905",
+ "workspace": {
+  "num": 1,
+  "size": [
+   -1
+  ],
+  "type": [
+   0
+  ]
+ },
+ "kernelList": [
+  {
+   "kernelName": "AddWeightedCustom_dc0d639895e5e1a92471014b07716a4c_1"
+  },
+  {
+   "kernelName": "AddWeightedCustom_dc0d639895e5e1a92471014b07716a4c_2"
+  },
+  {
+   "kernelName": "AddWeightedCustom_dc0d639895e5e1a92471014b07716a4c_3"
+  }
+ ],
+ "optionalInputMode": "gen_placeholder",
+ "optionalOutputMode": "gen_placeholder",
+ "compileInfo": {},
+ "supportInfo": {
+  "implMode": "high_performance",
+  "int64Mode": false,
+  "simplifiedKeyMode": 0,
+  "simplifiedKey": [
+   "AddWeightedCustom/d=0,p=1/4,2/4,2/4,2",
+   "AddWeightedCustom/d=0,p=0/4,2/4,2/4,2",
+   "AddWeightedCustom/d=1,p=1/4,2/4,2/4,2",
+   "AddWeightedCustom/d=1,p=0/4,2/4,2/4,2"
+  ],
+  "optionalInputMode": "gen_placeholder",
+  "optionalOutputMode": "gen_placeholder",
+  "staticKey": "817ff46d7e7d2b7bfd06994e645526496fc60626fa9088434ffc5a8732fb7e56,695bd295b74c611ed2a34caccbcd07aa5d9ad5f5dc51fb02f509b70686d88d31",
+  "inputs": [
+   {
+    "name": "x",
+    "index": 0,
+    "dtype": "uint8",
+    "format": "ND",
+    "paramType": "required",
+    "shape": [
+     -2
+    ],
+    "format_match_mode": "FormatAgnostic"
+   },
+   {
+    "name": "y",
+    "index": 1,
+    "dtype": "uint8",
+    "format": "ND",
+    "paramType": "required",
+    "shape": [
+     -2
+    ],
+    "format_match_mode": "FormatAgnostic"
+   }
+  ],
+  "outputs": [
+   {
+    "name": "z",
+    "index": 0,
+    "dtype": "uint8",
+    "format": "ND",
+    "paramType": "required",
+    "shape": [
+     -2
+    ],
+    "format_match_mode": "FormatAgnostic"
+   }
+  ],
+  "attrs": [
+   {
+    "name": "alpha",
+    "dtype": "float",
+    "value": 0.0
+   },
+   {
+    "name": "beta",
+    "dtype": "float",
+    "value": 0.0
+   },
+   {
+    "name": "gamma",
+    "dtype": "float",
+    "value": 0.0
+   }
+  ],
+  "opMode": "dynamic",
+  "deterministic": "ignore"
+ },
+ "filePath": "ascend310p/add_weighted_custom/AddWeightedCustom_dc0d639895e5e1a92471014b07716a4c.json"
+}

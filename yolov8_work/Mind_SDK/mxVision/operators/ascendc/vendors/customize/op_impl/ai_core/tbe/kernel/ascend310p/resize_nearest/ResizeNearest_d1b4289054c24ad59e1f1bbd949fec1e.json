@@ -1,0 +1,113 @@
+{
+ "binFileName": "ResizeNearest_d1b4289054c24ad59e1f1bbd949fec1e",
+ "binFileSuffix": ".o",
+ "blockDim": -1,
+ "coreType": "AiCore",
+ "globalworkspace_spec_workspace": {
+  "size": 32,
+  "type": 0
+ },
+ "kernelName": "ResizeNearest_d1b4289054c24ad59e1f1bbd949fec1e",
+ "magic": "RT_DEV_BINARY_MAGIC_ELF",
+ "memoryStamping": [],
+ "opParaSize": 32,
+ "parameters": [
+  null,
+  null,
+  null
+ ],
+ "sha256": "702d48df9106022df88a363a67490160f5ab0e0f18677d2dd2734183ba951de2",
+ "workspace": {
+  "num": 1,
+  "size": [
+   -1
+  ],
+  "type": [
+   0
+  ]
+ },
+ "kernelList": [
+  {
+   "kernelName": "ResizeNearest_d1b4289054c24ad59e1f1bbd949fec1e_1"
+  },
+  {
+   "kernelName": "ResizeNearest_d1b4289054c24ad59e1f1bbd949fec1e_2"
+  },
+  {
+   "kernelName": "ResizeNearest_d1b4289054c24ad59e1f1bbd949fec1e_3"
+  }
+ ],
+ "optionalInputMode": "gen_placeholder",
+ "optionalOutputMode": "gen_placeholder",
+ "compileInfo": {},
+ "supportInfo": {
+  "implMode": "high_performance",
+  "int64Mode": false,
+  "simplifiedKeyMode": 0,
+  "simplifiedKey": [
+   "ResizeNearest/d=0,p=1/1,2/1,2",
+   "ResizeNearest/d=0,p=0/1,2/1,2",
+   "ResizeNearest/d=1,p=1/1,2/1,2",
+   "ResizeNearest/d=1,p=0/1,2/1,2"
+  ],
+  "optionalInputMode": "gen_placeholder",
+  "optionalOutputMode": "gen_placeholder",
+  "staticKey": "cf1b1dabef7f302a418cd8ebb0f7d9e9e119923db0992af3b2835b6a8aa19c83,f013c5936332c504251bb6ad66564789db03a2dc4faf84243304d5a93260660c",
+  "inputs": [
+   {
+    "name": "src",
+    "index": 0,
+    "dtype": "float16",
+    "format": "ND",
+    "paramType": "required",
+    "shape": [
+     -2
+    ],
+    "format_match_mode": "FormatAgnostic"
+   }
+  ],
+  "outputs": [
+   {
+    "name": "out",
+    "index": 0,
+    "dtype": "float16",
+    "format": "ND",
+    "paramType": "required",
+    "shape": [
+     -2
+    ],
+    "format_match_mode": "FormatAgnostic"
+   }
+  ],
+  "attrs": [
+   {
+    "name": "channels",
+    "dtype": "int",
+    "value": 0
+   },
+   {
+    "name": "srcHeight",
+    "dtype": "int",
+    "value": 0
+   },
+   {
+    "name": "srcWidth",
+    "dtype": "int",
+    "value": 0
+   },
+   {
+    "name": "dstHeight",
+    "dtype": "int",
+    "value": 0
+   },
+   {
+    "name": "dstWidth",
+    "dtype": "int",
+    "value": 0
+   }
+  ],
+  "opMode": "dynamic",
+  "deterministic": "ignore"
+ },
+ "filePath": "ascend310p/resize_nearest/ResizeNearest_d1b4289054c24ad59e1f1bbd949fec1e.json"
+}

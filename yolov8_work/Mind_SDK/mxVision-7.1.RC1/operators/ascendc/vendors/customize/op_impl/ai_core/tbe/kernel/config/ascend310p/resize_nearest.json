@@ -1,0 +1,220 @@
+{
+  "binList": [
+    {
+      "implMode": "high_performance",
+      "int64Mode": false,
+      "simplifiedKeyMode": 0,
+      "simplifiedKey": [
+        "ResizeNearest/d=0,p=1/0,2/0,2",
+        "ResizeNearest/d=0,p=0/0,2/0,2",
+        "ResizeNearest/d=1,p=1/0,2/0,2",
+        "ResizeNearest/d=1,p=0/0,2/0,2"
+      ],
+      "staticKey": "31a1d74d98e65bd8ce8cc6da438123a960ee2760cffeccbd8c31087f256380ff,62ff32f204fd625a4262cdf3d1e59c7fd4b028eb9336cb77c3242b6b7eac4e35",
+      "inputs": [
+        {
+          "name": "src",
+          "index": 0,
+          "dtype": "float32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ],
+          "format_match_mode": "FormatAgnostic"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "out",
+          "index": 0,
+          "dtype": "float32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ],
+          "format_match_mode": "FormatAgnostic"
+        }
+      ],
+      "attrs": [
+        {
+          "name": "channels",
+          "dtype": "int",
+          "value": 0
+        },
+        {
+          "name": "srcHeight",
+          "dtype": "int",
+          "value": 0
+        },
+        {
+          "name": "srcWidth",
+          "dtype": "int",
+          "value": 0
+        },
+        {
+          "name": "dstHeight",
+          "dtype": "int",
+          "value": 0
+        },
+        {
+          "name": "dstWidth",
+          "dtype": "int",
+          "value": 0
+        }
+      ],
+      "opMode": "dynamic",
+      "optionalInputMode": "gen_placeholder",
+      "deterministic": "ignore",
+      "optionalOutputMode": "gen_placeholder",
+      "binInfo": {
+        "jsonFilePath": "ascend310p/resize_nearest/ResizeNearest_ba3a0aa9e74b035c40e28f53b2cd9a26.json"
+      }
+    },
+    {
+      "implMode": "high_performance",
+      "int64Mode": false,
+      "simplifiedKeyMode": 0,
+      "simplifiedKey": [
+        "ResizeNearest/d=0,p=1/4,2/4,2",
+        "ResizeNearest/d=0,p=0/4,2/4,2",
+        "ResizeNearest/d=1,p=1/4,2/4,2",
+        "ResizeNearest/d=1,p=0/4,2/4,2"
+      ],
+      "staticKey": "6faaf92f2bda0723f60d2c2898503769ee54c3511128c4db0bd9c898bc69dbcc,684fb1562e4ad35ff9f64c5476bde2af9bc2a1d4fb087fd5addb45d7d40cce72",
+      "inputs": [
+        {
+          "name": "src",
+          "index": 0,
+          "dtype": "uint8",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ],
+          "format_match_mode": "FormatAgnostic"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "out",
+          "index": 0,
+          "dtype": "uint8",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ],
+          "format_match_mode": "FormatAgnostic"
+        }
+      ],
+      "attrs": [
+        {
+          "name": "channels",
+          "dtype": "int",
+          "value": 0
+        },
+        {
+          "name": "srcHeight",
+          "dtype": "int",
+          "value": 0
+        },
+        {
+          "name": "srcWidth",
+          "dtype": "int",
+          "value": 0
+        },
+        {
+          "name": "dstHeight",
+          "dtype": "int",
+          "value": 0
+        },
+        {
+          "name": "dstWidth",
+          "dtype": "int",
+          "value": 0
+        }
+      ],
+      "opMode": "dynamic",
+      "optionalInputMode": "gen_placeholder",
+      "deterministic": "ignore",
+      "optionalOutputMode": "gen_placeholder",
+      "binInfo": {
+        "jsonFilePath": "ascend310p/resize_nearest/ResizeNearest_c3ba8ba28bf6d2a3886abcd5a37e5368.json"
+      }
+    },
+    {
+      "implMode": "high_performance",
+      "int64Mode": false,
+      "simplifiedKeyMode": 0,
+      "simplifiedKey": [
+        "ResizeNearest/d=0,p=1/1,2/1,2",
+        "ResizeNearest/d=0,p=0/1,2/1,2",
+        "ResizeNearest/d=1,p=1/1,2/1,2",
+        "ResizeNearest/d=1,p=0/1,2/1,2"
+      ],
+      "staticKey": "cf1b1dabef7f302a418cd8ebb0f7d9e9e119923db0992af3b2835b6a8aa19c83,f013c5936332c504251bb6ad66564789db03a2dc4faf84243304d5a93260660c",
+      "inputs": [
+        {
+          "name": "src",
+          "index": 0,
+          "dtype": "float16",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ],
+          "format_match_mode": "FormatAgnostic"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "out",
+          "index": 0,
+          "dtype": "float16",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ],
+          "format_match_mode": "FormatAgnostic"
+        }
+      ],
+      "attrs": [
+        {
+          "name": "channels",
+          "dtype": "int",
+          "value": 0
+        },
+        {
+          "name": "srcHeight",
+          "dtype": "int",
+          "value": 0
+        },
+        {
+          "name": "srcWidth",
+          "dtype": "int",
+          "value": 0
+        },
+        {
+          "name": "dstHeight",
+          "dtype": "int",
+          "value": 0
+        },
+        {
+          "name": "dstWidth",
+          "dtype": "int",
+          "value": 0
+        }
+      ],
+      "opMode": "dynamic",
+      "optionalInputMode": "gen_placeholder",
+      "deterministic": "ignore",
+      "optionalOutputMode": "gen_placeholder",
+      "binInfo": {
+        "jsonFilePath": "ascend310p/resize_nearest/ResizeNearest_d1b4289054c24ad59e1f1bbd949fec1e.json"
+      }
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+ "binFileName": "ThresholdBinaryCustom_9af3f2ed99144ada73f7e3c8140937b1",
+ "binFileSuffix": ".o",
+ "blockDim": -1,
+ "coreType": "AiCore",
+ "globalworkspace_spec_workspace": {
+  "size": 32,
+  "type": 0
+ },
+ "kernelName": "ThresholdBinaryCustom_9af3f2ed99144ada73f7e3c8140937b1",
+ "magic": "RT_DEV_BINARY_MAGIC_ELF",
+ "memoryStamping": [],
+ "opParaSize": 24,
+ "parameters": [
+  null,
+  null,
+  null
+ ],
+ "sha256": "f46bb914a6aef0c78935e6ab67108c03528a86d718d0d3dd8f01bc712e4f0790",
+ "workspace": {
+  "num": 1,
+  "size": [
+   -1
+  ],
+  "type": [
+   0
+  ]
+ },
+ "kernelList": [
+  {
+   "kernelName": "ThresholdBinaryCustom_9af3f2ed99144ada73f7e3c8140937b1_1"
+  },
+  {
+   "kernelName": "ThresholdBinaryCustom_9af3f2ed99144ada73f7e3c8140937b1_2"
+  },
+  {
+   "kernelName": "ThresholdBinaryCustom_9af3f2ed99144ada73f7e3c8140937b1_3"
+  }
+ ],
+ "optionalInputMode": "gen_placeholder",
+ "optionalOutputMode": "gen_placeholder",
+ "compileInfo": {},
+ "supportInfo": {
+  "implMode": "high_performance",
+  "int64Mode": false,
+  "simplifiedKeyMode": 0,
+  "simplifiedKey": [
+   "ThresholdBinaryCustom/d=0,p=1/1,2/1,2",
+   "ThresholdBinaryCustom/d=0,p=0/1,2/1,2",
+   "ThresholdBinaryCustom/d=1,p=1/1,2/1,2",
+   "ThresholdBinaryCustom/d=1,p=0/1,2/1,2"
+  ],
+  "optionalInputMode": "gen_placeholder",
+  "optionalOutputMode": "gen_placeholder",
+  "staticKey": "562c3c6789e331f0d880e78d9da269ecf2424f9629b51b1fc7f2331dc8e66d01,1a1d5a38e77fa0a6e53276cea1745d6410429a1fb4f81f8dd3818898bf3c8776",
+  "inputs": [
+   {
+    "name": "x",
+    "index": 0,
+    "dtype": "float16",
+    "format": "ND",
+    "paramType": "required",
+    "shape": [
+     -2
+    ],
+    "format_match_mode": "FormatAgnostic"
+   }
+  ],
+  "outputs": [
+   {
+    "name": "z",
+    "index": 0,
+    "dtype": "float16",
+    "format": "ND",
+    "paramType": "required",
+    "shape": [
+     -2
+    ],
+    "format_match_mode": "FormatAgnostic"
+   }
+  ],
+  "attrs": [
+   {
+    "name": "thresh",
+    "dtype": "float",
+    "value": 0.0
+   },
+   {
+    "name": "maxVal",
+    "dtype": "float",
+    "value": 0.0
+   },
+   {
+    "name": "operation",
+    "dtype": "int",
+    "value": 0
+   }
+  ],
+  "opMode": "dynamic",
+  "deterministic": "ignore"
+ },
+ "filePath": "ascend310p/threshold_binary_custom/ThresholdBinaryCustom_9af3f2ed99144ada73f7e3c8140937b1.json"
+}

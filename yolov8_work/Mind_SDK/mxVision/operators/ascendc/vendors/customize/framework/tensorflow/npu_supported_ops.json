@@ -1,0 +1,94 @@
+{
+  "AbsCustom": {
+    "isGray": false,
+    "isHeavy": false
+  },
+  "AbsDiffCustom": {
+    "isGray": false,
+    "isHeavy": false
+  },
+  "AbsSumCustom": {
+    "isGray": false,
+    "isHeavy": false
+  },
+  "AddWeightedCustom": {
+    "isGray": false,
+    "isHeavy": false
+  },
+  "BlendImagesCustom": {
+    "isGray": false,
+    "isHeavy": false
+  },
+  "CompareCustom": {
+    "isGray": false,
+    "isHeavy": false
+  },
+  "DivideCustom": {
+    "isGray": false,
+    "isHeavy": false
+  },
+  "ErodeCustom": {
+    "isGray": false,
+    "isHeavy": false
+  },
+  "MaxCustom": {
+    "isGray": false,
+    "isHeavy": false
+  },
+  "MinCustom": {
+    "isGray": false,
+    "isHeavy": false
+  },
+  "MinMaxLoc": {
+    "isGray": false,
+    "isHeavy": false
+  },
+  "MultiplyCustom": {
+    "isGray": false,
+    "isHeavy": false
+  },
+  "PowCustom": {
+    "isGray": false,
+    "isHeavy": false
+  },
+  "RescaleCustom": {
+    "isGray": false,
+    "isHeavy": false
+  },
+  "ResizeBilinear": {
+    "isGray": false,
+    "isHeavy": false
+  },
+  "ResizeNearest": {
+    "isGray": false,
+    "isHeavy": false
+  },
+  "Rotate": {
+    "isGray": false,
+    "isHeavy": false
+  },
+  "ScaleAddCustom": {
+    "isGray": false,
+    "isHeavy": false
+  },
+  "SqrCustom": {
+    "isGray": false,
+    "isHeavy": false
+  },
+  "SqrSumCustom": {
+    "isGray": false,
+    "isHeavy": false
+  },
+  "SqrtCustom": {
+    "isGray": false,
+    "isHeavy": false
+  },
+  "SumCustom": {
+    "isGray": false,
+    "isHeavy": false
+  },
+  "ThresholdBinaryCustom": {
+    "isGray": false,
+    "isHeavy": false
+  }
+}

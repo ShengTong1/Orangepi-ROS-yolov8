@@ -1,0 +1,12 @@
+prefix=/usr1/opensource/opensource/opensource/tmp/protobuf
+exec_prefix=${prefix}
+libdir=/usr1/opensource/opensource/opensource/tmp/protobuf/lib
+includedir=/usr1/opensource/opensource/opensource/tmp/protobuf/include
+
+Name: absl_bad_any_cast
+Description: Abseil bad_any_cast library
+URL: https://abseil.io/
+Version: 20230802
+Requires: absl_bad_any_cast_impl = 20230802, absl_config = 20230802
+Libs: -L${libdir}  
+Cflags: -I${includedir} -DNOMINMAX

@@ -1,0 +1,86 @@
+{
+ "binFileName": "AbsSumCustom_3d13b3261c70d44564334081eb593893",
+ "binFileSuffix": ".o",
+ "blockDim": -1,
+ "coreType": "AiCore",
+ "globalworkspace_spec_workspace": {
+  "size": 32,
+  "type": 0
+ },
+ "kernelName": "AbsSumCustom_3d13b3261c70d44564334081eb593893",
+ "magic": "RT_DEV_BINARY_MAGIC_ELF",
+ "memoryStamping": [],
+ "opParaSize": 16,
+ "parameters": [
+  null,
+  null,
+  null
+ ],
+ "sha256": "3d86c1c4afe46d576ae6106e32fac133a5df172d528801468da6df3fb89ac379",
+ "workspace": {
+  "num": 1,
+  "size": [
+   -1
+  ],
+  "type": [
+   0
+  ]
+ },
+ "kernelList": [
+  {
+   "kernelName": "AbsSumCustom_3d13b3261c70d44564334081eb593893_1"
+  },
+  {
+   "kernelName": "AbsSumCustom_3d13b3261c70d44564334081eb593893_2"
+  },
+  {
+   "kernelName": "AbsSumCustom_3d13b3261c70d44564334081eb593893_3"
+  }
+ ],
+ "optionalInputMode": "gen_placeholder",
+ "optionalOutputMode": "gen_placeholder",
+ "compileInfo": {},
+ "supportInfo": {
+  "implMode": "high_performance",
+  "int64Mode": false,
+  "simplifiedKeyMode": 0,
+  "simplifiedKey": [
+   "AbsSumCustom/d=0,p=1/4,2/0,2",
+   "AbsSumCustom/d=0,p=0/4,2/0,2",
+   "AbsSumCustom/d=1,p=1/4,2/0,2",
+   "AbsSumCustom/d=1,p=0/4,2/0,2"
+  ],
+  "optionalInputMode": "gen_placeholder",
+  "optionalOutputMode": "gen_placeholder",
+  "staticKey": "49eff8c9a9709fe339ebc717a48a84e165953b65b27311fa2680bafde30944d4,6caa1b52b3b2221b4f097e21ca435afbce2dae60d65cd9f362318928bec043e0",
+  "inputs": [
+   {
+    "name": "x",
+    "index": 0,
+    "dtype": "uint8",
+    "format": "ND",
+    "paramType": "required",
+    "shape": [
+     -2
+    ],
+    "format_match_mode": "FormatAgnostic"
+   }
+  ],
+  "outputs": [
+   {
+    "name": "z",
+    "index": 0,
+    "dtype": "float32",
+    "format": "ND",
+    "paramType": "required",
+    "shape": [
+     -2
+    ],
+    "format_match_mode": "FormatAgnostic"
+   }
+  ],
+  "opMode": "dynamic",
+  "deterministic": "ignore"
+ },
+ "filePath": "ascend310p/abs_sum_custom/AbsSumCustom_3d13b3261c70d44564334081eb593893.json"
+}

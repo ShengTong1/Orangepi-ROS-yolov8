@@ -1,0 +1,17 @@
+prefix=/usr1/opensource/opensource/opensource/glib/../tmp/glib
+includedir=${prefix}/include
+libdir=${prefix}/lib
+
+bindir=${prefix}/bin
+datadir=${prefix}/share
+glib_genmarshal=${bindir}/glib-genmarshal
+gobject_query=${bindir}/gobject-query
+glib_mkenums=${bindir}/glib-mkenums
+glib_valgrind_suppressions=${datadir}/glib-2.0/valgrind/glib.supp
+
+Name: GLib
+Description: C Utility Library
+Version: 2.78.3
+Libs: -L${libdir} -lglib-2.0
+Libs.private: -lm /usr1/opensource/opensource/opensource/tmp/pcre2/lib/libpcre2-8.a -pthread
+Cflags: -I${includedir}/glib-2.0 -I${libdir}/glib-2.0/include

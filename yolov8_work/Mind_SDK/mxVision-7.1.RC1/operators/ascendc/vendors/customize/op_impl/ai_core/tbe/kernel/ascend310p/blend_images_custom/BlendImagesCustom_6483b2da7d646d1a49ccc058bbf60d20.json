@@ -1,0 +1,104 @@
+{
+ "binFileName": "BlendImagesCustom_6483b2da7d646d1a49ccc058bbf60d20",
+ "binFileSuffix": ".o",
+ "blockDim": -1,
+ "coreType": "AiCore",
+ "globalworkspace_spec_workspace": {
+  "size": 32,
+  "type": 0
+ },
+ "kernelName": "BlendImagesCustom_6483b2da7d646d1a49ccc058bbf60d20",
+ "magic": "RT_DEV_BINARY_MAGIC_ELF",
+ "memoryStamping": [],
+ "opParaSize": 16,
+ "parameters": [
+  null,
+  null,
+  null,
+  null,
+  null
+ ],
+ "sha256": "bf337a006b811abf24b1c34112c2548b5d134e0df4f5aff35c5a9d586cb54889",
+ "workspace": {
+  "num": 1,
+  "size": [
+   -1
+  ],
+  "type": [
+   0
+  ]
+ },
+ "kernelList": [
+  {
+   "kernelName": "BlendImagesCustom_6483b2da7d646d1a49ccc058bbf60d20_0"
+  }
+ ],
+ "optionalInputMode": "gen_placeholder",
+ "optionalOutputMode": "gen_placeholder",
+ "compileInfo": {},
+ "supportInfo": {
+  "implMode": "high_performance",
+  "int64Mode": false,
+  "simplifiedKeyMode": 0,
+  "simplifiedKey": [
+   "BlendImagesCustom/d=0,p=1/4,2/4,2/4,2/4,2",
+   "BlendImagesCustom/d=0,p=0/4,2/4,2/4,2/4,2",
+   "BlendImagesCustom/d=1,p=1/4,2/4,2/4,2/4,2",
+   "BlendImagesCustom/d=1,p=0/4,2/4,2/4,2/4,2"
+  ],
+  "optionalInputMode": "gen_placeholder",
+  "optionalOutputMode": "gen_placeholder",
+  "staticKey": "721890e33d54eb51556d96e024effd8d7ef953eb1ffb60a9501a1bf324b160c6,eb2c57478911b4c248f73a2db2bd40cd38a009368f9052448cf4c4f9c490f194",
+  "inputs": [
+   {
+    "name": "rgb",
+    "index": 0,
+    "dtype": "uint8",
+    "format": "ND",
+    "paramType": "required",
+    "shape": [
+     -2
+    ],
+    "format_match_mode": "FormatAgnostic"
+   },
+   {
+    "name": "alpha",
+    "index": 1,
+    "dtype": "uint8",
+    "format": "ND",
+    "paramType": "required",
+    "shape": [
+     -2
+    ],
+    "format_match_mode": "FormatAgnostic"
+   },
+   {
+    "name": "frame",
+    "index": 2,
+    "dtype": "uint8",
+    "format": "ND",
+    "paramType": "required",
+    "shape": [
+     -2
+    ],
+    "format_match_mode": "FormatAgnostic"
+   }
+  ],
+  "outputs": [
+   {
+    "name": "out",
+    "index": 0,
+    "dtype": "uint8",
+    "format": "ND",
+    "paramType": "required",
+    "shape": [
+     -2
+    ],
+    "format_match_mode": "FormatAgnostic"
+   }
+  ],
+  "opMode": "dynamic",
+  "deterministic": "ignore"
+ },
+ "filePath": "ascend310p/blend_images_custom/BlendImagesCustom_6483b2da7d646d1a49ccc058bbf60d20.json"
+}

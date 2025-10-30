@@ -1,0 +1,86 @@
+{
+ "binFileName": "SqrCustom_71872f6d06ba828c989b01628e083a00",
+ "binFileSuffix": ".o",
+ "blockDim": -1,
+ "coreType": "AiCore",
+ "globalworkspace_spec_workspace": {
+  "size": 32,
+  "type": 0
+ },
+ "kernelName": "SqrCustom_71872f6d06ba828c989b01628e083a00",
+ "magic": "RT_DEV_BINARY_MAGIC_ELF",
+ "memoryStamping": [],
+ "opParaSize": 16,
+ "parameters": [
+  null,
+  null,
+  null
+ ],
+ "sha256": "476d9327f374e7b57d1da42d58cf1ef80dbc4244500015c49850a018945f0f50",
+ "workspace": {
+  "num": 1,
+  "size": [
+   -1
+  ],
+  "type": [
+   0
+  ]
+ },
+ "kernelList": [
+  {
+   "kernelName": "SqrCustom_71872f6d06ba828c989b01628e083a00_1"
+  },
+  {
+   "kernelName": "SqrCustom_71872f6d06ba828c989b01628e083a00_2"
+  },
+  {
+   "kernelName": "SqrCustom_71872f6d06ba828c989b01628e083a00_3"
+  }
+ ],
+ "optionalInputMode": "gen_placeholder",
+ "optionalOutputMode": "gen_placeholder",
+ "compileInfo": {},
+ "supportInfo": {
+  "implMode": "high_performance",
+  "int64Mode": false,
+  "simplifiedKeyMode": 0,
+  "simplifiedKey": [
+   "SqrCustom/d=0,p=1/4,2/4,2",
+   "SqrCustom/d=0,p=0/4,2/4,2",
+   "SqrCustom/d=1,p=1/4,2/4,2",
+   "SqrCustom/d=1,p=0/4,2/4,2"
+  ],
+  "optionalInputMode": "gen_placeholder",
+  "optionalOutputMode": "gen_placeholder",
+  "staticKey": "7c4df8d0df0fa5bebd598dfabfafeeeb6156217173ba591cc445ccb8c52d20ab,69168e29abce8ddaffbdf0e7fa9d56376885055fa66985b62575592e4e344eba",
+  "inputs": [
+   {
+    "name": "x",
+    "index": 0,
+    "dtype": "uint8",
+    "format": "ND",
+    "paramType": "required",
+    "shape": [
+     -2
+    ],
+    "format_match_mode": "FormatAgnostic"
+   }
+  ],
+  "outputs": [
+   {
+    "name": "z",
+    "index": 0,
+    "dtype": "uint8",
+    "format": "ND",
+    "paramType": "required",
+    "shape": [
+     -2
+    ],
+    "format_match_mode": "FormatAgnostic"
+   }
+  ],
+  "opMode": "dynamic",
+  "deterministic": "ignore"
+ },
+ "filePath": "ascend310p/sqr_custom/SqrCustom_71872f6d06ba828c989b01628e083a00.json"
+}

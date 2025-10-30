@@ -1,0 +1,12 @@
+prefix=/usr1/opensource/opensource/opensource/tmp/protobuf
+exec_prefix=${prefix}
+libdir=/usr1/opensource/opensource/opensource/tmp/protobuf/lib
+includedir=/usr1/opensource/opensource/opensource/tmp/protobuf/include
+
+Name: absl_cordz_update_scope
+Description: Abseil cordz_update_scope library
+URL: https://abseil.io/
+Version: 20230802
+Requires: absl_config = 20230802, absl_cord_internal = 20230802, absl_cordz_info = 20230802, absl_cordz_update_tracker = 20230802, absl_core_headers = 20230802
+Libs: -L${libdir}  
+Cflags: -I${includedir} -DNOMINMAX

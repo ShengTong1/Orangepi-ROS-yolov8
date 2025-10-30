@@ -1,0 +1,123 @@
+{
+ "binFileName": "DivideCustom_84896f26fb4ba3a7ec93b6a770ee05cd",
+ "binFileSuffix": ".o",
+ "blockDim": -1,
+ "coreType": "AiCore",
+ "globalworkspace_spec_workspace": {
+  "size": 32,
+  "type": 0
+ },
+ "kernelName": "DivideCustom_84896f26fb4ba3a7ec93b6a770ee05cd",
+ "magic": "RT_DEV_BINARY_MAGIC_ELF",
+ "memoryStamping": [],
+ "opParaSize": 16,
+ "parameters": [
+  null,
+  null,
+  null,
+  null
+ ],
+ "sha256": "a339ce5d0973ac532613d7d78a9a4504557b75f5947135f3d09f18672f3d8a15",
+ "workspace": {
+  "num": 1,
+  "size": [
+   -1
+  ],
+  "type": [
+   0
+  ]
+ },
+ "kernelList": [
+  {
+   "kernelName": "DivideCustom_84896f26fb4ba3a7ec93b6a770ee05cd_1"
+  },
+  {
+   "kernelName": "DivideCustom_84896f26fb4ba3a7ec93b6a770ee05cd_2"
+  },
+  {
+   "kernelName": "DivideCustom_84896f26fb4ba3a7ec93b6a770ee05cd_3"
+  },
+  {
+   "kernelName": "DivideCustom_84896f26fb4ba3a7ec93b6a770ee05cd_4"
+  },
+  {
+   "kernelName": "DivideCustom_84896f26fb4ba3a7ec93b6a770ee05cd_5"
+  },
+  {
+   "kernelName": "DivideCustom_84896f26fb4ba3a7ec93b6a770ee05cd_6"
+  },
+  {
+   "kernelName": "DivideCustom_84896f26fb4ba3a7ec93b6a770ee05cd_7"
+  },
+  {
+   "kernelName": "DivideCustom_84896f26fb4ba3a7ec93b6a770ee05cd_8"
+  },
+  {
+   "kernelName": "DivideCustom_84896f26fb4ba3a7ec93b6a770ee05cd_9"
+  }
+ ],
+ "optionalInputMode": "gen_placeholder",
+ "optionalOutputMode": "gen_placeholder",
+ "compileInfo": {},
+ "supportInfo": {
+  "implMode": "high_performance",
+  "int64Mode": false,
+  "simplifiedKeyMode": 0,
+  "simplifiedKey": [
+   "DivideCustom/d=0,p=1/4,2/0,2/0,2",
+   "DivideCustom/d=0,p=0/4,2/0,2/0,2",
+   "DivideCustom/d=1,p=1/4,2/0,2/0,2",
+   "DivideCustom/d=1,p=0/4,2/0,2/0,2"
+  ],
+  "optionalInputMode": "gen_placeholder",
+  "optionalOutputMode": "gen_placeholder",
+  "staticKey": "2d40bebe2e29ce3810ecb61b1acc98ec7a8cc64b8bf40431bb1d81461c501247,a6ebf89bff78e733033a544b75c3dd48169b4cee7cb0f510d7932f333d9043a3",
+  "inputs": [
+   {
+    "name": "x",
+    "index": 0,
+    "dtype": "uint8",
+    "format": "ND",
+    "paramType": "required",
+    "shape": [
+     -2
+    ],
+    "format_match_mode": "FormatAgnostic"
+   },
+   {
+    "name": "y",
+    "index": 1,
+    "dtype": "float32",
+    "format": "ND",
+    "paramType": "required",
+    "shape": [
+     -2
+    ],
+    "format_match_mode": "FormatAgnostic"
+   }
+  ],
+  "outputs": [
+   {
+    "name": "z",
+    "index": 0,
+    "dtype": "float32",
+    "format": "ND",
+    "paramType": "required",
+    "shape": [
+     -2
+    ],
+    "format_match_mode": "FormatAgnostic"
+   }
+  ],
+  "attrs": [
+   {
+    "name": "scale",
+    "dtype": "float",
+    "value": 0.0
+   }
+  ],
+  "opMode": "dynamic",
+  "deterministic": "ignore"
+ },
+ "filePath": "ascend310p/divide_custom/DivideCustom_84896f26fb4ba3a7ec93b6a770ee05cd.json"
+}

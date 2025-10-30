@@ -1,0 +1,98 @@
+{
+ "binFileName": "RescaleCustom_a64c68f2ca8478912ec6a1c2bfa48561",
+ "binFileSuffix": ".o",
+ "blockDim": -1,
+ "coreType": "AiCore",
+ "globalworkspace_spec_workspace": {
+  "size": 32,
+  "type": 0
+ },
+ "kernelName": "RescaleCustom_a64c68f2ca8478912ec6a1c2bfa48561",
+ "magic": "RT_DEV_BINARY_MAGIC_ELF",
+ "memoryStamping": [],
+ "opParaSize": 24,
+ "parameters": [
+  null,
+  null,
+  null
+ ],
+ "sha256": "54c9f0dc60ce5e66d9b67d454a5dfa76b669880a8118506fdfd484878ed2ef6a",
+ "workspace": {
+  "num": 1,
+  "size": [
+   -1
+  ],
+  "type": [
+   0
+  ]
+ },
+ "kernelList": [
+  {
+   "kernelName": "RescaleCustom_a64c68f2ca8478912ec6a1c2bfa48561_1"
+  },
+  {
+   "kernelName": "RescaleCustom_a64c68f2ca8478912ec6a1c2bfa48561_2"
+  },
+  {
+   "kernelName": "RescaleCustom_a64c68f2ca8478912ec6a1c2bfa48561_3"
+  }
+ ],
+ "optionalInputMode": "gen_placeholder",
+ "optionalOutputMode": "gen_placeholder",
+ "compileInfo": {},
+ "supportInfo": {
+  "implMode": "high_performance",
+  "int64Mode": false,
+  "simplifiedKeyMode": 0,
+  "simplifiedKey": [
+   "RescaleCustom/d=0,p=1/1,2/1,2",
+   "RescaleCustom/d=0,p=0/1,2/1,2",
+   "RescaleCustom/d=1,p=1/1,2/1,2",
+   "RescaleCustom/d=1,p=0/1,2/1,2"
+  ],
+  "optionalInputMode": "gen_placeholder",
+  "optionalOutputMode": "gen_placeholder",
+  "staticKey": "addd200e7cb0cc764048893258fc33b9fc71185d727ee2a8054670586565960f,9017f05c9d2c08fe1324b3e2e0a0bc83c5709e86aa98f344d955310f96b4ada8",
+  "inputs": [
+   {
+    "name": "x",
+    "index": 0,
+    "dtype": "float16",
+    "format": "ND",
+    "paramType": "required",
+    "shape": [
+     -2
+    ],
+    "format_match_mode": "FormatAgnostic"
+   }
+  ],
+  "outputs": [
+   {
+    "name": "z",
+    "index": 0,
+    "dtype": "float16",
+    "format": "ND",
+    "paramType": "required",
+    "shape": [
+     -2
+    ],
+    "format_match_mode": "FormatAgnostic"
+   }
+  ],
+  "attrs": [
+   {
+    "name": "scale",
+    "dtype": "float",
+    "value": 0.0
+   },
+   {
+    "name": "bias",
+    "dtype": "float",
+    "value": 0.0
+   }
+  ],
+  "opMode": "dynamic",
+  "deterministic": "ignore"
+ },
+ "filePath": "ascend310p/rescale_custom/RescaleCustom_a64c68f2ca8478912ec6a1c2bfa48561.json"
+}

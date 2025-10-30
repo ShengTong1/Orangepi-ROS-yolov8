@@ -1,0 +1,10 @@
+prefix=/usr1/opensource/opensource/opensource/tmp/protobuf
+exec_prefix=/usr1/opensource/opensource/opensource/tmp/protobuf
+libdir=/usr1/opensource/opensource/opensource/tmp/protobuf/lib
+includedir=/usr1/opensource/opensource/opensource/tmp/protobuf/include
+
+Name: Protocol Buffers
+Description: Google's Data Interchange Format
+Version: 29.4.0
+Libs: -L${libdir} -lupb -pthread
+Cflags: -I${includedir}

@@ -1,0 +1,110 @@
+{
+ "binFileName": "ResizeBilinear_ca26dd635e9162a34c7c9f8b09163cbb",
+ "binFileSuffix": ".o",
+ "blockDim": -1,
+ "coreType": "AiCore",
+ "globalworkspace_spec_workspace": {
+  "size": 32,
+  "type": 0
+ },
+ "kernelName": "ResizeBilinear_ca26dd635e9162a34c7c9f8b09163cbb",
+ "magic": "RT_DEV_BINARY_MAGIC_ELF",
+ "memoryStamping": [],
+ "opParaSize": 48,
+ "parameters": [
+  null,
+  null,
+  null
+ ],
+ "sha256": "35604866892cfb5967edcae082b16da8bfd30e82e20ea376578ad3e8332a0759",
+ "workspace": {
+  "num": 1,
+  "size": [
+   -1
+  ],
+  "type": [
+   0
+  ]
+ },
+ "kernelList": [
+  {
+   "kernelName": "ResizeBilinear_ca26dd635e9162a34c7c9f8b09163cbb_1"
+  },
+  {
+   "kernelName": "ResizeBilinear_ca26dd635e9162a34c7c9f8b09163cbb_2"
+  }
+ ],
+ "optionalInputMode": "gen_placeholder",
+ "optionalOutputMode": "gen_placeholder",
+ "compileInfo": {},
+ "supportInfo": {
+  "implMode": "high_performance",
+  "int64Mode": false,
+  "simplifiedKeyMode": 0,
+  "simplifiedKey": [
+   "ResizeBilinear/d=0,p=1/4,2/4,2",
+   "ResizeBilinear/d=0,p=0/4,2/4,2",
+   "ResizeBilinear/d=1,p=1/4,2/4,2",
+   "ResizeBilinear/d=1,p=0/4,2/4,2"
+  ],
+  "optionalInputMode": "gen_placeholder",
+  "optionalOutputMode": "gen_placeholder",
+  "staticKey": "6faaf92f2bda0723f60d2c2898503769ee54c3511128c4db0bd9c898bc69dbcc,684fb1562e4ad35ff9f64c5476bde2af9bc2a1d4fb087fd5addb45d7d40cce72",
+  "inputs": [
+   {
+    "name": "src",
+    "index": 0,
+    "dtype": "uint8",
+    "format": "ND",
+    "paramType": "required",
+    "shape": [
+     -2
+    ],
+    "format_match_mode": "FormatAgnostic"
+   }
+  ],
+  "outputs": [
+   {
+    "name": "out",
+    "index": 0,
+    "dtype": "uint8",
+    "format": "ND",
+    "paramType": "required",
+    "shape": [
+     -2
+    ],
+    "format_match_mode": "FormatAgnostic"
+   }
+  ],
+  "attrs": [
+   {
+    "name": "channels",
+    "dtype": "int",
+    "value": 0
+   },
+   {
+    "name": "srcHeight",
+    "dtype": "int",
+    "value": 0
+   },
+   {
+    "name": "srcWidth",
+    "dtype": "int",
+    "value": 0
+   },
+   {
+    "name": "dstHeight",
+    "dtype": "int",
+    "value": 0
+   },
+   {
+    "name": "dstWidth",
+    "dtype": "int",
+    "value": 0
+   }
+  ],
+  "opMode": "dynamic",
+  "deterministic": "ignore"
+ },
+ "filePath": "ascend310p/resize_bilinear/ResizeBilinear_ca26dd635e9162a34c7c9f8b09163cbb.json"
+}

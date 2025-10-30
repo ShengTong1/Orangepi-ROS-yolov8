@@ -1,0 +1,98 @@
+{
+ "binFileName": "AbsDiffCustom_f275936d1a6258036b08a937ad48038a",
+ "binFileSuffix": ".o",
+ "blockDim": -1,
+ "coreType": "AiCore",
+ "globalworkspace_spec_workspace": {
+  "size": 32,
+  "type": 0
+ },
+ "kernelName": "AbsDiffCustom_f275936d1a6258036b08a937ad48038a",
+ "magic": "RT_DEV_BINARY_MAGIC_ELF",
+ "memoryStamping": [],
+ "opParaSize": 16,
+ "parameters": [
+  null,
+  null,
+  null,
+  null
+ ],
+ "sha256": "d48e7cb08e60d11eb7f5732acaf541d75e351b59eef24914dccfb5805ade4cc9",
+ "workspace": {
+  "num": 1,
+  "size": [
+   -1
+  ],
+  "type": [
+   0
+  ]
+ },
+ "kernelList": [
+  {
+   "kernelName": "AbsDiffCustom_f275936d1a6258036b08a937ad48038a_1"
+  },
+  {
+   "kernelName": "AbsDiffCustom_f275936d1a6258036b08a937ad48038a_2"
+  },
+  {
+   "kernelName": "AbsDiffCustom_f275936d1a6258036b08a937ad48038a_3"
+  }
+ ],
+ "optionalInputMode": "gen_placeholder",
+ "optionalOutputMode": "gen_placeholder",
+ "compileInfo": {},
+ "supportInfo": {
+  "implMode": "high_performance",
+  "int64Mode": false,
+  "simplifiedKeyMode": 0,
+  "simplifiedKey": [
+   "AbsDiffCustom/d=0,p=1/4,2/4,2/4,2",
+   "AbsDiffCustom/d=0,p=0/4,2/4,2/4,2",
+   "AbsDiffCustom/d=1,p=1/4,2/4,2/4,2",
+   "AbsDiffCustom/d=1,p=0/4,2/4,2/4,2"
+  ],
+  "optionalInputMode": "gen_placeholder",
+  "optionalOutputMode": "gen_placeholder",
+  "staticKey": "468d962c5fa68b6e0e2df00e5d2cc4e9fe3b2e1b185d593c52af258383edda83,6c247a7bffb132f6e074e49f53edb6a347b263e0d27abf81b42e1204b913297b",
+  "inputs": [
+   {
+    "name": "x",
+    "index": 0,
+    "dtype": "uint8",
+    "format": "ND",
+    "paramType": "required",
+    "shape": [
+     -2
+    ],
+    "format_match_mode": "FormatAgnostic"
+   },
+   {
+    "name": "y",
+    "index": 1,
+    "dtype": "uint8",
+    "format": "ND",
+    "paramType": "required",
+    "shape": [
+     -2
+    ],
+    "format_match_mode": "FormatAgnostic"
+   }
+  ],
+  "outputs": [
+   {
+    "name": "z",
+    "index": 0,
+    "dtype": "uint8",
+    "format": "ND",
+    "paramType": "required",
+    "shape": [
+     -2
+    ],
+    "format_match_mode": "FormatAgnostic"
+   }
+  ],
+  "opMode": "dynamic",
+  "deterministic": "ignore"
+ },
+ "filePath": "ascend310p/abs_diff_custom/AbsDiffCustom_f275936d1a6258036b08a937ad48038a.json"
+}

@@ -1,0 +1,571 @@
+{
+  "binList": [
+    {
+      "implMode": "high_performance",
+      "int64Mode": false,
+      "simplifiedKeyMode": 0,
+      "simplifiedKey": [
+        "MultiplyCustom/d=0,p=1/1,2/1,2/1,2",
+        "MultiplyCustom/d=0,p=0/1,2/1,2/1,2",
+        "MultiplyCustom/d=1,p=1/1,2/1,2/1,2",
+        "MultiplyCustom/d=1,p=0/1,2/1,2/1,2"
+      ],
+      "staticKey": "6b29e7b663f7b6a32f5bdc9a82dab320e7eb747df4a4a17ec45cf2cb31c1b8b8,15d8ec37a346c693469692c69da1d6c8b538710121097569fcebf3e472b12707",
+      "inputs": [
+        {
+          "name": "x1",
+          "index": 0,
+          "dtype": "float16",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ],
+          "format_match_mode": "FormatAgnostic"
+        },
+        {
+          "name": "x2",
+          "index": 1,
+          "dtype": "float16",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ],
+          "format_match_mode": "FormatAgnostic"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "y",
+          "index": 0,
+          "dtype": "float16",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ],
+          "format_match_mode": "FormatAgnostic"
+        }
+      ],
+      "attrs": [
+        {
+          "name": "scale",
+          "dtype": "float",
+          "value": 0.0
+        }
+      ],
+      "opMode": "dynamic",
+      "optionalInputMode": "gen_placeholder",
+      "deterministic": "ignore",
+      "optionalOutputMode": "gen_placeholder",
+      "binInfo": {
+        "jsonFilePath": "ascend310p/multiply_custom/MultiplyCustom_05a88a4624623a73f9e6e886873ff329.json"
+      }
+    },
+    {
+      "implMode": "high_performance",
+      "int64Mode": false,
+      "simplifiedKeyMode": 0,
+      "simplifiedKey": [
+        "MultiplyCustom/d=0,p=1/4,2/4,2/4,2",
+        "MultiplyCustom/d=0,p=0/4,2/4,2/4,2",
+        "MultiplyCustom/d=1,p=1/4,2/4,2/4,2",
+        "MultiplyCustom/d=1,p=0/4,2/4,2/4,2"
+      ],
+      "staticKey": "777b6139637ebfb80736d6cdb3582969b50b064277d3a6121319221b1d2f2284,3ffe5a6bd245024f63a3b2e8d0b2b5080d9394fd470009013be88fa0fbaec1cd",
+      "inputs": [
+        {
+          "name": "x1",
+          "index": 0,
+          "dtype": "uint8",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ],
+          "format_match_mode": "FormatAgnostic"
+        },
+        {
+          "name": "x2",
+          "index": 1,
+          "dtype": "uint8",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ],
+          "format_match_mode": "FormatAgnostic"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "y",
+          "index": 0,
+          "dtype": "uint8",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ],
+          "format_match_mode": "FormatAgnostic"
+        }
+      ],
+      "attrs": [
+        {
+          "name": "scale",
+          "dtype": "float",
+          "value": 0.0
+        }
+      ],
+      "opMode": "dynamic",
+      "optionalInputMode": "gen_placeholder",
+      "deterministic": "ignore",
+      "optionalOutputMode": "gen_placeholder",
+      "binInfo": {
+        "jsonFilePath": "ascend310p/multiply_custom/MultiplyCustom_0ee489f2c345a02cfeef88397b5a4c3d.json"
+      }
+    },
+    {
+      "implMode": "high_performance",
+      "int64Mode": false,
+      "simplifiedKeyMode": 0,
+      "simplifiedKey": [
+        "MultiplyCustom/d=0,p=1/0,2/0,2/0,2",
+        "MultiplyCustom/d=0,p=0/0,2/0,2/0,2",
+        "MultiplyCustom/d=1,p=1/0,2/0,2/0,2",
+        "MultiplyCustom/d=1,p=0/0,2/0,2/0,2"
+      ],
+      "staticKey": "5aacbf5c669e50b0cdaf51137a12b23cd521ea2e91d60aa997cfe43e0a0be9fc,f126c0ee3057ec4def2e340d56e977006e1e3b098c666baace8fe5750ac89dc3",
+      "inputs": [
+        {
+          "name": "x1",
+          "index": 0,
+          "dtype": "float32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ],
+          "format_match_mode": "FormatAgnostic"
+        },
+        {
+          "name": "x2",
+          "index": 1,
+          "dtype": "float32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ],
+          "format_match_mode": "FormatAgnostic"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "y",
+          "index": 0,
+          "dtype": "float32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ],
+          "format_match_mode": "FormatAgnostic"
+        }
+      ],
+      "attrs": [
+        {
+          "name": "scale",
+          "dtype": "float",
+          "value": 0.0
+        }
+      ],
+      "opMode": "dynamic",
+      "optionalInputMode": "gen_placeholder",
+      "deterministic": "ignore",
+      "optionalOutputMode": "gen_placeholder",
+      "binInfo": {
+        "jsonFilePath": "ascend310p/multiply_custom/MultiplyCustom_17e02c2ef55c1c4597683efed39d8390.json"
+      }
+    },
+    {
+      "implMode": "high_performance",
+      "int64Mode": false,
+      "simplifiedKeyMode": 0,
+      "simplifiedKey": [
+        "MultiplyCustom/d=0,p=1/1,2/4,2/1,2",
+        "MultiplyCustom/d=0,p=0/1,2/4,2/1,2",
+        "MultiplyCustom/d=1,p=1/1,2/4,2/1,2",
+        "MultiplyCustom/d=1,p=0/1,2/4,2/1,2"
+      ],
+      "staticKey": "47ae70f6fdf82a769f1fed76dd524fd0a9911b44aa71a8b0501739b2158e0b0e,34c590503c12e8604dc0c438b96ced76361b43d2bbf1110ff1c50c4896f39d33",
+      "inputs": [
+        {
+          "name": "x1",
+          "index": 0,
+          "dtype": "float16",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ],
+          "format_match_mode": "FormatAgnostic"
+        },
+        {
+          "name": "x2",
+          "index": 1,
+          "dtype": "uint8",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ],
+          "format_match_mode": "FormatAgnostic"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "y",
+          "index": 0,
+          "dtype": "float16",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ],
+          "format_match_mode": "FormatAgnostic"
+        }
+      ],
+      "attrs": [
+        {
+          "name": "scale",
+          "dtype": "float",
+          "value": 0.0
+        }
+      ],
+      "opMode": "dynamic",
+      "optionalInputMode": "gen_placeholder",
+      "deterministic": "ignore",
+      "optionalOutputMode": "gen_placeholder",
+      "binInfo": {
+        "jsonFilePath": "ascend310p/multiply_custom/MultiplyCustom_30557c096e8e5ed7ff7f45bdc5b6c915.json"
+      }
+    },
+    {
+      "implMode": "high_performance",
+      "int64Mode": false,
+      "simplifiedKeyMode": 0,
+      "simplifiedKey": [
+        "MultiplyCustom/d=0,p=1/4,2/0,2/0,2",
+        "MultiplyCustom/d=0,p=0/4,2/0,2/0,2",
+        "MultiplyCustom/d=1,p=1/4,2/0,2/0,2",
+        "MultiplyCustom/d=1,p=0/4,2/0,2/0,2"
+      ],
+      "staticKey": "2d40bebe2e29ce3810ecb61b1acc98ec7a8cc64b8bf40431bb1d81461c501247,a6ebf89bff78e733033a544b75c3dd48169b4cee7cb0f510d7932f333d9043a3",
+      "inputs": [
+        {
+          "name": "x1",
+          "index": 0,
+          "dtype": "uint8",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ],
+          "format_match_mode": "FormatAgnostic"
+        },
+        {
+          "name": "x2",
+          "index": 1,
+          "dtype": "float32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ],
+          "format_match_mode": "FormatAgnostic"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "y",
+          "index": 0,
+          "dtype": "float32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ],
+          "format_match_mode": "FormatAgnostic"
+        }
+      ],
+      "attrs": [
+        {
+          "name": "scale",
+          "dtype": "float",
+          "value": 0.0
+        }
+      ],
+      "opMode": "dynamic",
+      "optionalInputMode": "gen_placeholder",
+      "deterministic": "ignore",
+      "optionalOutputMode": "gen_placeholder",
+      "binInfo": {
+        "jsonFilePath": "ascend310p/multiply_custom/MultiplyCustom_316e7d0a9c73cf12ae47c32da7d3a78c.json"
+      }
+    },
+    {
+      "implMode": "high_performance",
+      "int64Mode": false,
+      "simplifiedKeyMode": 0,
+      "simplifiedKey": [
+        "MultiplyCustom/d=0,p=1/1,2/0,2/0,2",
+        "MultiplyCustom/d=0,p=0/1,2/0,2/0,2",
+        "MultiplyCustom/d=1,p=1/1,2/0,2/0,2",
+        "MultiplyCustom/d=1,p=0/1,2/0,2/0,2"
+      ],
+      "staticKey": "39c7fd0ad89ccb652556c5657dc9cd5c51c6e9413972eea3794fce0d6852668c,fca798e39db37d6981bfdf3124d27e8fc2fe0689e7d56b2c36bc39379de6c16b",
+      "inputs": [
+        {
+          "name": "x1",
+          "index": 0,
+          "dtype": "float16",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ],
+          "format_match_mode": "FormatAgnostic"
+        },
+        {
+          "name": "x2",
+          "index": 1,
+          "dtype": "float32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ],
+          "format_match_mode": "FormatAgnostic"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "y",
+          "index": 0,
+          "dtype": "float32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ],
+          "format_match_mode": "FormatAgnostic"
+        }
+      ],
+      "attrs": [
+        {
+          "name": "scale",
+          "dtype": "float",
+          "value": 0.0
+        }
+      ],
+      "opMode": "dynamic",
+      "optionalInputMode": "gen_placeholder",
+      "deterministic": "ignore",
+      "optionalOutputMode": "gen_placeholder",
+      "binInfo": {
+        "jsonFilePath": "ascend310p/multiply_custom/MultiplyCustom_9d760ed2a2981add0f638dc6435c0193.json"
+      }
+    },
+    {
+      "implMode": "high_performance",
+      "int64Mode": false,
+      "simplifiedKeyMode": 0,
+      "simplifiedKey": [
+        "MultiplyCustom/d=0,p=1/4,2/1,2/1,2",
+        "MultiplyCustom/d=0,p=0/4,2/1,2/1,2",
+        "MultiplyCustom/d=1,p=1/4,2/1,2/1,2",
+        "MultiplyCustom/d=1,p=0/4,2/1,2/1,2"
+      ],
+      "staticKey": "6e89f4308b0f8c229b40aaac60d71713372ba43ae65709d6e9ffff42edefbf66,471d6570a5bc8bec461fee234ca448a818926fa2cb3c015a256fa845adf1531d",
+      "inputs": [
+        {
+          "name": "x1",
+          "index": 0,
+          "dtype": "uint8",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ],
+          "format_match_mode": "FormatAgnostic"
+        },
+        {
+          "name": "x2",
+          "index": 1,
+          "dtype": "float16",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ],
+          "format_match_mode": "FormatAgnostic"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "y",
+          "index": 0,
+          "dtype": "float16",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ],
+          "format_match_mode": "FormatAgnostic"
+        }
+      ],
+      "attrs": [
+        {
+          "name": "scale",
+          "dtype": "float",
+          "value": 0.0
+        }
+      ],
+      "opMode": "dynamic",
+      "optionalInputMode": "gen_placeholder",
+      "deterministic": "ignore",
+      "optionalOutputMode": "gen_placeholder",
+      "binInfo": {
+        "jsonFilePath": "ascend310p/multiply_custom/MultiplyCustom_b26eb04e8645a9ad9348a2f94993b20e.json"
+      }
+    },
+    {
+      "implMode": "high_performance",
+      "int64Mode": false,
+      "simplifiedKeyMode": 0,
+      "simplifiedKey": [
+        "MultiplyCustom/d=0,p=1/0,2/4,2/0,2",
+        "MultiplyCustom/d=0,p=0/0,2/4,2/0,2",
+        "MultiplyCustom/d=1,p=1/0,2/4,2/0,2",
+        "MultiplyCustom/d=1,p=0/0,2/4,2/0,2"
+      ],
+      "staticKey": "aa3ec028357c20eeea32349301fc376ec53775e84546f8f5e30b4a78f8b89497,eabca5df3071c52dd9212204af69044172c696b93891293745c429140c2d274b",
+      "inputs": [
+        {
+          "name": "x1",
+          "index": 0,
+          "dtype": "float32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ],
+          "format_match_mode": "FormatAgnostic"
+        },
+        {
+          "name": "x2",
+          "index": 1,
+          "dtype": "uint8",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ],
+          "format_match_mode": "FormatAgnostic"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "y",
+          "index": 0,
+          "dtype": "float32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ],
+          "format_match_mode": "FormatAgnostic"
+        }
+      ],
+      "attrs": [
+        {
+          "name": "scale",
+          "dtype": "float",
+          "value": 0.0
+        }
+      ],
+      "opMode": "dynamic",
+      "optionalInputMode": "gen_placeholder",
+      "deterministic": "ignore",
+      "optionalOutputMode": "gen_placeholder",
+      "binInfo": {
+        "jsonFilePath": "ascend310p/multiply_custom/MultiplyCustom_d098c5134776fe55752959d9b1141a79.json"
+      }
+    },
+    {
+      "implMode": "high_performance",
+      "int64Mode": false,
+      "simplifiedKeyMode": 0,
+      "simplifiedKey": [
+        "MultiplyCustom/d=0,p=1/0,2/1,2/0,2",
+        "MultiplyCustom/d=0,p=0/0,2/1,2/0,2",
+        "MultiplyCustom/d=1,p=1/0,2/1,2/0,2",
+        "MultiplyCustom/d=1,p=0/0,2/1,2/0,2"
+      ],
+      "staticKey": "fcc4114879a70b075ec3df0246b1c940f4781b916574beeb05a64284fba81845,599559758428d752ba161bd7b501d3e472c316ac8c4ff869e71cb28ea22b0173",
+      "inputs": [
+        {
+          "name": "x1",
+          "index": 0,
+          "dtype": "float32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ],
+          "format_match_mode": "FormatAgnostic"
+        },
+        {
+          "name": "x2",
+          "index": 1,
+          "dtype": "float16",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ],
+          "format_match_mode": "FormatAgnostic"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "y",
+          "index": 0,
+          "dtype": "float32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ],
+          "format_match_mode": "FormatAgnostic"
+        }
+      ],
+      "attrs": [
+        {
+          "name": "scale",
+          "dtype": "float",
+          "value": 0.0
+        }
+      ],
+      "opMode": "dynamic",
+      "optionalInputMode": "gen_placeholder",
+      "deterministic": "ignore",
+      "optionalOutputMode": "gen_placeholder",
+      "binInfo": {
+        "jsonFilePath": "ascend310p/multiply_custom/MultiplyCustom_ff366d1af87a5796143c1680aa9f61bc.json"
+      }
+    }
+  ]
+}

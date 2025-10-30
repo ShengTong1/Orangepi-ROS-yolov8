@@ -1,0 +1,9 @@
+
+path: D:\yolov8\番茄叶片病虫检测数据集\43-yolov5-fanqieye\datasets\tomato_defect
+train: train
+val: val
+test: test
+
+nc: 9
+names: ['Early Blight', 'Healthy', 'Late Blight', 'Leaf Miner', 'Leaf Mold', 'Mosaic Virus', 'Septoria', 'Spider Mites', 'Yellow Leaf Curl Virus']
+

@@ -1,0 +1,139 @@
+{
+  "binList": [
+    {
+      "implMode": "high_performance",
+      "int64Mode": false,
+      "simplifiedKeyMode": 0,
+      "simplifiedKey": [
+        "AbsSumCustom/d=0,p=1/0,2/0,2",
+        "AbsSumCustom/d=0,p=0/0,2/0,2",
+        "AbsSumCustom/d=1,p=1/0,2/0,2",
+        "AbsSumCustom/d=1,p=0/0,2/0,2"
+      ],
+      "staticKey": "ed019adc02c4ef2c154076e56faf06976be9b74c8438bfd28b1cccb0b7635e35,174b597c066dd43443d16f1cbf342fb69d122ca8a248e828c078b208c9bfe6f7",
+      "inputs": [
+        {
+          "name": "x",
+          "index": 0,
+          "dtype": "float32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ],
+          "format_match_mode": "FormatAgnostic"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "z",
+          "index": 0,
+          "dtype": "float32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ],
+          "format_match_mode": "FormatAgnostic"
+        }
+      ],
+      "opMode": "dynamic",
+      "optionalInputMode": "gen_placeholder",
+      "deterministic": "ignore",
+      "optionalOutputMode": "gen_placeholder",
+      "binInfo": {
+        "jsonFilePath": "ascend310p/abs_sum_custom/AbsSumCustom_0dde0c86e44719ca35ae3069a7d394a2.json"
+      }
+    },
+    {
+      "implMode": "high_performance",
+      "int64Mode": false,
+      "simplifiedKeyMode": 0,
+      "simplifiedKey": [
+        "AbsSumCustom/d=0,p=1/4,2/0,2",
+        "AbsSumCustom/d=0,p=0/4,2/0,2",
+        "AbsSumCustom/d=1,p=1/4,2/0,2",
+        "AbsSumCustom/d=1,p=0/4,2/0,2"
+      ],
+      "staticKey": "49eff8c9a9709fe339ebc717a48a84e165953b65b27311fa2680bafde30944d4,6caa1b52b3b2221b4f097e21ca435afbce2dae60d65cd9f362318928bec043e0",
+      "inputs": [
+        {
+          "name": "x",
+          "index": 0,
+          "dtype": "uint8",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ],
+          "format_match_mode": "FormatAgnostic"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "z",
+          "index": 0,
+          "dtype": "float32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ],
+          "format_match_mode": "FormatAgnostic"
+        }
+      ],
+      "opMode": "dynamic",
+      "optionalInputMode": "gen_placeholder",
+      "deterministic": "ignore",
+      "optionalOutputMode": "gen_placeholder",
+      "binInfo": {
+        "jsonFilePath": "ascend310p/abs_sum_custom/AbsSumCustom_3d13b3261c70d44564334081eb593893.json"
+      }
+    },
+    {
+      "implMode": "high_performance",
+      "int64Mode": false,
+      "simplifiedKeyMode": 0,
+      "simplifiedKey": [
+        "AbsSumCustom/d=0,p=1/1,2/0,2",
+        "AbsSumCustom/d=0,p=0/1,2/0,2",
+        "AbsSumCustom/d=1,p=1/1,2/0,2",
+        "AbsSumCustom/d=1,p=0/1,2/0,2"
+      ],
+      "staticKey": "330ca9f38f6d4e7a661962f742409cd4b5b49ae7d26d20980b53e04250f0dafb,bb0aa80c2ef561246aa206f0fcf9fdb355835248744d425619ccbdf91cab82a3",
+      "inputs": [
+        {
+          "name": "x",
+          "index": 0,
+          "dtype": "float16",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ],
+          "format_match_mode": "FormatAgnostic"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "z",
+          "index": 0,
+          "dtype": "float32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ],
+          "format_match_mode": "FormatAgnostic"
+        }
+      ],
+      "opMode": "dynamic",
+      "optionalInputMode": "gen_placeholder",
+      "deterministic": "ignore",
+      "optionalOutputMode": "gen_placeholder",
+      "binInfo": {
+        "jsonFilePath": "ascend310p/abs_sum_custom/AbsSumCustom_c6b76b80e14d6286c6c176cadbd1f7e2.json"
+      }
+    }
+  ]
+}

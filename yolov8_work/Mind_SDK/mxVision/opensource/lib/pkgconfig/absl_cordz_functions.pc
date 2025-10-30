@@ -1,0 +1,12 @@
+prefix=/usr1/opensource/opensource/opensource/tmp/protobuf
+exec_prefix=${prefix}
+libdir=/usr1/opensource/opensource/opensource/tmp/protobuf/lib
+includedir=/usr1/opensource/opensource/opensource/tmp/protobuf/include
+
+Name: absl_cordz_functions
+Description: Abseil cordz_functions library
+URL: https://abseil.io/
+Version: 20230802
+Requires: absl_config = 20230802, absl_core_headers = 20230802, absl_exponential_biased = 20230802, absl_raw_logging_internal = 20230802
+Libs: -L${libdir}  -labsl_cordz_functions 
+Cflags: -I${includedir} -DNOMINMAX

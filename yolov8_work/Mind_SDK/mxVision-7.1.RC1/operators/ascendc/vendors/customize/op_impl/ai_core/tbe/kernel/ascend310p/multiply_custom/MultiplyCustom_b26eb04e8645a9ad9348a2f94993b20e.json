@@ -1,0 +1,123 @@
+{
+ "binFileName": "MultiplyCustom_b26eb04e8645a9ad9348a2f94993b20e",
+ "binFileSuffix": ".o",
+ "blockDim": -1,
+ "coreType": "AiCore",
+ "globalworkspace_spec_workspace": {
+  "size": 32,
+  "type": 0
+ },
+ "kernelName": "MultiplyCustom_b26eb04e8645a9ad9348a2f94993b20e",
+ "magic": "RT_DEV_BINARY_MAGIC_ELF",
+ "memoryStamping": [],
+ "opParaSize": 16,
+ "parameters": [
+  null,
+  null,
+  null,
+  null
+ ],
+ "sha256": "d8361916a6debf44832144be0619968ce080317f02cba6c295474be9252fa81f",
+ "workspace": {
+  "num": 1,
+  "size": [
+   -1
+  ],
+  "type": [
+   0
+  ]
+ },
+ "kernelList": [
+  {
+   "kernelName": "MultiplyCustom_b26eb04e8645a9ad9348a2f94993b20e_1"
+  },
+  {
+   "kernelName": "MultiplyCustom_b26eb04e8645a9ad9348a2f94993b20e_2"
+  },
+  {
+   "kernelName": "MultiplyCustom_b26eb04e8645a9ad9348a2f94993b20e_3"
+  },
+  {
+   "kernelName": "MultiplyCustom_b26eb04e8645a9ad9348a2f94993b20e_4"
+  },
+  {
+   "kernelName": "MultiplyCustom_b26eb04e8645a9ad9348a2f94993b20e_5"
+  },
+  {
+   "kernelName": "MultiplyCustom_b26eb04e8645a9ad9348a2f94993b20e_6"
+  },
+  {
+   "kernelName": "MultiplyCustom_b26eb04e8645a9ad9348a2f94993b20e_7"
+  },
+  {
+   "kernelName": "MultiplyCustom_b26eb04e8645a9ad9348a2f94993b20e_8"
+  },
+  {
+   "kernelName": "MultiplyCustom_b26eb04e8645a9ad9348a2f94993b20e_9"
+  }
+ ],
+ "optionalInputMode": "gen_placeholder",
+ "optionalOutputMode": "gen_placeholder",
+ "compileInfo": {},
+ "supportInfo": {
+  "implMode": "high_performance",
+  "int64Mode": false,
+  "simplifiedKeyMode": 0,
+  "simplifiedKey": [
+   "MultiplyCustom/d=0,p=1/4,2/1,2/1,2",
+   "MultiplyCustom/d=0,p=0/4,2/1,2/1,2",
+   "MultiplyCustom/d=1,p=1/4,2/1,2/1,2",
+   "MultiplyCustom/d=1,p=0/4,2/1,2/1,2"
+  ],
+  "optionalInputMode": "gen_placeholder",
+  "optionalOutputMode": "gen_placeholder",
+  "staticKey": "6e89f4308b0f8c229b40aaac60d71713372ba43ae65709d6e9ffff42edefbf66,471d6570a5bc8bec461fee234ca448a818926fa2cb3c015a256fa845adf1531d",
+  "inputs": [
+   {
+    "name": "x1",
+    "index": 0,
+    "dtype": "uint8",
+    "format": "ND",
+    "paramType": "required",
+    "shape": [
+     -2
+    ],
+    "format_match_mode": "FormatAgnostic"
+   },
+   {
+    "name": "x2",
+    "index": 1,
+    "dtype": "float16",
+    "format": "ND",
+    "paramType": "required",
+    "shape": [
+     -2
+    ],
+    "format_match_mode": "FormatAgnostic"
+   }
+  ],
+  "outputs": [
+   {
+    "name": "y",
+    "index": 0,
+    "dtype": "float16",
+    "format": "ND",
+    "paramType": "required",
+    "shape": [
+     -2
+    ],
+    "format_match_mode": "FormatAgnostic"
+   }
+  ],
+  "attrs": [
+   {
+    "name": "scale",
+    "dtype": "float",
+    "value": 0.0
+   }
+  ],
+  "opMode": "dynamic",
+  "deterministic": "ignore"
+ },
+ "filePath": "ascend310p/multiply_custom/MultiplyCustom_b26eb04e8645a9ad9348a2f94993b20e.json"
+}

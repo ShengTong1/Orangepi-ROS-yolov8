@@ -1,0 +1,107 @@
+{
+ "binFileName": "Rotate_064605032fe0fb21d906f29b834661dd",
+ "binFileSuffix": ".o",
+ "blockDim": -1,
+ "coreType": "AiCore",
+ "globalworkspace_spec_workspace": {
+  "size": 32,
+  "type": 0
+ },
+ "kernelName": "Rotate_064605032fe0fb21d906f29b834661dd",
+ "magic": "RT_DEV_BINARY_MAGIC_ELF",
+ "memoryStamping": [],
+ "opParaSize": 40,
+ "parameters": [
+  null,
+  null,
+  null,
+  null
+ ],
+ "sha256": "5da420ed9c7614479ec6187eb9acb9b2952833b7e28531df2453de8ea77e0aa2",
+ "workspace": {
+  "num": 1,
+  "size": [
+   -1
+  ],
+  "type": [
+   0
+  ]
+ },
+ "kernelList": [
+  {
+   "kernelName": "Rotate_064605032fe0fb21d906f29b834661dd_1"
+  },
+  {
+   "kernelName": "Rotate_064605032fe0fb21d906f29b834661dd_2"
+  }
+ ],
+ "optionalInputMode": "gen_placeholder",
+ "optionalOutputMode": "gen_placeholder",
+ "compileInfo": {},
+ "supportInfo": {
+  "implMode": "high_performance",
+  "int64Mode": false,
+  "simplifiedKeyMode": 0,
+  "simplifiedKey": [
+   "Rotate/d=0,p=1/1,2/8,2/1,2",
+   "Rotate/d=0,p=0/1,2/8,2/1,2",
+   "Rotate/d=1,p=1/1,2/8,2/1,2",
+   "Rotate/d=1,p=0/1,2/8,2/1,2"
+  ],
+  "optionalInputMode": "gen_placeholder",
+  "optionalOutputMode": "gen_placeholder",
+  "staticKey": "936a49d82923f31277c80ef74f56eeceb41d9b50f59d64a5a44d6f4fc8b9b62a,9ab7cb2770f4d031d1b908c6888eca140faf73b88628293c5879a679828408f3",
+  "inputs": [
+   {
+    "name": "x",
+    "index": 0,
+    "dtype": "float16",
+    "format": "ND",
+    "paramType": "required",
+    "shape": [
+     -2
+    ],
+    "format_match_mode": "FormatAgnostic"
+   },
+   {
+    "name": "y",
+    "index": 1,
+    "dtype": "uint32",
+    "format": "ND",
+    "paramType": "required",
+    "shape": [
+     -2
+    ],
+    "format_match_mode": "FormatAgnostic"
+   }
+  ],
+  "outputs": [
+   {
+    "name": "z",
+    "index": 0,
+    "dtype": "float16",
+    "format": "ND",
+    "paramType": "required",
+    "shape": [
+     -2
+    ],
+    "format_match_mode": "FormatAgnostic"
+   }
+  ],
+  "attrs": [
+   {
+    "name": "angle",
+    "dtype": "int",
+    "value": 0
+   },
+   {
+    "name": "needBlockNum",
+    "dtype": "int",
+    "value": 0
+   }
+  ],
+  "opMode": "dynamic",
+  "deterministic": "ignore"
+ },
+ "filePath": "ascend310p/rotate/Rotate_064605032fe0fb21d906f29b834661dd.json"
+}

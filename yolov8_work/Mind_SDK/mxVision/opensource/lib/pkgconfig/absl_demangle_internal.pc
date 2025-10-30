@@ -1,0 +1,12 @@
+prefix=/usr1/opensource/opensource/opensource/tmp/protobuf
+exec_prefix=${prefix}
+libdir=/usr1/opensource/opensource/opensource/tmp/protobuf/lib
+includedir=/usr1/opensource/opensource/opensource/tmp/protobuf/include
+
+Name: absl_demangle_internal
+Description: Abseil demangle_internal library
+URL: https://abseil.io/
+Version: 20230802
+Requires: absl_base = 20230802, absl_core_headers = 20230802
+Libs: -L${libdir}  -labsl_demangle_internal 
+Cflags: -I${includedir} -DNOMINMAX

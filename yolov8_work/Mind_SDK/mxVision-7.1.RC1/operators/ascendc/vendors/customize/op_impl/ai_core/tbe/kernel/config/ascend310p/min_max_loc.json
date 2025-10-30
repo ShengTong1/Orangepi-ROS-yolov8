@@ -1,0 +1,238 @@
+{
+  "binList": [
+    {
+      "implMode": "high_performance",
+      "int64Mode": false,
+      "simplifiedKeyMode": 0,
+      "simplifiedKey": [
+        "MinMaxLoc/d=0,p=1/4,2/4,2/4,2/8,2/8,2",
+        "MinMaxLoc/d=0,p=0/4,2/4,2/4,2/8,2/8,2",
+        "MinMaxLoc/d=1,p=1/4,2/4,2/4,2/8,2/8,2",
+        "MinMaxLoc/d=1,p=0/4,2/4,2/4,2/8,2/8,2"
+      ],
+      "staticKey": "e68fb4d8498891c75c9e8be90ffbd0afff375d11c17d64d2333c38c053078b4e,c302b01e87ecee2825c07646761838e37e1534478a8b7f6a713cd82263fdad27",
+      "inputs": [
+        {
+          "name": "a",
+          "index": 0,
+          "dtype": "uint8",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ],
+          "format_match_mode": "FormatAgnostic"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "b",
+          "index": 0,
+          "dtype": "uint8",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ],
+          "format_match_mode": "FormatAgnostic"
+        },
+        {
+          "name": "c",
+          "index": 1,
+          "dtype": "uint8",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ],
+          "format_match_mode": "FormatAgnostic"
+        },
+        {
+          "name": "d",
+          "index": 2,
+          "dtype": "uint32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ],
+          "format_match_mode": "FormatAgnostic"
+        },
+        {
+          "name": "e",
+          "index": 3,
+          "dtype": "uint32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ],
+          "format_match_mode": "FormatAgnostic"
+        }
+      ],
+      "opMode": "dynamic",
+      "optionalInputMode": "gen_placeholder",
+      "deterministic": "ignore",
+      "optionalOutputMode": "gen_placeholder",
+      "binInfo": {
+        "jsonFilePath": "ascend310p/min_max_loc/MinMaxLoc_0c7dbf455383786b2b35c252535de265.json"
+      }
+    },
+    {
+      "implMode": "high_performance",
+      "int64Mode": false,
+      "simplifiedKeyMode": 0,
+      "simplifiedKey": [
+        "MinMaxLoc/d=0,p=1/1,2/1,2/1,2/8,2/8,2",
+        "MinMaxLoc/d=0,p=0/1,2/1,2/1,2/8,2/8,2",
+        "MinMaxLoc/d=1,p=1/1,2/1,2/1,2/8,2/8,2",
+        "MinMaxLoc/d=1,p=0/1,2/1,2/1,2/8,2/8,2"
+      ],
+      "staticKey": "81268efce2854b6be112532b07f5955dd96399925b414692bc80081a90087b17,01c8bdb13f5ee530129fe3e592f37950a57ab9df8ebbf235c627e49a63310ae4",
+      "inputs": [
+        {
+          "name": "a",
+          "index": 0,
+          "dtype": "float16",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ],
+          "format_match_mode": "FormatAgnostic"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "b",
+          "index": 0,
+          "dtype": "float16",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ],
+          "format_match_mode": "FormatAgnostic"
+        },
+        {
+          "name": "c",
+          "index": 1,
+          "dtype": "float16",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ],
+          "format_match_mode": "FormatAgnostic"
+        },
+        {
+          "name": "d",
+          "index": 2,
+          "dtype": "uint32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ],
+          "format_match_mode": "FormatAgnostic"
+        },
+        {
+          "name": "e",
+          "index": 3,
+          "dtype": "uint32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ],
+          "format_match_mode": "FormatAgnostic"
+        }
+      ],
+      "opMode": "dynamic",
+      "optionalInputMode": "gen_placeholder",
+      "deterministic": "ignore",
+      "optionalOutputMode": "gen_placeholder",
+      "binInfo": {
+        "jsonFilePath": "ascend310p/min_max_loc/MinMaxLoc_861823d02331b04c9c4451575932e726.json"
+      }
+    },
+    {
+      "implMode": "high_performance",
+      "int64Mode": false,
+      "simplifiedKeyMode": 0,
+      "simplifiedKey": [
+        "MinMaxLoc/d=0,p=1/0,2/0,2/0,2/8,2/8,2",
+        "MinMaxLoc/d=0,p=0/0,2/0,2/0,2/8,2/8,2",
+        "MinMaxLoc/d=1,p=1/0,2/0,2/0,2/8,2/8,2",
+        "MinMaxLoc/d=1,p=0/0,2/0,2/0,2/8,2/8,2"
+      ],
+      "staticKey": "0c9d260523f03d9227222eb6e4031b0ac11b4f842a23aea6c5320c794bd16cf2,8eb00094d54560926740dd56957d2c171ac1b85406f2c344b16293d296f043b7",
+      "inputs": [
+        {
+          "name": "a",
+          "index": 0,
+          "dtype": "float32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ],
+          "format_match_mode": "FormatAgnostic"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "b",
+          "index": 0,
+          "dtype": "float32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ],
+          "format_match_mode": "FormatAgnostic"
+        },
+        {
+          "name": "c",
+          "index": 1,
+          "dtype": "float32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ],
+          "format_match_mode": "FormatAgnostic"
+        },
+        {
+          "name": "d",
+          "index": 2,
+          "dtype": "uint32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ],
+          "format_match_mode": "FormatAgnostic"
+        },
+        {
+          "name": "e",
+          "index": 3,
+          "dtype": "uint32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ],
+          "format_match_mode": "FormatAgnostic"
+        }
+      ],
+      "opMode": "dynamic",
+      "optionalInputMode": "gen_placeholder",
+      "deterministic": "ignore",
+      "optionalOutputMode": "gen_placeholder",
+      "binInfo": {
+        "jsonFilePath": "ascend310p/min_max_loc/MinMaxLoc_d388a6a937739af20e542ba354172e76.json"
+      }
+    }
+  ]
+}

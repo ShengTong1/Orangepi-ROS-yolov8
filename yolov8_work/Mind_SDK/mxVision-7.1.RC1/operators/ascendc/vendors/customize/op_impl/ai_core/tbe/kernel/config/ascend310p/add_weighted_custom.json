@@ -1,0 +1,223 @@
+{
+  "binList": [
+    {
+      "implMode": "high_performance",
+      "int64Mode": false,
+      "simplifiedKeyMode": 0,
+      "simplifiedKey": [
+        "AddWeightedCustom/d=0,p=1/0,2/0,2/0,2",
+        "AddWeightedCustom/d=0,p=0/0,2/0,2/0,2",
+        "AddWeightedCustom/d=1,p=1/0,2/0,2/0,2",
+        "AddWeightedCustom/d=1,p=0/0,2/0,2/0,2"
+      ],
+      "staticKey": "49683676c7f3787bcf084f3531d39b5ea7f053e202aedb145f58c30c6760a7b6,320ecbb777840cdd6672fe837419e1e6137f0bfbe24397bf4f6ce7017886f961",
+      "inputs": [
+        {
+          "name": "x",
+          "index": 0,
+          "dtype": "float32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ],
+          "format_match_mode": "FormatAgnostic"
+        },
+        {
+          "name": "y",
+          "index": 1,
+          "dtype": "float32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ],
+          "format_match_mode": "FormatAgnostic"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "z",
+          "index": 0,
+          "dtype": "float32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ],
+          "format_match_mode": "FormatAgnostic"
+        }
+      ],
+      "attrs": [
+        {
+          "name": "alpha",
+          "dtype": "float",
+          "value": 0.0
+        },
+        {
+          "name": "beta",
+          "dtype": "float",
+          "value": 0.0
+        },
+        {
+          "name": "gamma",
+          "dtype": "float",
+          "value": 0.0
+        }
+      ],
+      "opMode": "dynamic",
+      "optionalInputMode": "gen_placeholder",
+      "deterministic": "ignore",
+      "optionalOutputMode": "gen_placeholder",
+      "binInfo": {
+        "jsonFilePath": "ascend310p/add_weighted_custom/AddWeightedCustom_36355626019022db48742dfd4bef9b17.json"
+      }
+    },
+    {
+      "implMode": "high_performance",
+      "int64Mode": false,
+      "simplifiedKeyMode": 0,
+      "simplifiedKey": [
+        "AddWeightedCustom/d=0,p=1/1,2/1,2/1,2",
+        "AddWeightedCustom/d=0,p=0/1,2/1,2/1,2",
+        "AddWeightedCustom/d=1,p=1/1,2/1,2/1,2",
+        "AddWeightedCustom/d=1,p=0/1,2/1,2/1,2"
+      ],
+      "staticKey": "690c8dcf9744661230c2a9f6bbec223734c29c5eb7a5e89c7f0430e7b6ac9b5a,2d21f351e4fe4053b42bcd7d943c1dcaa192ad95dc4d53386d7d32cf1174e280",
+      "inputs": [
+        {
+          "name": "x",
+          "index": 0,
+          "dtype": "float16",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ],
+          "format_match_mode": "FormatAgnostic"
+        },
+        {
+          "name": "y",
+          "index": 1,
+          "dtype": "float16",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ],
+          "format_match_mode": "FormatAgnostic"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "z",
+          "index": 0,
+          "dtype": "float16",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ],
+          "format_match_mode": "FormatAgnostic"
+        }
+      ],
+      "attrs": [
+        {
+          "name": "alpha",
+          "dtype": "float",
+          "value": 0.0
+        },
+        {
+          "name": "beta",
+          "dtype": "float",
+          "value": 0.0
+        },
+        {
+          "name": "gamma",
+          "dtype": "float",
+          "value": 0.0
+        }
+      ],
+      "opMode": "dynamic",
+      "optionalInputMode": "gen_placeholder",
+      "deterministic": "ignore",
+      "optionalOutputMode": "gen_placeholder",
+      "binInfo": {
+        "jsonFilePath": "ascend310p/add_weighted_custom/AddWeightedCustom_704fdc94398bb9614030ff2c572bfed2.json"
+      }
+    },
+    {
+      "implMode": "high_performance",
+      "int64Mode": false,
+      "simplifiedKeyMode": 0,
+      "simplifiedKey": [
+        "AddWeightedCustom/d=0,p=1/4,2/4,2/4,2",
+        "AddWeightedCustom/d=0,p=0/4,2/4,2/4,2",
+        "AddWeightedCustom/d=1,p=1/4,2/4,2/4,2",
+        "AddWeightedCustom/d=1,p=0/4,2/4,2/4,2"
+      ],
+      "staticKey": "817ff46d7e7d2b7bfd06994e645526496fc60626fa9088434ffc5a8732fb7e56,695bd295b74c611ed2a34caccbcd07aa5d9ad5f5dc51fb02f509b70686d88d31",
+      "inputs": [
+        {
+          "name": "x",
+          "index": 0,
+          "dtype": "uint8",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ],
+          "format_match_mode": "FormatAgnostic"
+        },
+        {
+          "name": "y",
+          "index": 1,
+          "dtype": "uint8",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ],
+          "format_match_mode": "FormatAgnostic"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "z",
+          "index": 0,
+          "dtype": "uint8",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ],
+          "format_match_mode": "FormatAgnostic"
+        }
+      ],
+      "attrs": [
+        {
+          "name": "alpha",
+          "dtype": "float",
+          "value": 0.0
+        },
+        {
+          "name": "beta",
+          "dtype": "float",
+          "value": 0.0
+        },
+        {
+          "name": "gamma",
+          "dtype": "float",
+          "value": 0.0
+        }
+      ],
+      "opMode": "dynamic",
+      "optionalInputMode": "gen_placeholder",
+      "deterministic": "ignore",
+      "optionalOutputMode": "gen_placeholder",
+      "binInfo": {
+        "jsonFilePath": "ascend310p/add_weighted_custom/AddWeightedCustom_dc0d639895e5e1a92471014b07716a4c.json"
+      }
+    }
+  ]
+}

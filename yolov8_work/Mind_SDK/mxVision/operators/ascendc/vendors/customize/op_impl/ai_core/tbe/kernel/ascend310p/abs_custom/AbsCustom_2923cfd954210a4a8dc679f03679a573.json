@@ -1,0 +1,86 @@
+{
+ "binFileName": "AbsCustom_2923cfd954210a4a8dc679f03679a573",
+ "binFileSuffix": ".o",
+ "blockDim": -1,
+ "coreType": "AiCore",
+ "globalworkspace_spec_workspace": {
+  "size": 32,
+  "type": 0
+ },
+ "kernelName": "AbsCustom_2923cfd954210a4a8dc679f03679a573",
+ "magic": "RT_DEV_BINARY_MAGIC_ELF",
+ "memoryStamping": [],
+ "opParaSize": 16,
+ "parameters": [
+  null,
+  null,
+  null
+ ],
+ "sha256": "4a9a9f4fb9af3cdccc46ef07cb5e31a70a5aa644e52008698a6e42e9a5e3f748",
+ "workspace": {
+  "num": 1,
+  "size": [
+   -1
+  ],
+  "type": [
+   0
+  ]
+ },
+ "kernelList": [
+  {
+   "kernelName": "AbsCustom_2923cfd954210a4a8dc679f03679a573_1"
+  },
+  {
+   "kernelName": "AbsCustom_2923cfd954210a4a8dc679f03679a573_2"
+  },
+  {
+   "kernelName": "AbsCustom_2923cfd954210a4a8dc679f03679a573_3"
+  }
+ ],
+ "optionalInputMode": "gen_placeholder",
+ "optionalOutputMode": "gen_placeholder",
+ "compileInfo": {},
+ "supportInfo": {
+  "implMode": "high_performance",
+  "int64Mode": false,
+  "simplifiedKeyMode": 0,
+  "simplifiedKey": [
+   "AbsCustom/d=0,p=1/4,2/4,2",
+   "AbsCustom/d=0,p=0/4,2/4,2",
+   "AbsCustom/d=1,p=1/4,2/4,2",
+   "AbsCustom/d=1,p=0/4,2/4,2"
+  ],
+  "optionalInputMode": "gen_placeholder",
+  "optionalOutputMode": "gen_placeholder",
+  "staticKey": "7c4df8d0df0fa5bebd598dfabfafeeeb6156217173ba591cc445ccb8c52d20ab,69168e29abce8ddaffbdf0e7fa9d56376885055fa66985b62575592e4e344eba",
+  "inputs": [
+   {
+    "name": "x",
+    "index": 0,
+    "dtype": "uint8",
+    "format": "ND",
+    "paramType": "required",
+    "shape": [
+     -2
+    ],
+    "format_match_mode": "FormatAgnostic"
+   }
+  ],
+  "outputs": [
+   {
+    "name": "z",
+    "index": 0,
+    "dtype": "uint8",
+    "format": "ND",
+    "paramType": "required",
+    "shape": [
+     -2
+    ],
+    "format_match_mode": "FormatAgnostic"
+   }
+  ],
+  "opMode": "dynamic",
+  "deterministic": "ignore"
+ },
+ "filePath": "ascend310p/abs_custom/AbsCustom_2923cfd954210a4a8dc679f03679a573.json"
+}
